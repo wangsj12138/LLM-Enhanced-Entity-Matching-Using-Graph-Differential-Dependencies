@@ -1,0 +1,518 @@
+Iteration 6 matching pairs:
+Restaurant 1: (ID: 269, Name: inca grill, Cuisine: ` latin american ', Phone: 212/966 -3371)
+Restaurant 2: (ID: 34, Name: four seasons grill room, Cuisine: american, Phone: 212/754 -9494)
+Value Similarity: 0.20
+Cuisine Similarity: 0.25
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 221, Name: china grill, Cuisine: american, Phone: 212/333 -7788)
+Restaurant 2: (ID: 34, Name: four seasons grill room, Cuisine: american, Phone: 212/754 -9494)
+Value Similarity: 0.20
+Cuisine Similarity: 1.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 218, Name: cendrillon asian grill & marimba bar, Cuisine: asian, Phone: 212/343 -9012)
+Restaurant 2: (ID: 34, Name: four seasons grill room, Cuisine: american, Phone: 212/754 -9494)
+Value Similarity: 0.11
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 198, Name: bryant park grill roof restaurant and bp, Cuisine: american, Phone: 212/840 -6500)
+Restaurant 2: (ID: 34, Name: four seasons grill room, Cuisine: american, Phone: 212/754 -9494)
+Value Similarity: 0.10
+Cuisine Similarity: 1.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 182, Name: ambassador grill, Cuisine: american, Phone: 212/702 -5014)
+Restaurant 2: (ID: 34, Name: four seasons grill room, Cuisine: american, Phone: 212/754 -9494)
+Value Similarity: 0.20
+Cuisine Similarity: 1.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 33, Name: felidia, Cuisine: italian, Phone: 212/758 -1479)
+Restaurant 2: (ID: 784, Name: felidia, Cuisine: italian, Phone: 212-758-1479)
+Value Similarity: 1.00
+Cuisine Similarity: 1.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 32, Name: dawat, Cuisine: asian, Phone: 212/355 -7555)
+Restaurant 2: (ID: 783, Name: dawat, Cuisine: indian, Phone: 212-355-7555)
+Value Similarity: 1.00
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 31, Name: daniel, Cuisine: french, Phone: 212/288 -0033)
+Restaurant 2: (ID: 782, Name: daniel, Cuisine: ` french ( new ) ', Phone: 212-288-0033)
+Value Similarity: 1.00
+Cuisine Similarity: 0.17
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 30, Name: chanterelle, Cuisine: american, Phone: 212/966 -6960)
+Restaurant 2: (ID: 781, Name: chanterelle, Cuisine: ` french ( new ) ', Phone: 212-966-6960)
+Value Similarity: 1.00
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 352, Name: stage deli, Cuisine: delicatessen, Phone: 212/245 -7850)
+Restaurant 2: (ID: 780, Name: carnegie deli, Cuisine: delis, Phone: 212-757-2245)
+Value Similarity: 0.33
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 29, Name: carnegie deli, Cuisine: delicatessen, Phone: 212/757 -2245)
+Restaurant 2: (ID: 780, Name: carnegie deli, Cuisine: delis, Phone: 212-757-2245)
+Value Similarity: 1.00
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 58, Name: second avenue deli, Cuisine: delicatessen, Phone: 212/677 -0606)
+Restaurant 2: (ID: 780, Name: carnegie deli, Cuisine: delis, Phone: 212-757-2245)
+Value Similarity: 0.25
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 341, Name: sammy roumanian steak house, Cuisine: ` east european ', Phone: 212/673 -0330)
+Restaurant 2: (ID: 601, Name: afghan kebab house, Cuisine: afghan, Phone: 212-307-1612)
+Value Similarity: 0.17
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 332, Name: post house, Cuisine: american, Phone: 212/935 -2888)
+Restaurant 2: (ID: 601, Name: afghan kebab house, Cuisine: afghan, Phone: 212-307-1612)
+Value Similarity: 0.25
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 313, Name: new york kom tang soot bul house, Cuisine: asian, Phone: ' 212 / 947-8482 ')
+Restaurant 2: (ID: 601, Name: afghan kebab house, Cuisine: afghan, Phone: 212-307-1612)
+Value Similarity: 0.11
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 606, Name: cucina della fontana, Cuisine: italian, Phone: 212-242-0636)
+Restaurant 2: (ID: 607, Name: cucina di pesce, Cuisine: seafood, Phone: 212-260-6800)
+Value Similarity: 0.20
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 268, Name: il cortile, Cuisine: italian, Phone: 212/226 -6060)
+Restaurant 2: (ID: 614, Name: il mulino, Cuisine: italian, Phone: 212-673-3783)
+Value Similarity: 0.33
+Cuisine Similarity: 1.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 113, Name: il nido, Cuisine: italian, Phone: 212/753 -8450)
+Restaurant 2: (ID: 614, Name: il mulino, Cuisine: italian, Phone: 212-673-3783)
+Value Similarity: 0.33
+Cuisine Similarity: 1.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 372, Name: vince & eddie, Cuisine: american, Phone: 212/721 -0068)
+Restaurant 2: (ID: 618, Name: kelley & ping, Cuisine: pan-asian, Phone: 212-228-1212)
+Value Similarity: 0.20
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 351, Name: spring street natural restaurant & bar, Cuisine: american, Phone: 212/966 -0290)
+Restaurant 2: (ID: 618, Name: kelley & ping, Cuisine: pan-asian, Phone: 212-228-1212)
+Value Similarity: 0.12
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 326, Name: pen & pencil, Cuisine: american, Phone: 212/682 -8660)
+Restaurant 2: (ID: 618, Name: kelley & ping, Cuisine: pan-asian, Phone: 212-228-1212)
+Value Similarity: 0.20
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 228, Name: dean & deluca, Cuisine: ` coffee bar ', Phone: 212/254 -8776)
+Restaurant 2: (ID: 618, Name: kelley & ping, Cuisine: pan-asian, Phone: 212-228-1212)
+Value Similarity: 0.20
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 218, Name: cendrillon asian grill & marimba bar, Cuisine: asian, Phone: 212/343 -9012)
+Restaurant 2: (ID: 618, Name: kelley & ping, Cuisine: pan-asian, Phone: 212-228-1212)
+Value Similarity: 0.12
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 35, Name: gotham bar & grill, Cuisine: american, Phone: 212/620 -4020)
+Restaurant 2: (ID: 618, Name: kelley & ping, Cuisine: pan-asian, Phone: 212-228-1212)
+Value Similarity: 0.17
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 282, Name: la reserve, Cuisine: french, Phone: 212/247 -2993)
+Restaurant 2: (ID: 621, Name: la caridad, Cuisine: cuban, Phone: 212-874-2780)
+Value Similarity: 0.33
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 217, Name: casa la femme, Cuisine: ` middle eastern ', Phone: 212/505 -0005)
+Restaurant 2: (ID: 621, Name: la caridad, Cuisine: cuban, Phone: 212-874-2780)
+Value Similarity: 0.25
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 203, Name: la fortuna, Cuisine: ` coffee bar ', Phone: 212/724 -5846)
+Restaurant 2: (ID: 621, Name: la caridad, Cuisine: cuban, Phone: 212-874-2780)
+Value Similarity: 0.33
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 39, Name: la caravelle, Cuisine: french, Phone: 212/586 -4252)
+Restaurant 2: (ID: 621, Name: la caridad, Cuisine: cuban, Phone: 212-874-2780)
+Value Similarity: 0.33
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 40, Name: la cote basque, Cuisine: french, Phone: 212/688 -6525)
+Restaurant 2: (ID: 621, Name: la caridad, Cuisine: cuban, Phone: 212-874-2780)
+Value Similarity: 0.25
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 282, Name: la reserve, Cuisine: french, Phone: 212/247 -2993)
+Restaurant 2: (ID: 622, Name: la grenouille, Cuisine: ` french ( classic ) ', Phone: 212-752-1495)
+Value Similarity: 0.33
+Cuisine Similarity: 0.17
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 217, Name: casa la femme, Cuisine: ` middle eastern ', Phone: 212/505 -0005)
+Restaurant 2: (ID: 622, Name: la grenouille, Cuisine: ` french ( classic ) ', Phone: 212-752-1495)
+Value Similarity: 0.25
+Cuisine Similarity: 0.25
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 203, Name: la fortuna, Cuisine: ` coffee bar ', Phone: 212/724 -5846)
+Restaurant 2: (ID: 622, Name: la grenouille, Cuisine: ` french ( classic ) ', Phone: 212-752-1495)
+Value Similarity: 0.33
+Cuisine Similarity: 0.25
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 39, Name: la caravelle, Cuisine: french, Phone: 212/586 -4252)
+Restaurant 2: (ID: 622, Name: la grenouille, Cuisine: ` french ( classic ) ', Phone: 212-752-1495)
+Value Similarity: 0.33
+Cuisine Similarity: 0.17
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 40, Name: la cote basque, Cuisine: french, Phone: 212/688 -6525)
+Restaurant 2: (ID: 622, Name: la grenouille, Cuisine: ` french ( classic ) ', Phone: 212-752-1495)
+Value Similarity: 0.25
+Cuisine Similarity: 0.17
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 621, Name: la caridad, Cuisine: cuban, Phone: 212-874-2780)
+Restaurant 2: (ID: 622, Name: la grenouille, Cuisine: ` french ( classic ) ', Phone: 212-752-1495)
+Value Similarity: 0.33
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 351, Name: spring street natural restaurant & bar, Cuisine: american, Phone: 212/966 -0290)
+Restaurant 2: (ID: 632, Name: oyster bar, Cuisine: seafood, Phone: 212-490-6650)
+Value Similarity: 0.14
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 347, Name: seventh regiment mess and bar, Cuisine: american, Phone: 212/744 -4107)
+Restaurant 2: (ID: 632, Name: oyster bar, Cuisine: seafood, Phone: 212-490-6650)
+Value Similarity: 0.17
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 309, Name: monkey bar, Cuisine: american, Phone: 212/838 -2600)
+Restaurant 2: (ID: 632, Name: oyster bar, Cuisine: seafood, Phone: 212-490-6650)
+Value Similarity: 0.33
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 308, Name: milan and coffee bar, Cuisine: ` coffee bar ', Phone: 212/807 -1801)
+Restaurant 2: (ID: 632, Name: oyster bar, Cuisine: seafood, Phone: 212-490-6650)
+Value Similarity: 0.20
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 253, Name: frico bar, Cuisine: italian, Phone: 212/564 -7272)
+Restaurant 2: (ID: 632, Name: oyster bar, Cuisine: seafood, Phone: 212-490-6650)
+Value Similarity: 0.33
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 218, Name: cendrillon asian grill & marimba bar, Cuisine: asian, Phone: 212/343 -9012)
+Restaurant 2: (ID: 632, Name: oyster bar, Cuisine: seafood, Phone: 212-490-6650)
+Value Similarity: 0.14
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 188, Name: bar anise, Cuisine: mediterranean, Phone: 212/355 -1112)
+Restaurant 2: (ID: 632, Name: oyster bar, Cuisine: seafood, Phone: 212-490-6650)
+Value Similarity: 0.33
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 35, Name: gotham bar & grill, Cuisine: american, Phone: 212/620 -4020)
+Restaurant 2: (ID: 632, Name: oyster bar, Cuisine: seafood, Phone: 212-490-6650)
+Value Similarity: 0.20
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 633, Name: palm, Cuisine: steakhouses, Phone: 212-687-2953)
+Restaurant 2: (ID: 634, Name: palm too, Cuisine: steakhouses, Phone: 212-697-5198)
+Value Similarity: 0.50
+Cuisine Similarity: 1.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 274, Name: jewel of india, Cuisine: asian, Phone: 212/869 -5544)
+Restaurant 2: (ID: 637, Name: rose of india, Cuisine: indian, Phone: 212-533-5011)
+Value Similarity: 0.50
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 61, Name: sign of the dove, Cuisine: american, Phone: 212/861 -8080)
+Restaurant 2: (ID: 637, Name: rose of india, Cuisine: indian, Phone: 212-533-5011)
+Value Similarity: 0.17
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 625, Name: marnie noodle shop, Cuisine: asian, Phone: 212-741-3214)
+Restaurant 2: (ID: 638, Name: sam noodle shop, Cuisine: chinese, Phone: 212-213-2288)
+Value Similarity: 0.50
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 344, Name: sarabeth kitchen, Cuisine: american, Phone: 212/496 -6280)
+Restaurant 2: (ID: 639, Name: sarabeth, Cuisine: american, Phone: 212-410-7335)
+Value Similarity: 0.50
+Cuisine Similarity: 1.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 341, Name: sammy roumanian steak house, Cuisine: ` east european ', Phone: 212/673 -0330)
+Restaurant 2: (ID: 640, Name: sparks steak house, Cuisine: steakhouses, Phone: 212-687-4855)
+Value Similarity: 0.40
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 332, Name: post house, Cuisine: american, Phone: 212/935 -2888)
+Restaurant 2: (ID: 640, Name: sparks steak house, Cuisine: steakhouses, Phone: 212-687-4855)
+Value Similarity: 0.25
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 313, Name: new york kom tang soot bul house, Cuisine: asian, Phone: ' 212 / 947-8482 ')
+Restaurant 2: (ID: 640, Name: sparks steak house, Cuisine: steakhouses, Phone: 212-687-4855)
+Value Similarity: 0.11
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 601, Name: afghan kebab house, Cuisine: afghan, Phone: 212-307-1612)
+Restaurant 2: (ID: 640, Name: sparks steak house, Cuisine: steakhouses, Phone: 212-687-4855)
+Value Similarity: 0.20
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 367, Name: turkish kitchen, Cuisine: ` middle eastern ', Phone: 212/679 -1810)
+Restaurant 2: (ID: 645, Name: szechuan kitchen, Cuisine: chinese, Phone: 212-249-4615)
+Value Similarity: 0.33
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 344, Name: sarabeth kitchen, Cuisine: american, Phone: 212/496 -6280)
+Restaurant 2: (ID: 645, Name: szechuan kitchen, Cuisine: chinese, Phone: 212-249-4615)
+Value Similarity: 0.33
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 644, Name: szechuan hunan cottage, Cuisine: chinese, Phone: 212-535-5223)
+Restaurant 2: (ID: 645, Name: szechuan kitchen, Cuisine: chinese, Phone: 212-249-4615)
+Value Similarity: 0.25
+Cuisine Similarity: 1.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 341, Name: sammy roumanian steak house, Cuisine: ` east european ', Phone: 212/673 -0330)
+Restaurant 2: (ID: 647, Name: thai house, Cuisine: thai, Phone: 212-334-1085)
+Value Similarity: 0.20
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 332, Name: post house, Cuisine: american, Phone: 212/935 -2888)
+Restaurant 2: (ID: 647, Name: thai house, Cuisine: thai, Phone: 212-334-1085)
+Value Similarity: 0.33
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 313, Name: new york kom tang soot bul house, Cuisine: asian, Phone: ' 212 / 947-8482 ')
+Restaurant 2: (ID: 647, Name: thai house, Cuisine: thai, Phone: 212-334-1085)
+Value Similarity: 0.12
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 601, Name: afghan kebab house, Cuisine: afghan, Phone: 212-307-1612)
+Restaurant 2: (ID: 647, Name: thai house, Cuisine: thai, Phone: 212-334-1085)
+Value Similarity: 0.25
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 640, Name: sparks steak house, Cuisine: steakhouses, Phone: 212-687-4855)
+Restaurant 2: (ID: 647, Name: thai house, Cuisine: thai, Phone: 212-334-1085)
+Value Similarity: 0.25
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 351, Name: spring street natural restaurant & bar, Cuisine: american, Phone: 212/966 -0290)
+Restaurant 2: (ID: 648, Name: thailand restaurant, Cuisine: thai, Phone: 212-349-3132)
+Value Similarity: 0.14
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 283, Name: lanza restaurant, Cuisine: italian, Phone: 212/674 -7014)
+Restaurant 2: (ID: 648, Name: thailand restaurant, Cuisine: thai, Phone: 212-349-3132)
+Value Similarity: 0.33
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 264, Name: hi-life restaurant and lounge, Cuisine: american, Phone: 212/249 -3600)
+Restaurant 2: (ID: 648, Name: thailand restaurant, Cuisine: thai, Phone: 212-349-3132)
+Value Similarity: 0.20
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 198, Name: bryant park grill roof restaurant and bp, Cuisine: american, Phone: 212/840 -6500)
+Restaurant 2: (ID: 648, Name: thailand restaurant, Cuisine: thai, Phone: 212-349-3132)
+Value Similarity: 0.12
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 644, Name: szechuan hunan cottage, Cuisine: chinese, Phone: 212-535-5223)
+Restaurant 2: (ID: 650, Name: westside cottage, Cuisine: chinese, Phone: 212-245-0800)
+Value Similarity: 0.25
+Cuisine Similarity: 1.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 361, Name: the savannah, Cuisine: american, Phone: 212/496 -1066)
+Restaurant 2: (ID: 651, Name: windows on the world, Cuisine: eclectic, Phone: 212-524-7000)
+Value Similarity: 0.20
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 360, Name: the coffee pot, Cuisine: ` coffee bar ', Phone: 212/265 -3566)
+Restaurant 2: (ID: 651, Name: windows on the world, Cuisine: eclectic, Phone: 212-524-7000)
+Value Similarity: 0.17
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 61, Name: sign of the dove, Cuisine: american, Phone: 212/861 -8080)
+Restaurant 2: (ID: 651, Name: windows on the world, Cuisine: eclectic, Phone: 212-524-7000)
+Value Similarity: 0.14
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 63, Name: tavern on the green, Cuisine: american, Phone: 212/873 -3200)
+Restaurant 2: (ID: 651, Name: windows on the world, Cuisine: eclectic, Phone: 212-524-7000)
+Value Similarity: 0.33
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 364, Name: tribeca grill, Cuisine: american, Phone: 212/941 -3900)
+Restaurant 2: (ID: 652, Name: wollensky grill, Cuisine: steakhouses, Phone: 212-753-0444)
+Value Similarity: 0.33
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 345, Name: sea grill, Cuisine: seafood, Phone: 212/332 -7610)
+Restaurant 2: (ID: 652, Name: wollensky grill, Cuisine: steakhouses, Phone: 212-753-0444)
+Value Similarity: 0.33
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 277, Name: judson grill, Cuisine: american, Phone: 212/582 -5252)
+Restaurant 2: (ID: 652, Name: wollensky grill, Cuisine: steakhouses, Phone: 212-753-0444)
+Value Similarity: 0.33
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 269, Name: inca grill, Cuisine: ` latin american ', Phone: 212/966 -3371)
+Restaurant 2: (ID: 652, Name: wollensky grill, Cuisine: steakhouses, Phone: 212-753-0444)
+Value Similarity: 0.33
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 221, Name: china grill, Cuisine: american, Phone: 212/333 -7788)
+Restaurant 2: (ID: 652, Name: wollensky grill, Cuisine: steakhouses, Phone: 212-753-0444)
+Value Similarity: 0.33
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 218, Name: cendrillon asian grill & marimba bar, Cuisine: asian, Phone: 212/343 -9012)
+Restaurant 2: (ID: 652, Name: wollensky grill, Cuisine: steakhouses, Phone: 212-753-0444)
+Value Similarity: 0.14
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 198, Name: bryant park grill roof restaurant and bp, Cuisine: american, Phone: 212/840 -6500)
+Restaurant 2: (ID: 652, Name: wollensky grill, Cuisine: steakhouses, Phone: 212-753-0444)
+Value Similarity: 0.12
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 182, Name: ambassador grill, Cuisine: american, Phone: 212/702 -5014)
+Restaurant 2: (ID: 652, Name: wollensky grill, Cuisine: steakhouses, Phone: 212-753-0444)
+Value Similarity: 0.33
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 34, Name: four seasons grill room, Cuisine: american, Phone: 212/754 -9494)
+Restaurant 2: (ID: 652, Name: wollensky grill, Cuisine: steakhouses, Phone: 212-753-0444)
+Value Similarity: 0.20
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 35, Name: gotham bar & grill, Cuisine: american, Phone: 212/620 -4020)
+Restaurant 2: (ID: 652, Name: wollensky grill, Cuisine: steakhouses, Phone: 212-753-0444)
+Value Similarity: 0.20
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 47, Name: mesa grill, Cuisine: american, Phone: 212/807 -7400)
+Restaurant 2: (ID: 652, Name: wollensky grill, Cuisine: steakhouses, Phone: 212-753-0444)
+Value Similarity: 0.33
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 62, Name: smith & wollensky, Cuisine: american, Phone: 212/753 -1530)
+Restaurant 2: (ID: 652, Name: wollensky grill, Cuisine: steakhouses, Phone: 212-753-0444)
+Value Similarity: 0.25
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 23, Name: 21, Cuisine: american, Phone: 212/582 -7200)
+Restaurant 2: (ID: 774, Name: 21, Cuisine: ` american ( new ) ', Phone: 212-582-7200)
+Value Similarity: 1.00
+Cuisine Similarity: 0.17
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 24, Name: aquavit, Cuisine: continental, Phone: 212/307 -7311)
+Restaurant 2: (ID: 775, Name: aquavit, Cuisine: scandinavian, Phone: 212-307-7311)
+Value Similarity: 1.00
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 25, Name: aureole, Cuisine: american, Phone: ' 212 / 319-1660 ')
+Restaurant 2: (ID: 776, Name: aureole, Cuisine: ` american ( new ) ', Phone: 212-319-1660)
+Value Similarity: 1.00
+Cuisine Similarity: 0.17
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 26, Name: lalo, Cuisine: ` coffee bar ', Phone: 212/496 -6031)
+Restaurant 2: (ID: 777, Name: lalo, Cuisine: coffeehouses, Phone: 212-496-6031)
+Value Similarity: 1.00
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+Restaurant 1: (ID: 27, Name: des artistes, Cuisine: continental, Phone: 212/877 -3500)
+Restaurant 2: (ID: 778, Name: des artistes, Cuisine: ` french ( classic ) ', Phone: 212-877-3500)
+Value Similarity: 1.00
+Cuisine Similarity: 0.00
+Phone Similarity: 0.00
+--------------------------------------------
+

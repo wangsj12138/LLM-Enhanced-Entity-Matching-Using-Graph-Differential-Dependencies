@@ -1,0 +1,253 @@
+Iteration 6 blocks:
+target entity: 23
+similar entities: 774
+
+target entity: 24
+similar entities: 775
+
+target entity: 25
+similar entities: 776
+
+target entity: 26
+similar entities: 777
+
+target entity: 27
+similar entities: 778
+
+target entity: 29
+similar entities: 780
+
+target entity: 30
+similar entities: 781
+
+target entity: 31
+similar entities: 782
+
+target entity: 32
+similar entities: 783
+
+target entity: 33
+similar entities: 784
+
+target entity: 34
+similar entities: 182 198 218 221 269 652
+
+target entity: 35
+similar entities: 618 632 652
+
+target entity: 39
+similar entities: 621 622
+
+target entity: 40
+similar entities: 621 622
+
+target entity: 47
+similar entities: 652
+
+target entity: 58
+similar entities: 780
+
+target entity: 61
+similar entities: 637 651
+
+target entity: 62
+similar entities: 652
+
+target entity: 63
+similar entities: 651
+
+target entity: 113
+similar entities: 614
+
+target entity: 182
+similar entities: 34 652
+
+target entity: 188
+similar entities: 632
+
+target entity: 198
+similar entities: 34 648 652
+
+target entity: 203
+similar entities: 621 622
+
+target entity: 217
+similar entities: 621 622
+
+target entity: 218
+similar entities: 34 618 632 652
+
+target entity: 221
+similar entities: 34 652
+
+target entity: 228
+similar entities: 618
+
+target entity: 253
+similar entities: 632
+
+target entity: 264
+similar entities: 648
+
+target entity: 268
+similar entities: 614
+
+target entity: 269
+similar entities: 34 652
+
+target entity: 274
+similar entities: 637
+
+target entity: 277
+similar entities: 652
+
+target entity: 282
+similar entities: 621 622
+
+target entity: 283
+similar entities: 648
+
+target entity: 308
+similar entities: 632
+
+target entity: 309
+similar entities: 632
+
+target entity: 313
+similar entities: 601 640 647
+
+target entity: 326
+similar entities: 618
+
+target entity: 332
+similar entities: 601 640 647
+
+target entity: 341
+similar entities: 601 640 647
+
+target entity: 344
+similar entities: 639 645
+
+target entity: 345
+similar entities: 652
+
+target entity: 347
+similar entities: 632
+
+target entity: 351
+similar entities: 618 632 648
+
+target entity: 352
+similar entities: 780
+
+target entity: 360
+similar entities: 651
+
+target entity: 361
+similar entities: 651
+
+target entity: 364
+similar entities: 652
+
+target entity: 367
+similar entities: 645
+
+target entity: 372
+similar entities: 618
+
+target entity: 601
+similar entities: 313 332 341 640 647
+
+target entity: 606
+similar entities: 607
+
+target entity: 607
+similar entities: 606
+
+target entity: 614
+similar entities: 113 268
+
+target entity: 618
+similar entities: 35 218 228 326 351 372
+
+target entity: 621
+similar entities: 39 40 203 217 282 622
+
+target entity: 622
+similar entities: 39 40 203 217 282 621
+
+target entity: 625
+similar entities: 638
+
+target entity: 632
+similar entities: 35 188 218 253 308 309 347 351
+
+target entity: 633
+similar entities: 634
+
+target entity: 634
+similar entities: 633
+
+target entity: 637
+similar entities: 61 274
+
+target entity: 638
+similar entities: 625
+
+target entity: 639
+similar entities: 344
+
+target entity: 640
+similar entities: 313 332 341 601 647
+
+target entity: 644
+similar entities: 645 650
+
+target entity: 645
+similar entities: 344 367 644
+
+target entity: 647
+similar entities: 313 332 341 601 640
+
+target entity: 648
+similar entities: 198 264 283 351
+
+target entity: 650
+similar entities: 644
+
+target entity: 651
+similar entities: 61 63 360 361
+
+target entity: 652
+similar entities: 34 35 47 62 182 198 218 221 269 277 345 364
+
+target entity: 774
+similar entities: 23
+
+target entity: 775
+similar entities: 24
+
+target entity: 776
+similar entities: 25
+
+target entity: 777
+similar entities: 26
+
+target entity: 778
+similar entities: 27
+
+target entity: 780
+similar entities: 29 58 352
+
+target entity: 781
+similar entities: 30
+
+target entity: 782
+similar entities: 31
+
+target entity: 783
+similar entities: 32
+
+target entity: 784
+similar entities: 33
+

@@ -1,0 +1,339 @@
+id	name	phone	type
+23	'21 club '	212/582 -7200	american
+24	aquavit	212/307 -7311	continental
+25	aureole	' 212 / 319-1660 '	american
+26	` cafe lalo '	212/496 -6031	` coffee bar '
+27	` cafe des artistes '	212/877 -3500	continental
+28	` carmine \ 's '	212/362 -2200	italian
+29	` carnegie deli '	212/757 -2245	delicatessen
+30	chanterelle	212/966 -6960	american
+31	daniel	212/288 -0033	french
+32	dawat	212/355 -7555	asian
+33	felidia	212/758 -1479	italian
+34	` four seasons grill room '	212/754 -9494	american
+35	` gotham bar & grill '	212/620 -4020	american
+36	` gramercy tavern '	212/477 -0777	american
+37	` island spice '	212/765 -1737	` tel caribbean '
+38	` jo jo '	212/223 -5656	american
+39	` la caravelle '	212/586 -4252	french
+40	` la cote basque '	212/688 -6525	french
+41	` le bernardin '	212/489 -1515	french
+42	` les celebrites '	212/484 -5113	french
+43	lespinasse	212/339 -6719	american
+44	lutece	212/752 -2225	french
+45	` manhattan ocean club '	' 212 / 371-7777 '	seafood
+46	march	212/754 -6272	american
+47	` mesa grill '	212/807 -7400	american
+48	` mi cocina '	212/627 -8273	mexican
+49	montrachet	' 212 / 219-2777 '	french
+50	oceana	212/759 -5941	seafood
+51	` park avenue cafe '	212/644 -1900	american
+52	petrossian	212/245 -2214	french
+53	picholine	212/724 -8585	mediterranean
+54	pisces	212/260 -6660	seafood
+55	` rainbow room '	212/632 -5000	` or 212/632 -5100 american '
+57	` san domenico '	212/265 -5959	italian
+58	` second avenue deli '	212/677 -0606	delicatessen
+59	seryna	212/980 -9393	asian
+60	` shun lee west '	212/371 -8844	asian
+61	` sign of the dove '	212/861 -8080	american
+62	` smith & wollensky '	212/753 -1530	american
+63	` tavern on the green '	212/873 -3200	american
+64	` uncle nick \ 's '	212/315 -1726	mediterranean
+65	` union square cafe '	212/243 -4020	american
+66	` virgil \ 's '	' 212 / 921-9494 '	american
+112	bolo	212/228 -2200	mediterranean
+113	` il nido '	212/753 -8450	italian
+114	remi	212/581 -4242	italian
+175	'20 mott '	212/964 -0380	asian
+176	' 9 jones street '	212/989 -1220	american
+177	adrienne	212/903 -3918	french
+178	agrotikon	212/473 -2602	mediterranean
+179	aja	212/473 -8388	american
+180	alamo	' 212 / 759-0590 '	mexican
+181	` alley \ 's end '	212/627 -8899	american
+182	` ambassador grill '	212/702 -5014	american
+183	` american place '	212/684 -2122	american
+184	` anche vivolo '	212/308 -0112	italian
+185	arizona	212/838 -0440	american
+186	` arturo \ 's '	212/677 -3820	italian
+187	` au mandarin '	212/385 -0313	asian
+188	` bar anise '	212/355 -1112	mediterranean
+189	barbetta	212/246 -9171	italian
+190	` ben benson \ 's '	212/581 -8888	american
+191	` big cup '	212/206 -0059	` coffee bar '
+192	` billy \ 's '	212/753 -1870	american
+193	` boca chica '	212/473 -0108	` latin american '
+194	boonthai	212/249 -8484	asian
+195	bouterin	212/758 -0323	french
+196	` brothers bar-b-q '	212/727 -2775	american
+197	bruno	212/688 -4190	italian
+198	` bryant park grill roof restaurant and bp cafe '	212/840 -6500	american
+199	c3	212/254 -1200	american
+200	ct	212/995 -8500	french
+201	` cafe bianco '	212/988 -2655	` coffee bar '
+202	` cafe botanica '	212/484 -5120	french
+203	` cafe la fortuna '	212/724 -5846	` coffee bar '
+204	` cafe luxembourg '	212/873 -7411	french
+205	` cafe pierre '	212/940 -8185	french
+206	` cafe centro '	212/818 -1222	french
+207	` cafe fes '	212/924 -7653	mediterranean
+208	` caffe dante '	212/982 -5275	` coffee bar '
+209	` caffe dell \ ` artista '	212/645 -4431	` coffee bar '
+210	` caffe lure '	212/473 -2642	french
+211	` caffe reggio '	212/475 -9557	` coffee bar '
+212	` caffe roma '	212/226 -8413	` coffee bar '
+213	` caffe vivaldi '	212/691 -7538	` coffee bar '
+214	` caffe bondi ristorante '	212/691 -8136	italian
+215	` capsouto freres '	212/966 -4900	french
+216	` captain \ 's table '	212/697 -9538	seafood
+217	` casa la femme '	212/505 -0005	` middle eastern '
+218	` cendrillon asian grill & marimba bar '	212/343 -9012	asian
+219	` chez jacqueline '	212/505 -0727	french
+220	chiam	212/371 -2323	asian
+221	` china grill '	212/333 -7788	american
+222	cite	212/956 -7100	french
+223	` coco pazzo '	212/794 -0205	italian
+224	` columbus bakery '	212/421 -0334	` coffee bar '
+225	` corrado cafe '	212/753 -5100	` coffee bar '
+226	` cupcake cafe '	212/465 -1530	` coffee bar '
+227	` da nico '	212/343 -1212	italian
+228	` dean & deluca '	212/254 -8776	` coffee bar '
+229	diva	212/941 -9024	italian
+230	` dix et sept '	212/645 -8023	french
+231	docks	' 212 / 986-8080 '	seafood
+232	` duane park cafe '	212/732 -5555	american
+233	` el teddy \ 's '	212/941 -7070	mexican
+234	'em ily \ 's '	212/996 -1212	american
+235	'em pire korea '	212/725 -1333	asian
+236	` ernie \ 's '	212/496 -1588	american
+237	` evergreen cafe '	212/744 -3266	asian
+238	` f. ille ponte ristorante '	212/226 -4621	italian
+239	felix	212/431 -0021	french
+240	ferrier	212/772 -9000	french
+241	` fifty seven fifty seven '	212/758 -5757	american
+242	` film center cafe '	' 212 / 262-2525 '	american
+243	` fiorello \ 's roman cafe '	212/595 -5330	italian
+244	firehouse	212/595 -3139	american
+245	first	212/674 -3823	american
+246	` fishin eddie '	212/874 -3474	seafood
+247	` fleur de jour '	212/355 -2020	` coffee bar '
+248	flowers	212/691 -8888	american
+249	follonico	212/691 -6359	italian
+250	` fraunces tavern '	212/269 -0144	american
+251	` french roast '	212/533 -2233	french
+252	` french roast cafe '	212/799 -1533	` coffee bar '
+253	` frico bar '	212/564 -7272	italian
+254	` fujiyama mama '	212/769 -1144	asian
+255	` gabriela \ 's '	212/961 -0574	mexican
+256	` gallagher \ 's '	212/245 -5336	american
+257	` gianni \ 's '	212/608 -7300	seafood
+258	girafe	212/752 -3054	italian
+259	global	212/477 -8427	american
+260	` golden unicorn '	' 212 / 941-0911 '	asian
+261	` grand ticino '	212/777 -5922	italian
+262	halcyon	212/468 -8888	american
+263	` hard rock cafe '	212/489 -6565	american
+264	` hi-life restaurant and lounge '	212/249 -3600	american
+265	home	212/243 -9579	american
+266	` hudson river club '	212/786 -1500	american
+267	' i trulli '	212/481 -7372	italian
+268	` il cortile '	212/226 -6060	italian
+269	` inca grill '	212/966 -3371	` latin american '
+270	indochine	212/505 -5111	asian
+271	` internet cafe '	' 212 / 614-0747 '	` coffee bar '
+272	ipanema	212/730 -5848	` latin american '
+273	` jean lafitte '	212/751 -2323	french
+274	` jewel of india '	212/869 -5544	asian
+275	` jimmy sung \ 's '	212/682 -5678	asian
+276	` joe allen '	212/581 -6464	american
+277	` judson grill '	212/582 -5252	american
+278	` l \ ` absinthe '	212/794 -4950	french
+279	` l \ ` auberge '	212/288 -8791	` middle eastern '
+280	` l \ ` auberge du midi '	212/242 -4705	french
+281	` l \ ` udo '	212/388 -0978	french
+282	` la reserve '	212/247 -2993	french
+283	` lanza restaurant '	212/674 -7014	italian
+284	` lattanzi ristorante '	212/315 -0980	italian
+285	layla	212/431 -0700	` middle eastern '
+286	` le chantilly '	212/751 -2931	french
+287	` le colonial '	' 212 / 752-0808 '	asian
+288	` le gamin '	212/254 -4678	` coffee bar '
+289	` le jardin '	212/343 -9599	french
+290	` le madri '	212/727 -8022	italian
+291	` le marais '	212/869 -0900	american
+292	` le perigord '	212/755 -6244	french
+293	` le select '	212/875 -1993	american
+294	` les halles '	212/679 -4111	french
+295	` lincoln tavern '	212/721 -8271	american
+296	lola	212/675 -6700	american
+297	` lucky strike '	212/941 -0479	` or 212/941 -0772 american '
+298	` mad fish '	212/787 -0202	seafood
+299	` main street '	212/873 -5025	american
+300	` mangia e bevi '	212/956 -3976	italian
+301	` manhattan cafe '	212/888 -6556	american
+302	` manila garden '	212/777 -6314	asian
+303	marichu	212/370 -1866	french
+304	` marquet patisserie '	212/229 -9313	` coffee bar '
+305	match	212/906 -9173	american
+306	` matthew \ 's '	212/838 -4343	american
+307	` mavalli palace '	212/679 -5535	asian
+308	` milan cafe and coffee bar '	212/807 -1801	` coffee bar '
+309	` monkey bar '	212/838 -2600	american
+310	montien	212/421 -4433	asian
+311	` morton \ 's '	212/972 -3315	american
+312	` motown cafe '	212/581 -8030	american
+313	` new york kom tang soot bul house '	' 212 / 947-8482 '	asian
+314	` new york noodletown '	212/349 -0923	asian
+315	newsbar	212/255 -3996	` coffee bar '
+316	odeon	212/233 -0507	american
+317	orso	212/489 -7212	italian
+318	` osteria al droge '	212/944 -3643	italian
+319	otabe	212/223 -7575	asian
+320	pacifica	212/941 -4168	asian
+321	palio	212/245 -4850	italian
+322	pamir	212/644 -9258	` middle eastern '
+323	` parioli romanissimo '	212/288 -2391	italian
+324	patria	212/777 -6211	` latin american '
+325	` peacock alley '	212/872 -4895	french
+326	` pen & pencil '	212/682 -8660	american
+327	` penang soho '	212/274 -8883	asian
+328	persepolis	212/535 -1100	` middle eastern '
+329	` planet hollywood '	212/333 -7827	american
+330	pomaire	' 212 / 956-3055 '	` latin american '
+331	` popover cafe '	212/595 -8555	american
+332	` post house '	212/935 -2888	american
+333	rain	212/501 -0776	asian
+334	` red tulip '	212/734 -4893	` eastern european '
+335	republic	212/627 -7172	asian
+336	` roettelle a. g '	212/674 -4140	continental
+337	` rosa mexicano '	212/753 -7407	mexican
+338	` ruth \ 's chris '	212/245 -9600	american
+339	s.p.q.r	212/925 -3120	italian
+340	` sal anthony \ 's '	212/982 -9030	italian
+341	` sammy \ 's roumanian steak house '	212/673 -0330	` east european '
+342	` san pietro '	212/753 -9015	italian
+343	` sant ambroeus '	212/570 -2211	` coffee bar '
+344	` sarabeth \ 's kitchen '	212/496 -6280	american
+345	` sea grill '	212/332 -7610	seafood
+346	serendipity	212/838 -3531	american
+347	` seventh regiment mess and bar '	212/744 -4107	american
+348	sfuzzi	212/873 -3700	american
+349	shaan	' 212 / 977-8400 '	asian
+350	` sofia fabulous pizza '	212/734 -2676	italian
+351	` spring street natural restaurant & bar '	212/966 -0290	american
+352	` stage deli '	212/245 -7850	delicatessen
+353	stingray	212/501 -7515	seafood
+354	` sweet \ ` n \ ` tart cafe '	212/334 -8088	asian
+355	' t salon '	212/925 -3700	` coffee bar '
+356	` tang pavillion '	212/956 -6888	asian
+357	tapika	' 212 / 397-3737 '	american
+358	` teresa \ 's '	212/228 -0604	` east european '
+359	terrace	212/666 -9490	continental
+360	` the coffee pot '	212/265 -3566	` coffee bar '
+361	` the savannah club '	212/496 -1066	american
+362	` trattoria dell \ ` arte '	212/245 -9800	italian
+363	triangolo	212/472 -4488	italian
+364	` tribeca grill '	212/941 -3900	american
+365	` trois jean '	212/988 -4858	` coffee bar '
+366	` tse yang '	212/688 -5447	asian
+367	` turkish kitchen '	212/679 -1810	` middle eastern '
+368	` two two two '	212/799 -0400	american
+369	` veniero \ 's pasticceria '	212/674 -7264	` coffee bar '
+370	verbena	212/260 -5454	american
+371	` victor \ 's cafe '	212/586 -7714	` latin american '
+372	` vince & eddie \ 's '	212/721 -0068	american
+373	vong	212/486 -9592	american
+374	` water club '	212/683 -3333	american
+375	west	212/246 -6363	american
+376	xunta	212/614 -0620	mediterranean
+377	` zen palate '	212/614 -9291	` and 212/614 -9345 asian '
+378	zoe	212/966 -6722	american
+601	` afghan kebab house '	212-307-1612	afghan
+602	arcadia	212-223-2900	` american ( new ) '
+603	` benny \ 's burritos '	212-254-2054	mexican
+604	` cafe con leche '	212-595-7000	cuban
+605	` corner bistro '	212-242-9502	hamburgers
+606	` cucina della fontana '	212-242-0636	italian
+607	` cucina di pesce '	212-260-6800	seafood
+608	darbar	212-432-7227	indian
+609	` ej \ 's luncheonette '	212-473-5555	diners
+610	` edison cafe '	212-840-5000	diners
+612	` good enough to eat '	212-496-0163	american
+613	` gray \ 's papaya '	212-799-0243	` hot dogs '
+614	` il mulino '	212-673-3783	italian
+617	` john \ 's pizzeria '	212-721-7001	pizza
+618	` kelley & ping '	212-228-1212	pan-asian
+619	kiev	212-674-4040	ukrainian
+620	` kuruma zushi '	212-317-2802	japanese
+621	` la caridad '	212-874-2780	cuban
+622	` la grenouille '	212-752-1495	` french ( classic ) '
+624	` lombardi \ 's '	212-941-7994	pizza
+625	` marnie \ 's noodle shop '	212-741-3214	asian
+626	menchanko-tei	212-247-1585	japanese
+627	` mitali east-west '	212-989-1367	indian
+628	` monsoon ( ny ) '	212-580-8686	thai
+630	nobu	212-219-0500	japanese
+631	` one if by land tibs '	212-228-0822	continental
+632	` oyster bar '	212-490-6650	seafood
+633	palm	212-687-2953	steakhouses
+634	` palm too '	212-697-5198	steakhouses
+637	` rose of india '	212-533-5011	indian
+638	` sam \ 's noodle shop '	212-213-2288	chinese
+639	` sarabeth \ 's '	212-410-7335	american
+640	` sparks steak house '	212-687-4855	steakhouses
+642	sushisay	212-755-1780	japanese
+643	` sylvia \ 's '	212-996-0660	southern/soul
+644	` szechuan hunan cottage '	212-535-5223	chinese
+645	` szechuan kitchen '	212-249-4615	chinese
+647	` thai house cafe '	212-334-1085	thai
+648	` thailand restaurant '	212-349-3132	thai
+649	veselka	212-228-9682	ukrainian
+650	` westside cottage '	212-245-0800	chinese
+651	` windows on the world '	212-524-7000	eclectic
+652	` wollensky \ 's grill '	212-753-0444	steakhouses
+653	yama	212-475-0969	japanese
+654	zarela	212-644-6740	mexican
+774	'21 club '	212-582-7200	` american ( new ) '
+775	aquavit	212-307-7311	scandinavian
+776	aureole	212-319-1660	` american ( new ) '
+777	` cafe lalo '	212-496-6031	coffeehouses
+778	` cafe des artistes '	212-877-3500	` french ( classic ) '
+779	` carmine \ 's '	212-362-2200	italian
+780	` carnegie deli '	212-757-2245	delis
+781	chanterelle	212-966-6960	` french ( new ) '
+782	daniel	212-288-0033	` french ( new ) '
+783	dawat	212-355-7555	indian
+784	felidia	212-758-1479	italian
+785	` four seasons '	212-754-9494	` american ( new ) '
+786	` gotham bar & grill '	212-620-4020	` american ( new ) '
+787	` gramercy tavern '	212-477-0777	` american ( new ) '
+788	` island spice '	212-765-1737	caribbean
+789	` jo jo '	212-223-5656	` french bistro '
+790	` la caravelle '	212-586-4252	` french ( classic ) '
+791	` la cote basque '	212-688-6525	` french ( classic ) '
+792	` le bernardin '	212-489-1515	seafood
+793	` les celebrites '	212-484-5113	` french ( classic ) '
+794	` lespinasse ( new york city ) '	212-339-6719	asian
+795	lutece	212-752-2225	` french ( classic ) '
+796	` manhattan ocean club '	212-371-7777	seafood
+797	march	212-754-6272	` american ( new ) '
+798	` mesa grill '	212-807-7400	southwestern
+799	` mi cocina '	212-627-8273	mexican
+800	montrachet	212-219-2777	` french bistro '
+801	oceana	212-759-5941	seafood
+802	` park avenue cafe ( new york city ) '	212-644-1900	` american ( new ) '
+803	petrossian	212-245-2214	russian
+804	picholine	212-724-8585	mediterranean
+805	pisces	212-260-6660	seafood
+806	` rainbow room '	212-632-5000	` american ( new ) '
+808	` san domenico '	212-265-5959	italian
+809	` second avenue deli '	212-677-0606	delis
+810	seryna	212-980-9393	japanese
+811	` shun lee palace '	212-371-8844	chinese
+812	` sign of the dove '	212-861-8080	` american ( new ) '
+813	` smith & wollensky '	212-753-1530	steakhouses
+814	` tavern on the green '	212-873-3200	` american ( new ) '
+815	` uncle nick \ 's '	212-245-7992	greek
+816	` union square cafe '	212-243-4020	` american ( new ) '
+817	` virgil \ 's real bbq '	212-921-9494	bbq
