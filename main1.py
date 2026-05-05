@@ -1,3 +1,6 @@
+import argparse
+from pathlib import Path
+
 from new import process_query_results2, connect_to_neo4j, execute_query, process_query_results
 from pattern2blocks import parse_filtered_pattern, generate_blocks
 from PPS import (
@@ -10,6 +13,26 @@ from PPS import (
 )
 import time
 import os
+
+
+def run_local(args):
+    from gaplink_local import run
+
+    metrics = run(
+        dataset_dir=args.dataset_dir,
+        output_dir=args.output_dir,
+        threshold=args.threshold,
+    )
+    print("GAPLink local run complete")
+    for key, value in metrics.items():
+        if key.endswith("seconds"):
+            print(f"{key}: {value:.4f}")
+        elif key in {"candidate_pairs", "predicted_matches", "true_positive", "false_positive", "false_negative"}:
+            print(f"{key}: {int(value)}")
+        else:
+            print(f"{key}: {value:.4f}")
+
+
 def clear_previous_results(output_dir):
     filtered_output_file = os.path.join(output_dir, "filtered_pattern.txt")
     blocks_file = os.path.join(output_dir, "blocks.txt")
@@ -87,7 +110,7 @@ def process_and_save_results(filtered_output_file, iteration, matched_pairs, sta
             matched_pairs.add((pi, pj))
 
     return new_matches
-def main():
+def run_neo4j():
     start_time = time.time()
 
     uri = "****"
@@ -154,6 +177,40 @@ RETURN r1, r2, a1, a2, c1, c2
     execution_time = end_time - start_time
     print(f"total_pairs {total_pairs} ")
     print(f"time：{execution_time:.4f} ")
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Run GAPLink.")
+    parser.add_argument(
+        "--mode",
+        choices=["local", "neo4j", "paper"],
+        default="local",
+        help="local runs from CSV, neo4j uses the original backend, paper runs graph + LLM GAPLink.",
+    )
+    parser.add_argument("--dataset-dir", type=Path, default=Path("dataset/relational-dataset/fodors-zagats"))
+    parser.add_argument("--output-dir", type=Path, default=Path("output_file"))
+    parser.add_argument("--threshold", type=float, default=0.48)
+    parser.add_argument("--max-llm-calls", type=int, default=20)
+    parser.add_argument("--theta", type=float, default=0.5)
+    parser.add_argument("--limit-per-rule", type=int)
+    parser.add_argument("--structural-threshold", type=float, default=0.48)
+    args = parser.parse_args()
+
+    if args.mode == "local":
+        run_local(args)
+    elif args.mode == "paper":
+        from gaplink_pipeline import run_pipeline
+
+        metrics = run_pipeline(
+            args.output_dir,
+            args.max_llm_calls,
+            args.theta,
+            args.limit_per_rule,
+            args.structural_threshold,
+        )
+        print(metrics)
+    else:
+        run_neo4j()
 
 
 if __name__ == "__main__":

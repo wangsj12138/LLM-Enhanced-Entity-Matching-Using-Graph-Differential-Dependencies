@@ -1,6 +1,10 @@
-from py2neo import Graph
 import os
 import csv
+
+try:
+    from py2neo import Graph
+except ImportError:  # pragma: no cover - exercised when Neo4j extras are absent.
+    Graph = None
 
 
 def similar(a, b):
@@ -18,6 +22,12 @@ def jaccard_similarity(str1, str2):
 
 
 def connect_to_neo4j(uri, user, password):
+    if Graph is None:
+        raise RuntimeError(
+            "py2neo is not installed. Install optional Neo4j dependencies with "
+            "`python3 -m pip install -r requirements-neo4j.txt`, or run the "
+            "local CSV demo with `python3 main1.py --mode local`."
+        )
     return Graph(uri, auth=(user, password))
 
 
