@@ -131,3 +131,12 @@ output_file/fz_threshold_self-consistency_metrics.json
   by averaging results over sampled candidate subsets. This keeps the comparison
   computationally feasible while highlighting the practical usefulness of GDD
   filtering.
+
+
+## Reproduction Note: Cost-aware Sampling on Large Datasets
+
+Due to the high cost of GPT-4 API calls, the LLM-based evaluation on large datasets in the paper was conducted with a cost-aware sampling strategy.
+
+Specifically, for datasets with more than 1,000 ground-truth matching pairs, candidate pairs were sampled after GDD-based filtering, and the same graph-aware prompting strategy was applied to the sampled candidates. Fixed random seeds were used to make the sampling process reproducible, and the reported results were averaged over three runs.
+
+This sampling strategy only affects the number of LLM API calls on large datasets. The GDD filtering, graph construction, rule selection, graph-aware prompt design, and evaluation procedure remain unchanged.
