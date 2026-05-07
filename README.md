@@ -27,31 +27,6 @@ The rule mining feature in FastER is based on the definitions and processes desc
 For a deeper understanding of rule definitions and mining processes, users are encouraged to read these papers.
 
 
-## Quick start
-
-The default runner uses the bundled Fodors-Zagats CSV files and does not require
-Neo4j or an LLM API key:
-
-```bash
-python3 main1.py --mode local
-```
-
-This writes candidate pairs, blocks, predicted matches, and evaluation metrics to
-`output_file/`.
-
-
-Run tests with:
-
-```bash
-python3 -m unittest discover -s tests -p 'test_*.py' -v
-```
-
-The original Neo4j path is still available for graph-backed experiments:
-
-```bash
-python3 -m pip install -r requirements-neo4j.txt
-python3 main1.py --mode neo4j
-```
 
 ## GAPLink run
 
