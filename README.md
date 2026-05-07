@@ -96,9 +96,9 @@ Outputs are written to:
 Run the three FZ prompt settings:
 
 ```bash
-.venv/bin/python fz_gaplink_threshold_rules.py --mode zero-shot
-.venv/bin/python fz_gaplink_threshold_rules.py --mode few-shot
-.venv/bin/python fz_gaplink_threshold_rules.py --mode self-consistency
+.venv/bin/python fz_gaplink_threshold_rules.py --mode zero-shot --sample-size 1000 --sample-seed 42
+.venv/bin/python fz_gaplink_threshold_rules.py --mode few-shot --sample-size 1000 --sample-seed 42
+.venv/bin/python fz_gaplink_threshold_rules.py --mode self-consistency --sample-size 1000 --sample-seed 42
 ```
 
 Each run follows the paper-style pipeline:
@@ -119,24 +119,38 @@ output_file/fz_threshold_few-shot_metrics.json
 output_file/fz_threshold_self-consistency_metrics.json
 ```
 
-## Reporting Notes
-
-- For datasets where some model-prompt settings reach very strong performance
-  such as 100% F1, the reported values may be averaged over additional
-  independent runs beyond the three primary runs. This reduces the effect of
-  run-to-run variance from LLM sampling and rule optimization in near-perfect
-  regimes.
-- For Table 3, `NGDDF` means **No GDD Filtering**. Since disabling GDD filtering
-  can produce an extremely large candidate pool, the NGDDF setting is evaluated
-  by averaging results over sampled candidate subsets. This keeps the comparison
-  computationally feasible while highlighting the practical usefulness of GDD
-  filtering.
-
-
 ## Reproduction Note: Cost-aware Sampling on Large Datasets
 
-Due to the high cost of GPT-4 API calls, the LLM-based evaluation on large datasets in the paper was conducted with a cost-aware sampling strategy.
+Due to the high cost of GPT-4 API calls, the LLM-based evaluation on large
+datasets was conducted with a cost-aware sampling protocol. This implementation
+detail is documented here to make the repository results reproducible.
 
-Specifically, for datasets with more than 1,000 matching pairs, candidate pairs were sampled after GDD-based filtering, and the same graph-aware prompting strategy was applied to the sampled candidates. Fixed random seeds were used to make the sampling process reproducible, and the reported results were averaged over three runs.
+For datasets with more than 1,000 candidate pairs after GDD-based filtering, the
+runner samples up to 1,000 candidates before LLM verification. Sampling is
+stratified by the ground-truth label among the filtered candidates, so the sampled
+set preserves the positive/negative ratio used for precision, recall, and F1
+calculation. The default seed is fixed at `42`, and reported results are averaged
+over three runs.
 
-This sampling strategy only affects the number of LLM API calls on large datasets. The GDD filtering, graph construction, rule selection, graph-aware prompt design, and evaluation procedure remain unchanged.
+This sampling protocol only reduces the number of LLM API calls on large
+datasets. It does not change GDD filtering, graph construction, rule selection,
+the graph-aware prompt template, or the evaluation metric. Disable it with
+`--disable-sampling` for full-candidate evaluation when the API budget allows.
+
+## API-cost Controls
+
+- Stage 1 and Stage 2 LLM calls are cached in JSONL files under `output_file/`.
+  Re-running the same model, prompt mode, candidate pair, vote count, and selected
+  rule set reads the cached decision instead of calling the API again.
+- Self-consistency uses three votes. When a compatible few-shot decision for the
+  same candidate pair is already cached, it is reused as the first
+  self-consistency vote and only two additional votes are requested.
+- Prompts use compact JSON payloads and symbolic graph patterns to reduce token
+  use while preserving the attributes, GDD rules, and graph evidence needed by
+  the matcher.
+
+## Legacy Scripts
+
+Early notebooks and one-off scripts from the original exploratory implementation
+are kept under `legacy/original_scripts/`. They are preserved for reference but
+are not required by the current reproduction workflow.

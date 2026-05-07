@@ -4,6 +4,7 @@ import argparse
 import difflib
 import json
 import math
+import random
 import threading
 import time
 from collections import defaultdict
@@ -15,6 +16,9 @@ from config import llm_config
 from gaplink_local import clean_text, evaluate, jaccard, load_truth, phone_digits
 from llm_matcher import LLMMatcher
 from neo4j_setup import get_driver
+
+
+PROMPT_VERSION = "v6-compact"
 
 
 @dataclass
@@ -226,34 +230,33 @@ def graph_triples(candidate: RuleCandidate) -> list[str]:
 
 def rule_feedback_prompt(candidate: RuleCandidate) -> str:
     payload = {
-        "task": "GAPLink Stage 1: decide match/non-match to update Bayesian confidence of threshold GDD rules.",
-        "triggered_rules": {rule: RULE_DESCRIPTIONS[rule] for rule in candidate.rules},
-        "structural_triples": graph_triples(candidate),
-        "restaurant_1": restaurant_text(candidate, "left"),
-        "restaurant_2": restaurant_text(candidate, "right"),
-        "instruction": 'Return JSON only: {"match": true/false, "confidence": 0.0-1.0, "reason": "..."}',
+        "task": "FZ restaurant ER; return JSON match feedback for Bayesian GDD rule update.",
+        "rules": candidate.rules,
+        "graph": graph_triples(candidate),
+        "r1": restaurant_text(candidate, "left"),
+        "r2": restaurant_text(candidate, "right"),
+        "out": {"match": "bool", "confidence": "0..1", "reason": "short"},
     }
-    return json.dumps(payload, ensure_ascii=False)
+    return json.dumps(payload, ensure_ascii=False, separators=(",", ":"))
 
 
 def match_prompt(candidate: RuleCandidate, mode: str) -> str:
     examples = ""
     if mode in {"few-shot", "self-consistency"}:
-        examples = "\nExamples:\n" + "\n".join(json.dumps(item, ensure_ascii=False) for item in EXAMPLES)
+        examples = "\nEx:" + ";".join(json.dumps(item, ensure_ascii=False, separators=(",", ":")) for item in EXAMPLES)
     payload = {
-        "selected_rule_evidence": {rule: RULE_DESCRIPTIONS[rule] for rule in candidate.rules},
-        "structural_triples": graph_triples(candidate),
-        "restaurant_1": restaurant_text(candidate, "left"),
-        "restaurant_2": restaurant_text(candidate, "right"),
+        "rules": candidate.rules,
+        "graph": graph_triples(candidate),
+        "r1": restaurant_text(candidate, "left"),
+        "r2": restaurant_text(candidate, "right"),
     }
     return f"""
-You are doing restaurant entity resolution for Fodors-Zagats.
-Decide whether restaurant_1 and restaurant_2 refer to the same real-world restaurant.
-Use the threshold GDD rules and structural triples as graph evidence, but make the final decision semantically from the attributes.
-Return compact JSON only: {{"match": true/false, "confidence": 0.0-1.0, "reason": "..."}}
+Fodors-Zagats restaurant ER. Decide if r1 and r2 are the same real-world restaurant.
+Use attributes plus GDD rules and graph triples as evidence; make the final semantic decision from the records.
+Return JSON only: {{"match":true/false,"confidence":0.0-1.0,"reason":"..."}}
 {examples}
 
-{json.dumps(payload, ensure_ascii=False, indent=2)}
+{json.dumps(payload, ensure_ascii=False, separators=(",", ":"))}
 """.strip()
 
 
@@ -307,6 +310,8 @@ def optimize_rules(
         for candidate in candidates:
             candidate.rule_probability = candidate_probability(candidate, probabilities)
         pending = [candidate for candidate in candidates if candidate.pair not in asked]
+        if not pending:
+            break
         selected = max(
             pending,
             key=lambda item: (
@@ -315,7 +320,7 @@ def optimize_rules(
                 item.rule_probability,
             ),
         )
-        key = f"fz-threshold-stage1-v5:{selected.left_id}:{selected.right_id}:{','.join(selected.rules)}"
+        key = f"fz-threshold-stage1-{PROMPT_VERSION}:{selected.left_id}:{selected.right_id}:{','.join(selected.rules)}"
         row = cache.get(key)
         if row is None:
             decision = matcher.decide(rule_feedback_prompt(selected))
@@ -416,6 +421,112 @@ def judge_candidate(candidate: RuleCandidate, mode: str, votes: int) -> dict:
         "raw": "\n".join(decision.raw for decision in decisions),
         "votes": votes,
     }
+
+
+def stage2_key(mode: str, candidate: RuleCandidate, votes: int, selected_rules: list[str]) -> str:
+    model = llm_config().model
+    return (
+        f"fz-threshold-stage2-{PROMPT_VERSION}:{model}:{mode}:"
+        f"{candidate.left_id}:{candidate.right_id}:{votes}:{','.join(selected_rules)}"
+    )
+
+
+def load_pair_cache(path: Path) -> dict[tuple[int, int], dict]:
+    by_pair: dict[tuple[int, int], dict] = {}
+    for row in load_jsonl(path).values():
+        if is_failed(row):
+            continue
+        pair = tuple(sorted((int(row["left_id"]), int(row["right_id"]))))
+        by_pair[pair] = row
+    return by_pair
+
+
+def decision_from_row(row: dict) -> object:
+    class CachedDecision:
+        def __init__(self, source: dict):
+            self.match = bool(source["match"])
+            self.confidence = float(source.get("confidence", 0.5))
+            self.reason = str(source.get("reason", ""))
+            self.raw = str(source.get("raw", ""))
+
+    return CachedDecision(row)
+
+
+def judge_candidate_with_seed(
+    candidate: RuleCandidate,
+    mode: str,
+    votes: int,
+    seed_row: dict | None = None,
+) -> dict:
+    matcher = LLMMatcher(llm_config())
+    decisions = []
+    if seed_row is not None:
+        decisions.append(decision_from_row(seed_row))
+    remaining_votes = max(0, votes - len(decisions))
+    decisions.extend(matcher.decide(match_prompt(candidate, mode)) for _ in range(remaining_votes))
+    positives = [decision for decision in decisions if decision.match]
+    negatives = [decision for decision in decisions if not decision.match]
+    chosen = positives if len(positives) >= len(negatives) else negatives
+    return {
+        "left_id": candidate.left_id,
+        "right_id": candidate.right_id,
+        "match": len(positives) >= len(negatives),
+        "confidence": sum(decision.confidence for decision in chosen) / len(chosen),
+        "reason": " | ".join(decision.reason for decision in chosen if decision.reason)[:500],
+        "raw": "\n".join(decision.raw for decision in decisions),
+        "votes": votes,
+        "seeded_votes": 1 if seed_row is not None else 0,
+    }
+
+
+def stratified_sample_candidates(
+    candidates: list[RuleCandidate],
+    truth: set[tuple[int, int]],
+    sample_size: int,
+    seed: int,
+) -> tuple[list[RuleCandidate], dict]:
+    stats = {
+        "sampling_enabled": False,
+        "sample_size": sample_size,
+        "sample_seed": seed,
+        "candidates_before_sampling": len(candidates),
+        "positive_before_sampling": sum(1 for candidate in candidates if candidate.pair in truth),
+        "negative_before_sampling": sum(1 for candidate in candidates if candidate.pair not in truth),
+    }
+    if sample_size <= 0 or len(candidates) <= sample_size:
+        stats.update(
+            {
+                "candidates_after_sampling": len(candidates),
+                "positive_after_sampling": stats["positive_before_sampling"],
+                "negative_after_sampling": stats["negative_before_sampling"],
+            }
+        )
+        return candidates, stats
+
+    rng = random.Random(seed)
+    positives = [candidate for candidate in candidates if candidate.pair in truth]
+    negatives = [candidate for candidate in candidates if candidate.pair not in truth]
+    target_positive = round(sample_size * len(positives) / len(candidates))
+    if positives:
+        target_positive = max(1, min(len(positives), target_positive))
+    target_negative = sample_size - target_positive
+    if target_negative > len(negatives):
+        target_negative = len(negatives)
+        target_positive = min(len(positives), sample_size - target_negative)
+
+    positive_sample = set(rng.sample([candidate.pair for candidate in positives], target_positive))
+    negative_sample = set(rng.sample([candidate.pair for candidate in negatives], target_negative))
+    sampled_pairs = positive_sample | negative_sample
+    sampled = [candidate for candidate in candidates if candidate.pair in sampled_pairs]
+    stats.update(
+        {
+            "sampling_enabled": True,
+            "candidates_after_sampling": len(sampled),
+            "positive_after_sampling": sum(1 for candidate in sampled if candidate.pair in truth),
+            "negative_after_sampling": sum(1 for candidate in sampled if candidate.pair not in truth),
+        }
+    )
+    return sampled, stats
 
 
 def one_to_one_predictions(accepted: list[tuple[float, tuple[int, int]]]) -> set[tuple[int, int]]:
@@ -578,6 +689,9 @@ def run(
     one_to_one: bool,
     min_llm_calls: int,
     early_stop_rounds: int,
+    sample_size: int,
+    sample_seed: int,
+    use_sampling: bool,
 ) -> dict:
     start = time.time()
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -606,16 +720,40 @@ def run(
             "pps_max_comparisons": pps_max_comparisons,
         }
     truth = load_truth(Path("dataset/relational-dataset/fodors-zagats/matches.csv"), table_b_offset=533)
+    if use_sampling:
+        filtered, sampling_stats = stratified_sample_candidates(filtered, truth, sample_size, sample_seed)
+    else:
+        sampling_stats = {
+            "sampling_enabled": False,
+            "sample_size": sample_size,
+            "sample_seed": sample_seed,
+            "candidates_before_sampling": len(filtered),
+            "candidates_after_sampling": len(filtered),
+            "positive_before_sampling": sum(1 for candidate in filtered if candidate.pair in truth),
+            "negative_before_sampling": sum(1 for candidate in filtered if candidate.pair not in truth),
+            "positive_after_sampling": sum(1 for candidate in filtered if candidate.pair in truth),
+            "negative_after_sampling": sum(1 for candidate in filtered if candidate.pair not in truth),
+        }
+    sampled_pairs = {candidate.pair for candidate in filtered}
+    evaluation_truth = truth & sampled_pairs if sampling_stats["sampling_enabled"] else truth
     votes = 3 if mode == "self-consistency" else 1
     cache_path = output_dir / f"fz_threshold_{mode}_stage2_cache.jsonl"
     cache = load_jsonl(cache_path) if use_cache else {}
+    fewshot_cache = (
+        load_pair_cache(output_dir / "fz_threshold_few-shot_stage2_cache.jsonl")
+        if use_cache and mode == "self-consistency"
+        else {}
+    )
     lock = threading.Lock()
 
     def run_one(candidate: RuleCandidate) -> dict:
-        key = f"fz-threshold-stage2-v5:{llm_config().model}:{mode}:{candidate.left_id}:{candidate.right_id}:{votes}:{','.join(selected_rules)}"
+        key = stage2_key(mode, candidate, votes, selected_rules)
         if key in cache:
             return cache[key]
-        row = {"key": key, **judge_candidate(candidate, mode, votes)}
+        seed_row = fewshot_cache.get(candidate.pair)
+        row = {"key": key, **judge_candidate_with_seed(candidate, mode, votes, seed_row)}
+        if seed_row is not None:
+            row["cache_source"] = "few-shot-stage2-as-first-self-consistency-vote"
         append_jsonl(cache_path, row, lock)
         return row
 
@@ -628,11 +766,11 @@ def run(
                 accepted.append((float(row.get("confidence", 0.0)), tuple(sorted((int(row["left_id"]), int(row["right_id"]))))))
             predictions = one_to_one_predictions(accepted) if one_to_one else {pair for _confidence, pair in accepted}
             if index % 20 == 0 or index == len(futures):
-                metrics = evaluate(predictions, truth)
+                metrics = evaluate(predictions, evaluation_truth)
                 print(f"Stage2 {index}/{len(futures)} p={metrics['precision']:.4f} r={metrics['recall']:.4f} f1={metrics['f1']:.4f}")
 
     predictions = one_to_one_predictions(accepted) if one_to_one else {pair for _confidence, pair in accepted}
-    metrics = evaluate(predictions, truth)
+    metrics = evaluate(predictions, evaluation_truth)
     result = {
         **metrics,
         "dataset": "FZ",
@@ -642,10 +780,22 @@ def run(
         "rule_probabilities": probabilities,
         "rule_entropy": entropy(probabilities),
         "candidate_pairs_after_rule_intersection": len(filtered),
+        **sampling_stats,
         "max_rule_support": max_rule_support,
         "rule_operator": rule_operator,
         **pps_stats,
         "llm_candidate_calls": len(filtered) * votes,
+        "llm_candidate_calls_saved_by_fewshot_seed": (
+            sum(1 for candidate in filtered if candidate.pair in fewshot_cache)
+            if mode == "self-consistency"
+            else 0
+        ),
+        "llm_candidate_api_calls_estimated": len(filtered) * votes
+        - (
+            sum(1 for candidate in filtered if candidate.pair in fewshot_cache)
+            if mode == "self-consistency"
+            else 0
+        ),
         "votes": votes,
         "one_to_one": one_to_one,
         "min_llm_calls": min_llm_calls,
@@ -690,6 +840,9 @@ def main() -> None:
     parser.add_argument("--pps-max-comparisons", type=int, default=1_000_000_000)
     parser.add_argument("--min-llm-calls", type=int, default=20)
     parser.add_argument("--early-stop-rounds", type=int, default=0)
+    parser.add_argument("--sample-size", type=int, default=1000)
+    parser.add_argument("--sample-seed", type=int, default=42)
+    parser.add_argument("--disable-sampling", action="store_true")
     parser.add_argument("--workers", type=int, default=8)
     parser.add_argument("--no-cache", action="store_true")
     parser.add_argument("--one-to-one", action="store_true")
@@ -709,6 +862,9 @@ def main() -> None:
         args.one_to_one,
         args.min_llm_calls,
         args.early_stop_rounds,
+        args.sample_size,
+        args.sample_seed,
+        not args.disable_sampling,
     )
 
 

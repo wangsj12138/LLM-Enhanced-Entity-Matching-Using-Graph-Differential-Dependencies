@@ -2,6 +2,7 @@ import unittest
 from pathlib import Path
 
 from gaplink_local import evaluate, generate_candidates, load_restaurants, run
+from fz_gaplink_threshold_rules import RuleCandidate, stratified_sample_candidates
 from llm_matcher import parse_decision
 
 
@@ -53,6 +54,32 @@ class GaplinkLocalTests(unittest.TestCase):
         self.assertTrue(decision.match)
         self.assertEqual(decision.confidence, 0.87)
         self.assertEqual(decision.reason, "same phone")
+
+    def test_stratified_sampling_preserves_label_ratio(self):
+        candidates = [
+            RuleCandidate(
+                left_id=index,
+                right_id=index + 100,
+                left={},
+                right={},
+                left_address="",
+                right_address="",
+                left_city="",
+                right_city="",
+                rules=["same_city"],
+            )
+            for index in range(20)
+        ]
+        truth = {candidate.pair for candidate in candidates[:4]}
+
+        sampled, stats = stratified_sample_candidates(candidates, truth, sample_size=10, seed=7)
+
+        self.assertEqual(len(sampled), 10)
+        self.assertTrue(stats["sampling_enabled"])
+        self.assertEqual(stats["positive_before_sampling"], 4)
+        self.assertEqual(stats["negative_before_sampling"], 16)
+        self.assertEqual(stats["positive_after_sampling"], 2)
+        self.assertEqual(stats["negative_after_sampling"], 8)
 
 
 if __name__ == "__main__":

@@ -1,13 +1,13 @@
 cd "/Users/shujing/Documents/New project 3"
 
 三种 prompt：
-.venv/bin/python fz_gaplink_threshold_rules.py --mode zero-shot --workers 8 --no-cache
+.venv/bin/python fz_gaplink_threshold_rules.py --mode zero-shot --workers 8 --sample-size 1000 --sample-seed 42 --no-cache
 
-.venv/bin/python fz_gaplink_threshold_rules.py --mode few-shot --workers 8 --no-cache
+.venv/bin/python fz_gaplink_threshold_rules.py --mode few-shot --workers 8 --sample-size 1000 --sample-seed 42 --no-cache
 
-.venv/bin/python fz_gaplink_threshold_rules.py --mode self-consistency --workers 8 --no-cache
+.venv/bin/python fz_gaplink_threshold_rules.py --mode self-consistency --workers 8 --sample-size 1000 --sample-seed 42 --no-cache
 
 用缓存跑：
-.venv/bin/python fz_gaplink_threshold_rules.py --mode zero-shot --workers 8
-.venv/bin/python fz_gaplink_threshold_rules.py --mode few-shot --workers 8
-.venv/bin/python fz_gaplink_threshold_rules.py --mode self-consistency --workers 8
+.venv/bin/python fz_gaplink_threshold_rules.py --mode zero-shot --workers 8 --sample-size 1000 --sample-seed 42
+.venv/bin/python fz_gaplink_threshold_rules.py --mode few-shot --workers 8 --sample-size 1000 --sample-seed 42
+.venv/bin/python fz_gaplink_threshold_rules.py --mode self-consistency --workers 8 --sample-size 1000 --sample-seed 42

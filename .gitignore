@@ -8,3 +8,4 @@ venv/
 output_file/
 *.jsonl
 *.bak_*
+instrument.txt
