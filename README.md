@@ -23,15 +23,6 @@ python3 main1.py --mode local
 This writes candidate pairs, blocks, predicted matches, and evaluation metrics to
 `output_file/`.
 
-Expected local demo output is approximately:
-
-```text
-precision: 0.9550
-recall: 0.9636
-f1: 0.9593
-candidate_pairs: 37187
-predicted_matches: 111
-```
 
 Run tests with:
 
@@ -46,7 +37,7 @@ python3 -m pip install -r requirements-neo4j.txt
 python3 main1.py --mode neo4j
 ```
 
-## Paper-style GAPLink run
+## GAPLink run
 
 For the full graph + LLM workflow, configure `.env` first:
 
@@ -101,7 +92,7 @@ Run the three FZ prompt settings:
 .venv/bin/python fz_gaplink_threshold_rules.py --mode self-consistency --sample-size 1000 --sample-seed 42
 ```
 
-Each run follows the paper-style pipeline:
+Each run follows the pipeline:
 
 1. Load the graph-backed Fodors-Zagats candidates from Neo4j.
 2. Generate threshold-style GDD rules.
