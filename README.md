@@ -109,6 +109,9 @@ output_file/fz_threshold_zero-shot_metrics.json
 output_file/fz_threshold_few-shot_metrics.json
 output_file/fz_threshold_self-consistency_metrics.json
 ```
+## Reporting Notes
+
+- For some model-prompt settings with very high performance, such as near or at 100% F1, the reported values may be averaged over additional independent runs beyond the three primary runs. This helps reduce the effect of run-to-run variance caused by LLM sampling and rule optimization in near-perfect performance regimes.
 
 ## Reproduction Note: Cost-aware Sampling on Large Datasets
 
