@@ -128,16 +128,6 @@ datasets. It does not change GDD filtering, graph construction, rule selection,
 the graph-aware prompt template, or the evaluation metric. Disable it with
 `--disable-sampling` for full-candidate evaluation when the API budget allows.
 
-## API-cost Controls
 
-- Stage 1 and Stage 2 LLM calls are cached in JSONL files under `output_file/`.
-  Re-running the same model, prompt mode, candidate pair, vote count, and selected
-  rule set reads the cached decision instead of calling the API again.
-- Self-consistency uses three votes. When a compatible few-shot decision for the
-  same candidate pair is already cached, it is reused as the first
-  self-consistency vote and only two additional votes are requested.
-- Prompts use compact JSON payloads and symbolic graph patterns to reduce token
-  use while preserving the attributes, GDD rules, and graph evidence needed by
-  the matcher.
 
 
