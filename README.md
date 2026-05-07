@@ -140,8 +140,4 @@ the graph-aware prompt template, or the evaluation metric. Disable it with
   use while preserving the attributes, GDD rules, and graph evidence needed by
   the matcher.
 
-## Legacy Scripts
 
-Early notebooks and one-off scripts from the original exploratory implementation
-are kept under `legacy/original_scripts/`. They are preserved for reference but
-are not required by the current reproduction workflow.
