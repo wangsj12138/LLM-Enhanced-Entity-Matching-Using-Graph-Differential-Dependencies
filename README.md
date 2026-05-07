@@ -9,7 +9,7 @@ The project supports two types of benchmark datasets for entity resolution:
    - [Neo4j Sandbox](https://neo4j.com/sandbox/)
 
 2. **Relational ER Benchmark Datasets:**
-   - [DeepMatcher Datasets](https://github.com/anhaidgroup/deepmatcher/blob/master/Datasets.md)
+   - [Fodors-Zagat, DBLP-ACM, Amazon-Google Datasets](https://github.com/anhaidgroup/deepmatcher/blob/master/Datasets.md)
 
 ## Quick start
 
