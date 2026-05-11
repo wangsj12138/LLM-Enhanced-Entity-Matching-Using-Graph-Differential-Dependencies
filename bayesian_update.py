@@ -9,7 +9,7 @@ from config import llm_config
 from dataset_config import DatasetConfig, PROMPT_VERSION
 from llm_matcher import LLMMatcher
 from prompts import rule_feedback_prompt
-from rule_candidates import RuleCandidate, rule_descriptions, rules_for_policy
+from rule_candidates import RuleCandidate, rule_descriptions
 
 
 def entropy(probabilities: dict[str, float]) -> float:
@@ -70,7 +70,7 @@ def ranked_rules(probabilities: dict[str, float], support: dict[str, int]) -> li
 
 
 def allowed_rule_names(config: DatasetConfig | None = None) -> set[str]:
-    allowed = rules_for_policy("stage1_allowed", config) if config is not None else ()
+    allowed = config.stage1_allowed_rules if config is not None else ()
     return set(allowed)
 
 

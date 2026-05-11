@@ -28,6 +28,8 @@ class DatasetConfig:
     rules_path: Path
     stage2_accept_confidence: float = 0.0
     prompt_version: str = PROMPT_VERSION
+    stage2_accept_any_rules: tuple[str, ...] = ()
+    stage1_allowed_rules: tuple[str, ...] = ()
 
 
 DATASET_CONFIGS = {
@@ -68,7 +70,7 @@ DATASET_CONFIGS = {
         truth_path=Path("dataset/dblp_acm/relational-dataset/dblp-acm/matches.csv"),
         table_b_offset=2616,
         cache_prefix="dblp_acm_threshold",
-        rules_path=Path("rules/dblp_acm.txt"),
+        rules_path=Path("rules/fz.txt"),
         stage2_accept_confidence=0.95,
     ),
     "amazon_google": DatasetConfig(
@@ -88,9 +90,10 @@ DATASET_CONFIGS = {
         truth_path=Path("dataset/amazon_google/network/ground_truth_amazon_google.txt"),
         table_b_offset=None,
         cache_prefix="amazon_google_threshold",
-        rules_path=Path("rules/amazon_google.txt"),
+        rules_path=Path("rules/fz.txt"),
         stage2_accept_confidence=0.8,
         prompt_version="v8-ag-product",
+        stage2_accept_any_rules=("address_sim_ge_050", "cuisine_sim_ge_050", "same_city"),
     ),
     "citeseer": DatasetConfig(
         key="citeseer",
@@ -109,9 +112,10 @@ DATASET_CONFIGS = {
         truth_path=Path("dataset/citeseer/network/ground_truth_citeseer.txt"),
         table_b_offset=None,
         cache_prefix="citeseer_threshold",
-        rules_path=Path("rules/citeseer.txt"),
+        rules_path=Path("rules/fz.txt"),
         stage2_accept_confidence=0.9,
         prompt_version="v8-citeseer-author",
+        stage1_allowed_rules=("name_or_cuisine_or_char060",),
     ),
     "arxiv": DatasetConfig(
         key="arxiv",
@@ -130,8 +134,10 @@ DATASET_CONFIGS = {
         truth_path=Path("dataset/arxiv/network/arxiv_ground_turth.txt"),
         table_b_offset=None,
         cache_prefix="arxiv_threshold",
-        rules_path=Path("rules/arxiv.txt"),
+        rules_path=Path("rules/fz.txt"),
         stage2_accept_confidence=0.8,
         prompt_version="v8-arxiv-author",
+        stage2_accept_any_rules=("name_sim_ge_045",),
+        stage1_allowed_rules=("name_or_cuisine_or_char060",),
     ),
 }

@@ -13,7 +13,7 @@ from cache_utils import append_jsonl, load_jsonl
 from dataset_config import DATASET_CONFIGS
 from er_utils import evaluate, load_truth
 from pps import one_to_one_predictions, pps_order_candidates
-from rule_candidates import RuleCandidate, fetch_all_rule_candidates, rules_for_policy, rules_signature
+from rule_candidates import RuleCandidate, fetch_all_rule_candidates, rules_signature
 from sampling import stratified_sample_candidates
 from stage2_llm import judge_candidate_with_seed, load_pair_cache, stage2_key
 
@@ -131,7 +131,7 @@ def run(
 
     def passes_stage2_acceptance(candidate: RuleCandidate, row: dict) -> bool:
         confidence = float(row.get("confidence", 0.0))
-        required_any_rules = rules_for_policy("stage2_accept_any", config)
+        required_any_rules = config.stage2_accept_any_rules
         has_required_rule = not required_any_rules or any(rule in candidate.rules for rule in required_any_rules)
         return bool(row["match"]) and confidence >= acceptance_confidence and has_required_rule
 
@@ -193,7 +193,7 @@ def run(
         "votes": votes,
         "one_to_one": one_to_one,
         "stage2_accept_confidence": acceptance_confidence,
-        "stage2_accept_any_rules": list(rules_for_policy("stage2_accept_any", config)),
+        "stage2_accept_any_rules": list(config.stage2_accept_any_rules),
         "min_llm_calls": min_llm_calls,
         "early_stop_rounds": early_stop_rounds,
         "predicted_matches": len(predictions),
