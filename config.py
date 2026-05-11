@@ -38,7 +38,7 @@ def neo4j_config() -> Neo4jConfig:
     return Neo4jConfig(
         uri=os.getenv("NEO4J_URI", "bolt://localhost:7687"),
         user=os.getenv("NEO4J_USER", "neo4j"),
-        password=os.getenv("NEO4J_PASSWORD", "gaplink-password"),
+        password=os.getenv("NEO4J_PASSWORD", "xxx"),
     )
 
 
@@ -48,7 +48,7 @@ def llm_config() -> LLMConfig:
     return LLMConfig(
         api_key=api_key,
         base_url=os.getenv("LLM_BASE_URL") or None,
-        model=os.getenv("LLM_MODEL", "gpt-4o-mini"),
+        model=os.getenv("LLM_MODEL", "xxx"),
         temperature=float(os.getenv("LLM_TEMPERATURE", "0.2")),
         self_consistency=int(os.getenv("LLM_SELF_CONSISTENCY", "1")),
         timeout_seconds=float(os.getenv("LLM_TIMEOUT_SECONDS", "45")),

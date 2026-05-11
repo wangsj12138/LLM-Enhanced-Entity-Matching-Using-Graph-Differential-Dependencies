@@ -1,0 +1,10 @@
+8689	v8689	sigmod record
+8690	v8690	vldb
+8691	v8691	sigmod conference
+8692	v8692	vldb j.
+8693	v8693	acm trans . database syst .
+8694	v8694	international conference on management of data
+8695	v8695	acm sigmod record
+8696	v8696	acm transactions on database systems ( tods )
+8697	v8697	the vldb journal -- the international journal on very large data bases
+8698	v8698	very large data bases

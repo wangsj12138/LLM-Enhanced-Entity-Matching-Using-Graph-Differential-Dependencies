@@ -1,13 +1,15 @@
 import unittest
 from pathlib import Path
 
-from gaplink_local import evaluate, generate_candidates, load_restaurants, run
-from fz_gaplink_threshold_rules import RuleCandidate, stratified_sample_candidates
+from er_utils import evaluate
+from legacy.original_scripts.gaplink_local import generate_candidates, load_restaurants, run
 from llm_matcher import parse_decision
+from rule_candidates import RuleCandidate
+from sampling import stratified_sample_candidates
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DATASET = ROOT / "dataset" / "relational-dataset" / "fodors-zagats"
+DATASET = ROOT / "dataset" / "fodors_zagats" / "relational-dataset" / "fodors-zagats"
 
 
 class GaplinkLocalTests(unittest.TestCase):

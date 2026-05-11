@@ -78,8 +78,8 @@ def generate_subgroundtruth(restaurant_ids, input_file, output_file):
 
 
 # 输入和输出文件路径
-input_file = 'dataset/ground_truth_fodors_zagats.txt'
-output_file = 'dataset/subgroundtruth.txt'
+input_file = 'dataset/fodors_zagats/ground_truth_fodors_zagats.txt'
+output_file = 'dataset/fodors_zagats/subgroundtruth.txt'
 
 generate_subgroundtruth(restaurant_ids, input_file, output_file)
 

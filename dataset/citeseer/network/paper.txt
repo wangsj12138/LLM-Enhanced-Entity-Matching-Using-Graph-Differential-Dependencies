@@ -1,0 +1,1504 @@
+2892	f2892	 Case-Based Reasoning: Foundational issues, current state, and future trends,
+2893	f2893	 Case-Based Reasoning: Foundational issues, methodological variations, and system approaches,
+2894	f2894	 Knowledge-intensive case-based reasoning and learning.
+2895	f2895	 Explanation-driven case-based reasoning,
+2896	f2896	 Explanation-driven case-based reasoning,
+2897	f2897	 Case-Based Reasoning: Foundational issues, methodological variations, and system approaches,
+2898	f2898	Knowledge-intensive case-based reasoning and sustained learning.
+2899	f2899	Knowledge intensive case-based reasoning and sustained learning.
+2900	f2900	 Explanation-driven case-based reasoning,
+2901	f2901	 A two layer case-based reasoning architecture for medical image understanding,
+2902	f2902	 Case-Based Reasoning: Foundational Issues, Methodological Variations, and System Approaches.
+2903	f2903	 Knowledge intensive case-based reasoning and sustained learning.
+2904	f2904	 Knowledge-Intensive Case-Based Reasoning and Sustained Learning.
+2905	f2905	 Active stereo: Integrating disparity, vergence, focus, aperture, and calibration for surface estimation,
+2906	f2906	Scales of variability of bio-optical properties as observed from near-surface drifters.
+2907	f2907	 Low-dimensional representation of faces in higher dimensions of the face space.
+2908	f2908	  Connectionist Models of Face Processing: A Survey .
+2909	f2909	 Principles for the application of context in diagnostic problem solving,
+2910	f2910	  Fuzzy reasoning and neural networks for decision making problems in uncertain environments, 
+2911	f2911	Boltzmann machines : Constraint satisfaction networks that learns ,
+2912	f2912	 Generalization and scaling in reinforcement learning.
+2913	f2913	Boltzmann machines : Constraint satisfaction networks that learn .
+2914	f2914	Boltzmann machines : Constraint satisfaction networks that learn .
+2915	f2915	Boltzmann machines : Constraint satisfaction networks that learn .
+2916	f2916	 HERMES: A heterogeneous reasoning and mediator system.
+2917	f2917	Feature selection for case-based classification of cloud types: An empirical comparison,
+2918	f2918	Feature selection for case-based classification of cloud types: An empirical comparison.
+2919	f2919	Case-based learning algorithms.
+2920	f2920	 Feature selection for case-based classification of cloud types: An empirical comparison.
+2921	f2921	. Feature selection for case-based classification of cloud types: An empirical comparison.
+2922	f2922	  Automatic Interpretation of Human Faces and Hand Gestures Using Flexible Models .
+2923	f2923	The DenK-architecture: a fundamental approach to user-interfaces.
+2924	f2924	From simple associations to systematic reasoning: A connectionist representation of rules, variables, and dynamic bindings using temporal synchrony.
+2925	f2925	 Theorist: a logical reasoning system for defaults and diagnosis.
+2926	f2926	 Theorist: A logical reasoning system for defaults and diagn osis.
+2927	f2927	 Counterfactual reasoning based on revising assumptions. Logic Programming,
+2928	f2928	 BernsteinBezier polynomials on circles, sphere, and sphere-like surfaces.
+2929	f2929	 Case-based reasoning: Business applications,
+2930	f2930	Planning as temporal reasoning.
+2931	f2931	 Temporal reasoning and planning.
+2932	f2932	 A mobile computer interface for heterogeneous databases.
+2933	f2933	 Virtual Memory Mapped Network Interface for the SHRIMP Multicomputer.
+2934	f2934	 A Virtual Memory Mapped Network Interface  for the SHRIMP Multicomputer.
+2935	f2935	 A Virtual Memory Mapped Network Interface for the SHRIMP Multicomputer.
+2936	f2936	 A Virtual Memory Mapped Network Interface for the SHRIMP Multicomputer.
+2937	f2937	 A virtual memory mapped network interface for the shrimp multicomputer.
+2938	f2938	 Virtual Memory Mapped Network Interface for the SHRIMP Multicomputers.
+2939	f2939	 A virtual memory mapped network  interface for the SHRIMP multicomputer.
+2940	f2940	CLARE: A Contextual Reasoning and Cooperative Response Framework for the Core Language Engine.
+2941	f2941	Reasoning about gradual changes of topological
+2942	f2942	 Reasoning about gradual changes of topological relationships.
+2943	f2943	Reasoning about gradual changes of
+2944	f2944	Reasoning about gradual changes of topological
+2945	f2945	Integrating Inductive and Case-Based Technologies for Classification and Diagnostic Reasoning.
+2946	f2946	, Induction and reasoning from cases.
+2947	f2947	On Representations of Problems of Reasoning about Actions,
+2948	f2948	 On representations of problems of reasoning about actions.
+2949	f2949	 Recent Advances in Crew-Pairing Optimization at American Airlines ,
+2950	f2950	Genetic Reinforcement Learning for Neurocontrol Problems.
+2951	f2951	Genetic reinforcement learning for neurocontrol problems.
+2952	f2952	Genetic reinforcement learning for neurocontrol problems.
+2953	f2953	Genetic reinforcement learning for neurocontrol problems.
+2954	f2954	Genetic reinforcement learning for neurocontrol problems.
+2955	f2955	Genetic reinforcement learning for neurocontrol problems.
+2956	f2956	Intelligent Decision Support Systems: A Visual  Interactive Approach,
+2957	f2957	  A new interpretation of schema notation that overturns the binary coding constraint .
+2958	f2958	A New Interpretation of the Schema Notation that Overturns the Binary Encoding Constraint .
+2959	f2959	A New Interpretation of Schema Notation that Overturns the Binary Encoding Constraint .
+2960	f2960	  A new interpretation of schema encoding that overturns the binary encoding constraint ,   in
+2961	f2961	  A New Interpretation of Schema Notation that Overturns the Binary Encoding Constraint ,  
+2962	f2962	  A New Interpretation of Schema Notation that Overturns the Binary Encoding Constraint ,  
+2963	f2963	A new interpretation of schema notation that overturns the binary encoding constraint .
+2964	f2964	  A New Interpretation of the Schema Notation that Overturns the Binary Encoding Constraint ,  
+2965	f2965	Constraint grammar of english : A performanceoriented introduction .
+2966	f2966	A user friendly interface for task assignment on multiple robots by contract net negotiation with case-based reasoning.
+2967	f2967	A user friendly interface for task assignment on multiple robots by contract net negotiation with case-based reasoning.
+2968	f2968	 A user friendly interface for task assignment on multiple robots by contract net negotiation with case-based reasoning.
+2969	f2969	 A user friendly interface for task assignment on multiple robots by contract net negotiation with case-based reasoning.
+2970	f2970	  Reducing communication load on contract net by casebased reasoning - extension with directed contract and forgetting -, 
+2971	f2971	A Reflective Architecture for Integrated Memory-based Learning and Reasoning,
+2972	f2972	 Two Disciplines in Search of an Interface: Reflections on a Design Problem,
+2973	f2973	 Reasoning by Analogy as a Partial Identity between Mo dels.
+2974	f2974	Integrating Induction in a Case-based Reasoner.
+2975	f2975	 Predicting reflectance functions from complex surfaces.
+2976	f2976	Vision-based reinforcement learning for purposive behavior acquisition.
+2977	f2977	 Vision-based behavior acquisition for a shooting robot by using a reinforcement learning .
+2978	f2978	 purposive behavior acquisition on a real robot by vision-based reinforcement learning .
+2979	f2979	Coordination of multiple behaviors acquired by vision-based reinforcement learning.
+2980	f2980	 Purposive behavior acquisition on a real robot by visionbased reinforcement learning.
+2981	f2981	 Purposive behav ior acquisition for a real robot by visionbased reinforcement learnin.
+2982	f2982	 Purposive behavior acquisition for a real robot by vision-based reinforcement learning.
+2983	f2983	 Coordination of multiple behaviors acquired by vision-based reinforcement learning.
+2984	f2984	 Behavior coordination for a mobile robot using modular reinforcement learning.
+2985	f2985	 Behavior coordination for a mobile robot using modular reinforcement learning.
+2986	f2986	 Vision-based reinforcement learning for purposive behavior acquisition.
+2987	f2987	 Purposive Behavior Acquisition On A Real Robot By A Vision-Based Reinforcement Learning,
+2988	f2988	 Purposive behavior acquisition for a real robot by vision-based reinforcement learning.
+2989	f2989	 Purposive behavior acquisition for a real robot by vision-based reinforcement learning.
+2990	f2990	 Purposive behavior acquisition for a real robot by visionbased reinforcement learning.
+2991	f2991	 Purposive behavior acquisition for a real robot by vision-based reinforcement learning.
+2992	f2992	  coordination of multiple behaviors acquired by vision-based reinforcement learning .
+2993	f2993	 Coordination of multiple behaviors acquired by visionbased reinforcement learning.
+2994	f2994	 Coordination of multiple behaviors acquired by visionbased reinforcement learning.
+2995	f2995	 Coordination of multiple behaviors acquired by vision-based reinforcement learning.
+2996	f2996	  A vision-based reinforcement learning for coordination of soccer playing behaviors .
+2997	f2997	  Cooperation between the human operator and the multi-agent robotic system - evaluation of agent monitoring methods for the human interface system -, 
+2998	f2998	Terminological meta-reasoning by reification and multiple contexts.
+2999	f2999	 Prioritized sweeping: Reinforcement learning with less data and less real time.
+3000	f3000	Memory-based reinforcement learning: Converging with less data and less real time.
+3001	f3001	Memory-based reinforcement learning: Converging with less data and less real time,
+3002	f3002	The parti-game algorithm for variable resolution reinforcement learning in multidimensional state-spaces.
+3003	f3003	The Parti-game algorithm for variable resolution reinforcement learning in multidimensional state-spaces,
+3004	f3004	Prioritized sweeping: Reinforcement learning with less data and less real time.
+3005	f3005	Prioritized sweeping: Reinforcement learning with less data and less time.
+3006	f3006	 The Parti-game Algorithm for Variable  Resolution Reinforcement Learning in Multidimensional State-spaces.
+3007	f3007	 The Parti-game Algorithm for Variable Resolution Reinforcement Learning in Multidimensional State-spaces.
+3008	f3008	 Prioritized Sweeping: Reinforcement Learning with Less Data and Less Real Time.
+3009	f3009	 Prioritized Sweeping: Reinforcement Learning with Less Data and Less Real Time.
+3010	f3010	 Prioritized Sweeping: Reinforcement Learning with Less Data and Less Real Time.
+3011	f3011	 Feudal Reinforcement Learning.
+3012	f3012	Memory-based reinforcement learning: Efficient computation with prioritized sweeping.
+3013	f3013	 Learning a local similarity metric for casebased reasoning.
+3014	f3014	Learning a local similarity metric for case-based reasoning.
+3015	f3015	Learning a local similarity metric for case-based reasoning.
+3016	f3016	 Learning a local similarity metric for case-based reasoning.
+3017	f3017	 The origins of pragmatism.
+3018	f3018	 Paragente: Exploring the issues in agent based user interfaces.
+3019	f3019	Adaptive fuzzy control of satellite attitude by reinforcement learning.
+3020	f3020	 Statistical foundations for default reasoning.
+3021	f3021	 Representing and Reasoning with Probabilistic Knowledge.
+3022	f3022	 Lp, a logic for representing and reasoning with statistical knowledge.
+3023	f3023	 Representing and Reasoning With Probabilistic Knowledge.
+3024	f3024	 Representing and Reasoning with Probabilistic Knowledge.
+3025	f3025	 Equivalence and tractability results for SAS+ planning.
+3026	f3026	`Working Memory: the interface between memory and cognition',
+3027	f3027	 Depth of processing, context, and face recognition , in Canadian
+3028	f3028	On the Detection of Implicit and Redundant Numeric Constraints in CLP Programs .
+3029	f3029	Constraint Systems for Pattern Analysis of Constraint Logic > = Based Languages .
+3030	f3030	An application of constraint propagation to data-flow analysis .
+3031	f3031	An Application of Constraint Propagation to Data-AEow Analysis .
+3032	f3032	Reinforcement learning with highdimensional, continuous actions Wright-Patterson Air Force Base, OH.
+3033	f3033	Residual Algorithms: Reinforcement Learning with Function Approximation.
+3034	f3034	Residual Algorithms: Reinforcement Learning with Function Approximation.
+3035	f3035	 Residual Algorithms: Reinforcement Learning with Function Approximation, 
+3036	f3036	Reinforcement learning applied to a differential game.
+3037	f3037	Intelligent backtracking on the hardest constraint problems .
+3038	f3038	Case-Based Reasoning in Design,
+3039	f3039	Case-Based Reasoning in Design.
+3040	f3040	 Case-Based Reasoning in Design,
+3041	f3041	 On the set covering polytype: I. all the facets with coefficients in f0,1,2g.
+3042	f3042	 On the set covering polytype: II. lifting the facets with coefficients in f0,1,2g.
+3043	f3043	 A study of cooperative mechanisms for faster reinforcement learning.
+3044	f3044	Natural basis functions and topographic memory for face recognition.
+3045	f3045	 Active Perception and Reinforcement Learning,
+3046	f3046	Active perception and reinforcement learning.
+3047	f3047	Learning to perceive and act by trial and error.
+3048	f3048	 Active perception and reinforcement learning.
+3049	f3049	  Human Face Detection in Visual Scenes .
+3050	f3050	Complex Function Graphs, Dupin Cylinders, Gauss Map, and Veronese Surface.
+3051	f3051	A practical approach to the global analysis of constraint logic programs .
+3052	f3052	A Practical Approach to the Global Analysis of Constraint Logic Programs.
+3053	f3053	Analyzing Constraint Logic Programs .
+3054	f3054	Some Considerations on the CompileTime Analysis of Constraint Logic Programs .
+3055	f3055	 Goal Dependent vs Goal Independent Analysis of Logic Programs.
+3056	f3056	 Statistical learning networks: A unifying view.
+3057	f3057	 Improving elevator performance using reinforcement learning.
+3058	f3058	 Improving elevator performance using reinforcement learning.
+3059	f3059	 Monte Carlo matrix inversion and reinforcement learning.
+3060	f3060	 Improving elevator performance using reinforcement learning.
+3061	f3061	 Improving Elevator Performance using Reinforcement Learning.
+3062	f3062	Associative search network: A reinforcement learning
+3063	f3063	Improving elevator performance using reinforcement learning.
+3064	f3064	Improving elevator performance using reinforcement learning.
+3065	f3065	 Improving Elevator Performance Using Reinforcement Learning, 
+3066	f3066	Improving elevator performance using reinforcement learning.
+3067	f3067	Constraints , channels , and the flow of information .
+3068	f3068	Constraints , channels , and the flow of information .
+3069	f3069	 U-Net: A User-Level Network Interface for Parallel and Distributed Computing.
+3070	f3070	 Modelling the Interaction of Light between Diffuse Surfaces.
+3071	f3071	 Compass: Predicting biological activities from molecular surface properties. Performance comparisons on a steroid benchmark,
+3072	f3072	Integrating Probabilistic Reasoning into Plan Recognition.
+3073	f3073	 SETHEO: A HighPerformance Theorem Prover.
+3074	f3074	 SETHEO, A High-Performance Theorem Prover.
+3075	f3075	 SETHEO, A High-Performance  13  Theorem Prover.
+3076	f3076	 Specification of the KQML Agent-Communication Language.
+3077	f3077	A self-organizing neural network that discovers surfaces in random-dot stereograms.
+3078	f3078	 Exact and approximate reasoning about temporal relations.
+3079	f3079	 The design and experimental analysis of algorithms for temporal reasoning.
+3080	f3080	Constraint tightness versus global consistency .
+3081	f3081	On the Inherent Level of Local Consistency in Constraint Networks .
+3082	f3082	 Constraint tightness versus global consistency.
+3083	f3083	Constraint-based hypertext for argumentation .
+3084	f3084	Visual Interactive Modeling in Industry: Results  from a Survey of Visual Interactive Model Builders,
+3085	f3085	Deciding distinctness of query results by discovered constraints .
+3086	f3086	Acquiring robot skills via reinforcement learning.
+3087	f3087	Acquiring robot skills via reinforcement learning.
+3088	f3088	 Spatial reasoning with propositional logic.
+3089	f3089	 Modal logics for qualitative spatial reasoning.
+3090	f3090	Global tree optimization: A non-greedy decision tree algorithm.
+3091	f3091	Reasoning,
+3092	f3092	Learning and tuning fuzzy logic controllers through reinforcements.
+3093	f3093	Learning and tuning fuzzy logic controllers through reinforcements.
+3094	f3094	Learning and tuning fuzzy logic controllers through reinforcements.
+3095	f3095	  Learning and Tuning Fuzzy Controllers Through Reinforcements ,
+3096	f3096	 Learning and tuning fuzzy logic controllers through reinforcements.
+3097	f3097	  Learning and fine tuning fuzzy logic controllers through reinforcement, 
+3098	f3098	Refinement of approximate reasoning-based controllers by reinforcement learning.
+3099	f3099	Learning and tuning fuzzy controllers bthrough reinforcements.
+3100	f3100	 Learning and Tuning Fuzzy Controllers Through Reinforcements,
+3101	f3101	Refinement of approximate reasoning-based controllers by reinforcement learning.
+3102	f3102	 Refinement of Approximate Reasoning-Based Controllers by
+3103	f3103	 Refinement of Approximate Reasoning-Based Controllers by
+3104	f3104	  Global regulation for robot manipulators under actuator constraints   ,
+3105	f3105	Using incomplete quantitative knowledge in qualitative reasoning.
+3106	f3106	Hidden surface removal for rectangles.
+3107	f3107	A learning architecture based on reinforcement learning for adaptive control of the walking machine LAURON.
+3108	f3108	Notational conventions for the reinforcement learning workshop at ML93,
+3109	f3109	An arc consistency algorithm optimal in the number of constraint checks .
+3110	f3110	Probabilistic Map Learning: Necessity and Difficulties.
+3111	f3111	 Face recognition from one model view.
+3112	f3112	  The application of voronoi diagrams to nonparametric decision rules ,
+3113	f3113	 Issues in modeling a  dynamic  hypertext interface for non-hypertext systems.
+3114	f3114	 Fast RPC on the SHRIMP Virtual Memory Mapped Network Interface.
+3115	f3115	 Inferring surfaces from images.
+3116	f3116	 A modelbased approach to learning from planning failures.
+3117	f3117	 Cost Estimation of Software Projects through Case-Based Reasoning.
+3118	f3118	Constraint Solving over Semirings .
+3119	f3119	 Surface Orientation and Time to Contact from Image Divergence and Deformation.
+3120	f3120	 Surface orientation and time to contact from image divergence and deformation.
+3121	f3121	 Surface shape from the deformation of apparent contours,
+3122	f3122	 Challenge problems in elementary calculus.
+3123	f3123	 A Situated Reasoning Architecture for Spacebased Repair and Replace Tasks,
+3124	f3124	 User-Level DMA for the SHRIMP Network Interface.
+3125	f3125	Protected, user-level dma for the shrimp network interface.
+3126	f3126	 Virtualmemory-mapped network interfaces.
+3127	f3127	 Virtual memory mapped network interfaces.
+3128	f3128	  Time-Constrained Reasoning under Uncertainty, 
+3129	f3129	 Hierarchical knowledge bases and efficient disjunctive reasoning.
+3130	f3130	 Hierarchical Knowledge Bases and Efficient Disjunctive Reasoning,
+3131	f3131	 Vivid knowledge and tractable reasoning: Preliminary report.
+3132	f3132	ThingLab : A Constraint Programming System .
+3133	f3133	A new generalized framework for finding object orientation using perspective trihedral angle constraint .
+3134	f3134	A new generalized computational framework for finding object orientation using perspective trihedral angle constraint .
+3135	f3135	Abstract Interpretation for ( Constraint ) Logic Programming .
+3136	f3136	Abstract Interpretation for ( Constraint ) Logic Programming .
+3137	f3137	Abstract interpretation for ( constraint ) logic programming .
+3138	f3138	` Constraint-based categorial grammar ' ,
+3139	f3139	 Surface grammatical analysis for the extraction of terminological noun phrases.
+3140	f3140	 Surface grammatical analysis for the extraction of terminological noun phrases.
+3141	f3141	 Exploiting natural structure in reinforcement learning: Experience in robot soccerplaying,
+3142	f3142	  Achieving Generalized Object Recognition through Reasoning about Association of Function to Structure, 
+3143	f3143	Empirical ModelBuilding and Response Surfaces.
+3144	f3144	 Empirical Model-Building and Response Surfaces.
+3145	f3145	A distributed reinforcement learning scheme for network routing.
+3146	f3146	 Generalization in reinforcement learning: Safely approximating the value function.
+3147	f3147	 Generalization in Reinforcement Learning: Safely Approximating the Value Function.
+3148	f3148	 Generalization in reinforcement learning: safely approximating the value function.
+3149	f3149	 Generalization in reinforcement learning: Safely approximating the value  function.
+3150	f3150	 Generalization in reinforcement learning: safely approximating the value function.
+3151	f3151	 Generalization in reinforcement learning: safely approximating the value function.
+3152	f3152	. Generalization in reinforcement learning: Safely approximating the value function.
+3153	f3153	 A distributed reinforcement learning scheme for network routing.
+3154	f3154	 An essential hybrid reasoning system: knowledge and symbol level accounts of KRYPTON.
+3155	f3155	A fundamental tradeoff in knowledge representation and reasoning.
+3156	f3156	  Reducing  classic to Practice: Knowledge Representation Theory Meets Reality.
+3157	f3157	Three facets of scientific discovery.
+3158	f3158	Reinforcement learning applied to linear quadratic regulation.
+3159	f3159	Reinforcement learning applied to linear quadratic regulation.
+3160	f3160	Reinforcement Learning Applied to Linear Quadratic Regulation.
+3161	f3161	Reinforcement learing applied to linear quadratic regulation.
+3162	f3162	 Reinforcement learning applied to linear quadratic regulation.
+3163	f3163	 Reinforcement learning applied to linear quadratic regulation.
+3164	f3164	User modeling in expert man-machine interfaces: A case study in intelligent information retrieval.
+3165	f3165	A semi-quantitiative physics compiler.
+3166	f3166	. A Flexible Tool for Developing User Modeling Applications with Nonmonotonic Reasoning Capabilities.
+3167	f3167	. A Flexible Tool for Developing User Modeling Applications with Nonmonotonic Reasoning Capabilities.
+3168	f3168	 The role of explanations in reasoning from legal precedents.
+3169	f3169	 Exploiting the complementarity of rules and precedents with reciprocity and fairness.
+3170	f3170	 Exploiting the complementaryity of rules and precedents with reciprocity and fairness.
+3171	f3171	Integrating generalizations with exemplar-based reasoning.
+3172	f3172	 Learning from imperfect data.
+3173	f3173	Distributional Regularity and Phonotactic Constraints are Useful for Segmentation .
+3174	f3174	Total Order vs. Partial Order Planning: Factors Influencing Performance.
+3175	f3175	 Preferred subtheories: An extended logical framework for default reasoning.
+3176	f3176	The influence of race on face recognition.
+3177	f3177	Structural similarity as a guidance in case-based design.
+3178	f3178	 Fast analytical computation of Richards's smooth molecular surface.
+3179	f3179	A case-based reasoning solution to the problem of redundant resolutions of non-conformances in large scale manufacturing.
+3180	f3180	  Face Recognition: Features versus Templates .
+3181	f3181	  Face Recognition: Features versus Templates .
+3182	f3182	Belief updating from integrity constraints and queries .
+3183	f3183	Towards a Framework for Abstract Interpretation of Constraint Logic Programs .
+3184	f3184	 Temporal reasoning with abductive event calculus.
+3185	f3185	 Temporal reasoning with abductive event calculus.
+3186	f3186	Detection of Free Variables in the Presence of Numeric Constraints by means of Abstract Interpretation .
+3187	f3187	Detection of Free Variables in the Presence of Numeric Constraints .
+3188	f3188	Freeness Analysis in the Presence of Numerical Constraints .
+3189	f3189	Freeness Analysis in the Presence of Numerical Constraints .
+3190	f3190	Freeness Analysis in the Presence of Numerical Constraints .
+3191	f3191	Freeness analysis in the presence of numerical constraints .
+3192	f3192	Freeness analysis in the presence of numerical constraints .
+3193	f3193	: Multimodal Learning Interfaces,
+3194	f3194	 Protein secondary structure prediction using two-level case-based reasoning.
+3195	f3195	 A Model of Inexact Reasoning in Medicine, in: Rule-Based Expert Systems,
+3196	f3196	 A model of inexact reasoning in medicine.
+3197	f3197	A model of inexact reasoning in medicine,
+3198	f3198	A model of inexact reasoning in medicine.
+3199	f3199	 The Fast Messages (FM) 2.0 streaming interface.
+3200	f3200	Similarity measures for structured representations.
+3201	f3201	 Reasoning about temporal relations: A maximal tractable subclass of Allen's interval algebra.
+3202	f3202	 Reasoning about temporal relations: A maximal tractable subclass of Allen's interval algebra.
+3203	f3203	  Detection and Localization of Faces on Digital Images .
+3204	f3204	  Detection and Localization of Faces on Digital Images .
+3205	f3205	A University Timetabling System Based on Graph Colouring and Constraint Manipulation ,
+3206	f3206	A University Timetabling System Based on Graph Colouring and Constraint Manipulation ,
+3207	f3207	  Face Localization via Shape Statistics .
+3208	f3208	  Face Localization via Shape Statistics .
+3209	f3209	  Finding Faces in Cluttered Scenes using Random Labeled Graph Matching .
+3210	f3210	 Analogy vs. CBR; The purpose of mapping.
+3211	f3211	Analogy vs. cbr; the purpose of mapping.
+3212	f3212	 Concept Formation by Analogical Reasoning and Debugging,
+3213	f3213	 A multiscale face recognition system.
+3214	f3214	 Lexical Assistance at the Information Retrieval User Interface.
+3215	f3215	 Lexical assistance at the information retrieval user interface.
+3216	f3216	 A robust, qualitative method for robot spatial reasoning.
+3217	f3217	 Activity analysis: The qualitative analysis of stationary points for optimal reasoning.
+3218	f3218	Using domain knowledge to influence similarity judgement.
+3219	f3219	Using domain knowledge to influence similarity judgements.
+3220	f3220	 Using domain knowledge to influence similarity judgments.
+3221	f3221	 Composing user interfaces with InterViews.
+3222	f3222	     Composing User Interfaces with Interviews    ,
+3223	f3223	Tracking a criminal suspect through  face-space  with a genetic algorithm.
+3224	f3224	An Intelligent Interface for a Virtual Environment.
+3225	f3225	An intelligent interface for a virtual environment.
+3226	f3226	 Differential Geometry of Curves and Surfaces.
+3227	f3227	 A Subdivision Algorithm for Computer Display of Curved Surfaces.
+3228	f3228	  Deformable  curveandsurface finite-elements forfree-fromshapedesign.
+3229	f3229	 Consolidated specification of Chimera, the conceptual interface of IDEA.
+3230	f3230	 Generic tasks in knowledge-based reasoning: High-level building blocks for expert system design.
+3231	f3231	 Towards a theory of commonsense visual reasoning.
+3232	f3232	Generic tasks in knowledge-based reasoning: Highlevel building blocks for expert system design.
+3233	f3233	  PROSQL: A Prolog Programming Interface with SQL/DS, 
+3234	f3234	. Learning from delayed reinforcement in a complex domain.
+3235	f3235	Input Generalization in Delayed Reinforcement Learning: An Algorithm and Performance Comparisons.
+3236	f3236	Input generalization in delayed reinforcement learning: An algorithm and performance comparisons.
+3237	f3237	 Input generalization in delayed reinforcement learning: An alogorithm and performance comparisons .
+3238	f3238	Input generalization in delayed reinforcement learning: An algorithm and performance comparisons.
+3239	f3239	Learning from delayed reinforcement in a complex domain.
+3240	f3240	 Learning from Delayed Reinforcement In a Complex Domain.
+3241	f3241	EOEcient Abstract Interpretation of Prolog Programs by means of Constraint Solving over Finite Domains .
+3242	f3242	EOEcient Abstract Interpretation of Prolog Programs by means of Constraint Solving over Finite Domains ( extended abstract ) .
+3243	f3243	Efficient Bottom-up Abstract Interpretation of Prolog by means of Constraint Solving over Symbolic Finite Domains .
+3244	f3244	 MSEED: A program for rapid determination of accessible surface areas and their derivatives.
+3245	f3245	 Calculations of viscous nonlinear freesurface flows using an interactive zonal approach.
+3246	f3246	  A Self-Learning and Tuning Fuzzy Logic Controller Employing Reinforcement Learning .
+3247	f3247	Intelligent Interfaces As Agents.
+3248	f3248	 Construction of a Model for Reasoning by Analogy,
+3249	f3249	Reinforcement learning with perceptual aliasing: The perceptual distinctions approach.
+3250	f3250	Reinforcement learning with perceptual aliasing: The perceptual distinctions approach.
+3251	f3251	Reinforcement learning with perceptual aliasing: The perceptual distinctions approach.
+3252	f3252	Reinforcement learning with perceptual aliasing: The perceptual distinctions approach.
+3253	f3253	Reinforcement learning with perceptual aliasing: The perceptual distinctions approach.
+3254	f3254	Notational conventions for the reinforcement learning workshop at ML93,
+3255	f3255	 Reinforcement learning with perceptual aliasing: The perceptual distinctions approach.
+3256	f3256	 Reinforcement learning with perceptual aliasing: The perceptual distinctions approach.
+3257	f3257	 Reinforcement learning with perceptual aliasing: The perceptual distinctions approach.
+3258	f3258	 Reinforcement learning with perceptual aliasing: The perceptual distinctions approach.
+3259	f3259	 Presentation Based User Interfaces.
+3260	f3260	  Truncating Temporal Differences: On the Efficient Implementation of TD(lambda) for Reinforcement Learning ,
+3261	f3261	 Truncating temporal differences: On the efficient implementation of TD(>=) for reinforcement learning.
+3262	f3262	 Uncalibrated stereo vision with pointing for a man-machine interface.
+3263	f3263	Behavior abstraction for tractable simulation.
+3264	f3264	The Principle of Contrast : A Constraint on Language Acquisition .
+3265	f3265	 When nouns surface as verbs.
+3266	f3266	A teaching method for reinforcement learning.
+3267	f3267	A teaching method for reinforcement learning.
+3268	f3268	A Teaching Method for Reinforcement Learning.
+3269	f3269	A teaching method for reinforcement learning.
+3270	f3270	 A teaching method for reinforcement learning.
+3271	f3271	A teaching method for reinforcement learning.
+3272	f3272	 A teaching method for reinforcement learning.
+3273	f3273	A teaching method for reinforcement learning.
+3274	f3274	 A teaching method for reinforcement learning.
+3275	f3275	 A teaching method for reinforcement learning.
+3276	f3276	Toward Understanding Learning Biases in a Collective Reinforcement Learner.
+3277	f3277	EOEcient Analysis of Concurrent Constraint Logic Programs .
+3278	f3278	A general semantics for Concurrent Constraint Languages and their Abstract Interpretation .
+3279	f3279	Computations , Abstractions and Constraints ( abstract ) .
+3280	f3280	Computations , Abstractions and Constraints in Logic Programs .
+3281	f3281	Semantic foundations of concurrent constraint programming .
+3282	f3282	Constraint logic programming languages .
+3283	f3283	Constraint logic programming languages .
+3284	f3284	Constraint logic programming languages .
+3285	f3285	 Adaptive Interfaces,
+3286	f3286	 The Role of Natural Language in a Multimodal Interface,
+3287	f3287	 Toward interface design for human language technology: Modality and structure as determinants of linguistic complexity,
+3288	f3288	 Learning the classic description logic: Theoretical and experimental results.
+3289	f3289	Logical and computational aspects of spatial reasoning.
+3290	f3290	 Logical and computational aspects of spatial reasoning.
+3291	f3291	Logical and computational aspects of spatial reasoning.
+3292	f3292	Conformal mappings on Riemann surfaces.
+3293	f3293	CM++: A C++ interface to the Connection Machine.
+3294	f3294	CM++: A C++ interface to the Connection Machine.
+3295	f3295	 The role of the Trainer in Reinforcement Learning,
+3296	f3296	Automatic programming of behavior-based robots using reinforcement learning.
+3297	f3297	Automatic Programming of Behavior-Based Robots using Reinforcement Learning,
+3298	f3298	Automatic programming of behavior-based robots using reinforcement learning.
+3299	f3299	Automatic programming of behavior-based robots using reinforcement learning.
+3300	f3300	Automatic programming of behavior-based robots using reinforcement learning.
+3301	f3301	Automatic programming of behavior-based robots using reinforcement learning.
+3302	f3302	Automatic programming of behavior-based robots using reinforcement learning.
+3303	f3303	 Automatic programming of behavior-based robots using reinforcement learning ,
+3304	f3304	Automatic programming of behavior-based robots using reinforcement learning.
+3305	f3305	Automatic programming of behavior-based robots using reinforcement learning.
+3306	f3306	Automatic programming of behavior-based robots using reinforcement learning.
+3307	f3307	 Automatic programming of behavior-based robots using reinforcement learning.
+3308	f3308	 Automatic programming of behavior-based robots using reinforcement learning.
+3309	f3309	 Automatic programming of behavior-based robots using reinforcement learning.
+3310	f3310	 Automatic programming of behavior-based robots using reinforcement learning.
+3311	f3311	 Automatic programming of behavior-based robots using reinforcement learning,
+3312	f3312	Automatic programming of behavior-based robots using reinforcement learning.
+3313	f3313	Automatic programming of behavior-based robots using reinforcement learning.
+3314	f3314	. Automatic programming of behavior-based robots using reinforcement learning.
+3315	f3315	 Automatic programming of behavior-based robots using reinforcement learning.
+3316	f3316	 Scaling reinforcement learning to robotics by exploiting the subsumption architecture.
+3317	f3317	 Scaling reinforcement learning to robotics by exploiting the subsumption architecture.
+3318	f3318	 Solvent-accessible surfaces of proteins and nucleic acids.
+3319	f3319	 Solvent-accessible surfaces of proteins and nucleic acids,
+3320	f3320	Multistage negotiation for distributed constraint satisfaction .
+3321	f3321	DARES: A Distributed Automated REasoning System.
+3322	f3322	DARES: A Distributed Automated REasoning System.
+3323	f3323	DARES: A Distributed Automated REasoning System.
+3324	f3324	Genetic algorithms and communication link speed design : Constraints and operators .
+3325	f3325	Genetic algorithms and communication link speed design : constraints and operators .
+3326	f3326	Social Constraints on Technological Progress .
+3327	f3327	 On the 0,1 facet of the set covering problems.
+3328	f3328	 Metalevel negation and nonmonotonic reasoning.
+3329	f3329	EMPATH: Face, emotion, and gender recognition using holons.
+3330	f3330	 A model of scan paths applied to face recognition.
+3331	f3331	  Rita - An Editor User Interface for Manipulating Structured Documents ,
+3332	f3332	Using introspective reasoning to select learning strategies.
+3333	f3333	Introspective Reasoning Using Meta-Explanations for Multistrategy Learning.
+3334	f3334	Reasoning about spatial constraints,
+3335	f3335	Reasoning about spatial constraints ,
+3336	f3336	User ' s guide for CFSQP version 2. 1 : A C code for solving ( large scale ) constrained nonlinear ( minimax ) optimization problems , generating iterates satisfying all inequality constraints .
+3337	f3337	ALL: formalizing acess-limited reasoning.
+3338	f3338	 A theoretical analysis of reasoning by symmetry in first-order logic.
+3339	f3339	 Multiagent reinforcement learning and the iterated prisoner's dilemma.
+3340	f3340	Mathematical Foundations of Navigation and Perception for an Autonomous Mobile Robot.
+3341	f3341	 Mathematical foundations of navigation an perception for an autonomous mobile robot.
+3342	f3342	 Scientific Reasoning: The Bayesian Approach.
+3343	f3343	 LogP Performance Assessment of Fast Network Interfaces.
+3344	f3344	 LogP Performance Assessment of Fast Network Interfaces.
+3345	f3345	Dj Vu: A hierarchical case-based reasoning system for software design.
+3346	f3346	Efficient inference in bayes nets as a combinatorial optimization problem.
+3347	f3347	Efficient inference in Bayes networks as a combinatorial optimization problem.
+3348	f3348	Local expression languages for probabilistic dependence.
+3349	f3349	Adaptive state space quantisation for reinforcement learning of collision-free navigation,
+3350	f3350	  Learning to avoid collision: a reinforcement learning paradigm for mobile robot navigation 
+3351	f3351	Culturally Based Reasoning.
+3352	f3352	Culturally Based Reasoning,
+3353	f3353	Decision making  and problem solving,
+3354	f3354	The constraint satisfaction approach to design : A psychological investigation .
+3355	f3355	Genetic Reinforcement Learning with Multilayer Neural Networks.
+3356	f3356	 Genetic reinforcement learning with multilayer neural networks.
+3357	f3357	 Multidimensional Triangulation and Interpolation for Reinforcement Learning.
+3358	f3358	 Applying grid-based interpolation to reinforcement learning.
+3359	f3359	 A logical approach to reasoning by analogy.
+3360	f3360	Shall we repair Genetic algorithms , combinatorial optimization , and feasibilty constraints .
+3361	f3361	Feudal reinforcement learning.
+3362	f3362	Feudal reinforcement learning.
+3363	f3363	Feudal reinforcement learning.
+3364	f3364	Feudal reinforcement learning.
+3365	f3365	Classifying news stories using memory based reasoning.
+3366	f3366	NETPAD: An interactive  graphics system for network modeling and optimization,
+3367	f3367	A model for reasoning about causality and persistence.
+3368	f3368	Planning under time constraints in stochastic domains.
+3369	f3369	A model for reasoning about persistence and causation.
+3370	f3370	Planning under time constraints in stochastic domains .
+3371	f3371	Joining Abstract and Concrete Computations in Constraint Logic Programming .
+3372	f3372	A Generalized Semantics for Constraint Logic Programs .
+3373	f3373	Generalized Semantics and Abstract Interpretation for Constraint Logic Programs .
+3374	f3374	Network-based heuristics for constraintsatisfaction problems .
+3375	f3375	Network-based heuristics for constraint satisfaction problems .
+3376	f3376	NetworkBased Heuristics for ConstraintSatisfaction Problems ,
+3377	f3377	Constraint Networks ,
+3378	f3378	Constraint networks .
+3379	f3379	Constraint Networks ,
+3380	f3380	 An algorithm for building regularized piecewise linear discrimination surfaces: The perceptron membrane.
+3381	f3381	Analysis of local consistency in parallel constraint networks .
+3382	f3382	CMAC Manipulator Control Using a Reinforcement Learned Trajectory Planner
+3383	f3383	 Default logic revisited.
+3384	f3384	 XF Design and Implementation of a Programming Environment for Interactive Construction of Graphical User Interfaces.
+3385	f3385	 Exploiting social reasoning to deal with agency level inconistency.
+3386	f3386	Constraint based automatic test data generation .
+3387	f3387	 Data analysis, data bases and expert systems: the common interface,
+3388	f3388	 Knowledge Representation and Reasoning in Incomplete Logic Programming.
+3389	f3389	 Knowledge Representation and Reasoning in Incomplete Logic Programming.
+3390	f3390	The ( non ) realization of unstressed elements in children ' s utterances : a rhythmic constraint .
+3391	f3391	 Interfaces that Learn: A Learning Apprentice for Calendar Management,
+3392	f3392	 Multiresolution Surfaces of Arbitrary Topological Type.
+3393	f3393	 Surface reconstruction from unorganized points.
+3394	f3394	Explanationbased learning and reinforcement learning: A unifed view.
+3395	f3395	 A Reinforcement Learning Approach to Job Shop Scheduling, 
+3396	f3396	Constraint Propagation Techniques for theory-driven data interpretation .
+3397	f3397	 A reinforcement learning approach to job-shop scheduling.
+3398	f3398	 A reinforcement learning approach to job-shop scheduling.
+3399	f3399	 A reinforcement learning approach to job-shop scheduling.
+3400	f3400	Emergent hierarchical control structures: Learning reactive/hierarchical relationships in reinforcement environments.
+3401	f3401	Constraint satisfaction using constraint logic programming .
+3402	f3402	 Random-edge discrepancy of supersampling patterns.
+3403	f3403	Towards an analysis of aspects of visual media in relation to learning outcomes: A study in improving syllogistic reasoning skills.
+3404	f3404	 Guides: Characterizing the interface.
+3405	f3405	Ant-Q: A Reinforcement Learning Approach to Combinatorial Optimization.
+3406	f3406	Ant-Q: A Reinforcement Learning approach to the traveling salesman problem,
+3407	f3407	Ant-Q: A Reinforcement Learning approach to the traveling salesman problem,
+3408	f3408	 Ant-Q: A Reinforcement Learning Approach to the Traveling Salesman Problem.
+3409	f3409	 Ant-Q: A Reinforcement Learning Approach to the Traveling Salesman Problem.
+3410	f3410	 A survey of object-space hidden surface removal.
+3411	f3411	 Reasoning about discontinuous change.
+3412	f3412	 Rationality and its Roles in Reasoning (extended version),
+3413	f3413	 Rationality and its Roles in Reasoning (extended version),
+3414	f3414	 Non-monotonic Reasoning I.
+3415	f3415	. An Approach to Planning with Incomplete Information.
+3416	f3416	 An approach to planning with incomplete information.
+3417	f3417	 An Approach to Planning with Incomplete Information.
+3418	f3418	 An Approach to Planning with Incomplete Information.
+3419	f3419	 An Approach to Planning with Incomplete Information.
+3420	f3420	An Approach to Planning with Incomplete Information.
+3421	f3421	Situated control rules.
+3422	f3422	 A representation of action and belief for automatic planning systems.
+3423	f3423	Situated control rules.
+3424	f3424	 Situated Control Rules.
+3425	f3425	Situated Control Rules.
+3426	f3426	A Representation of Action and Belief for Automatic Planning Systems.
+3427	f3427	 Service Interface and Replica Management Algorithm for Mobile File System Clients.
+3428	f3428	 Beyond the search surface: Visual search and attentional engagement.
+3429	f3429	  Global surface reconstruction by purposive control of observer motion, 
+3430	f3430	Locating the Phase Transition in Constraint Satisfaction Problems .
+3431	f3431	 A Butterfly Subdivision Scheme for Surface Interpolation with Tension Control.
+3432	f3432	 Generalizing from a single view in face recognition.
+3433	f3433	 Generalization across changes in illumination and viewing position in upright and inverted faces.
+3434	f3434	 Measuring proteins and voids in proteins.
+3435	f3435	Interface Agents that Learn: An Investigation of Learning Issues in a Mail Agent Interface.
+3436	f3436	Experience with Rule Induction and k-Nearest Neighbour Methods for Interface Agents that Learn.
+3437	f3437	Control of vehicles with second-order nonholonomic constraints : Underactuated vehicles .
+3438	f3438	 Reasoning about binary topological relations.
+3439	f3439	Reasoning about binary topological relations.
+3440	f3440	Reasoning about binary topological relations.
+3441	f3441	 Reasoning about binary topological relations.
+3442	f3442	Towards probabilistic extensions of constraint-based grammars .
+3443	f3443	 A machine independent interface for lightweight threads.
+3444	f3444	 Memory, reason, and time: the step-logic approach.
+3445	f3445	 Reasoning situated in time I: Basic concepts.
+3446	f3446	Increasing tree search efficiency for constraint satisfaction problems .
+3447	f3447	Increasing Tree Search Efficiency for Constraint Satisfaction Problems .
+3448	f3448	Increasing tree search efficiency for constraint satisfaction problems .
+3449	f3449	Increasing tree search efficiency for constraint satisfaction problems .
+3450	f3450	Increasing tree search efficiency for constraint satisfaction problems .
+3451	f3451	 Automatic Subproblem Optimization for Airline Crew Scheduling ,
+3452	f3452	On Heuristic Reasoning, Reactivity, and Search.
+3453	f3453	Hard Questions about Easy Tasks - Issues from Learning to Play Games ,
+3454	f3454	Reasoning under varying and uncertain resource constraints .
+3455	f3455	A WWW Interface to an Adaptive Hypermedia System.
+3456	f3456	 Reasoning with Incomplete Information.
+3457	f3457	 Nonmonotonicity and the scope of reasoning: Preliminary report.
+3458	f3458	 A Softbot-Based Interface to the Internet,
+3459	f3459	  A Softbot-Based Interface to the Internet, 
+3460	f3460	A softbot-based interface to the internet.
+3461	f3461	Tractable closed-world reasoning with updates.
+3462	f3462	Optimal Information Gathering on the Internet with Time and Cost Constraints .
+3463	f3463	 A softbot-based interface to the internet.
+3464	f3464	 A softbot-based interface to the internet.
+3465	f3465	 A softbot-based interface to the Internet.
+3466	f3466	 A softbot-based interface to the internet.
+3467	f3467	 A softbot-based interface to the internet.
+3468	f3468	 Tractable closed-world reasoning with updates.
+3469	f3469	 Tractable closed-world reasoning with updates.
+3470	f3470	 Tractable closed-world reasoning with updates.
+3471	f3471	 A softbot-based interface to the internet.
+3472	f3472	 `A softbotbased interface to the internet',
+3473	f3473	 A softbot-based interface to the internet.
+3474	f3474	 A softbot-based interface to the internet.
+3475	f3475	 A softbot-based interface to the internet.
+3476	f3476	 A softbot-based interface to the internet.
+3477	f3477	 A softbot-based interface to the internet.
+3478	f3478	. An approach to planning with incomplete information.
+3479	f3479	 Tractable closed world reasoning with updates.
+3480	f3480	  Talking to InterFIS: Adding Speech Input to a Natural Language Interface, 
+3481	f3481	 Adding Speech Recognition to a Natural Language Interface,
+3482	f3482	 Talking to InterFIS: Adding Speech Input to a Natural Language Interface,
+3483	f3483	Compositional Analysis for Concurrent Constraint Programming .
+3484	f3484	 Dynamic reinforcement driven error propagation networks with application to game playing.
+3485	f3485	 Dynamic reinforcement driven error propagation networks with application to game playing.
+3486	f3486	 On error surfaces of sufficient order adaptive IIR filters: proofs and counterexamples to a unimodality conjecture.
+3487	f3487	Valued Constraint Satisfaction Problems : Hard and Easy Problems .
+3488	f3488	 Focusing atms-based diagnosis and prediction.
+3489	f3489	QSIM: The program and its use.
+3490	f3490	 A Visual Language for Browsing, Undoing and Redoing Graphical Interface Commands.
+3491	f3491	Efficient Reinforcement Learning.
+3492	f3492	 The DARPA Knowledge Sharing Effort: Progress report.
+3493	f3493	The DARPA knowledge sharing effort: Progress report.
+3494	f3494	 JOSIE: An integration of specialized representation and reasoning tools. Working notes.
+3495	f3495	 The DARPA knowledge sharing effort: Progress report.
+3496	f3496	 The DARPA knowledge sharing effort: Progress report.
+3497	f3497	 The DARPA knowledge sharing effort: Progress report.
+3498	f3498	 The DARPA Knowledge Sharing Effort: Progress Report.
+3499	f3499	 The DARPA Knowledge Sharing Effort: Progress report.
+3500	f3500	The intelligent database interface: Integrating AI and database systems.
+3501	f3501	Specification of the KQML Agent-Communication Language plus example agent policies and architectures.
+3502	f3502	Building adaptive applications on widely-used platforms with BGP-MS.
+3503	f3503	Shared Knowledge in Cooperative Problem-Solving Systems - Integrating Adaptive and Adaptable Components.
+3504	f3504	An Applications Oriented Guide to Lagrangian Relaxation,
+3505	f3505	  On the Use of Neural Networks for Speaker Independent Isolated Word Recognition ,
+3506	f3506	 A Built-in Provision for Collecting Individual Task Usage Information in UIDE: the User Interface Design Environment.
+3507	f3507	 A Built-in Provision for Collecting Individual Task Usage Information in UIDE: the User Interface Design Environment.
+3508	f3508	 The qualitative process engine.
+3509	f3509	The qualitative process engine.
+3510	f3510	 Recognizing algebraic surfaces from their outlines,
+3511	f3511	 Knowledge Representation in the Many Faces of Go,
+3512	f3512	 Common Illumination between Real and Computer Generated Scenes.
+3513	f3513	Modeling case-based planning for repairing reasoning failures.
+3514	f3514	Qualitative spatial reasoning with cardinal directions.
+3515	f3515	 Qualitative spatial reasoning with cardinal directions.
+3516	f3516	Qualitative spatial reasoning with cardinal directions.
+3517	f3517	 A code generation interface for
+3518	f3518	 A code generation interface for
+3519	f3519	 Qualitative spatial reasoning.
+3520	f3520	 Temporal reasoning based on semi-intervals.
+3521	f3521	 Temporal reasoning based on semi-intervals.
+3522	f3522	Temporal reasoning based on semi-intervals.
+3523	f3523	 Using orientation information for qualitative spatial reasoning.
+3524	f3524	Using orientation information for qualitative spatial reasoning.
+3525	f3525	On the utilization of spatial structures for cognitively plausible and efficient reasoning.
+3526	f3526	Eliminating interchangeable values in constraint satisfaction .
+3527	f3527	Contradicting Conventional Wisdom in Constraint Satisfaction .
+3528	f3528	Partial Constraint Satisfaction .
+3529	f3529	Contradicting Conventional Wisdom in Constraint Satisfaction .
+3530	f3530	Partial constraint staisfaction .
+3531	f3531	Is there a relationship between spatial cognition and environmental patterns. Theories and Methods of Spatio-Temporal Reasoning in Geographic Space.
+3532	f3532	 Cooperative Competition: A Modest Proposal Concerning the Use of Multi-Processor Systems for Automated Reasoning.
+3533	f3533	 Cooperative competition: A modest proposal concerning the use of multi-processor systems for automated reasoning.
+3534	f3534	 Quantifier Elimination in Second-Order Predicate Logic.
+3535	f3535	 Quantifier elimination in second-order predicate logic.
+3536	f3536	 Quantifier Elimination in Second-Order Predicate Logic.
+3537	f3537	Quantifier elimination in second-order predicate logic.
+3538	f3538	 Mediator: information and knowledge management for the virtual factory,
+3539	f3539	Empirical investigation of knowledge representation servers: design issues and applications experience with KRS.
+3540	f3540	Modeling practical reasoning.
+3541	f3541	Mediator: information and knowledge management for the virtual factory.
+3542	f3542	 Mediator: Information and Knowledge Management for the Virtual Factory,
+3543	f3543	Mediator: information and knowledge management for the virtual factory.
+3544	f3544	Pragmatic reasoning in bridge.
+3545	f3545	Independence , Global Analysis , and Parallelism in Dynamically Scheduled Constraint Logic Programming .
+3546	f3546	Optimal task scheduling with precedence constraints .
+3547	f3547	A constraint satisfaction method for inference making .
+3548	f3548	 Realtime Metareasoning with Dynamic Tradeoff Evaluation,
+3549	f3549	Design Of A Browsing Interface For Information Retrieval.
+3550	f3550	Knowledge interchange format.
+3551	f3551	The Satisfiability Constraint Gap .
+3552	f3552	 Reactive Reasoning and Planning.
+3553	f3553	 Reactive reasoning and planning.
+3554	f3554	 An abstract architecture for rational agents.
+3555	f3555	 `A modeltheoretic approach to the verication of situated reasoning systems',
+3556	f3556	 A model-theoretic approach to the verification of situated reasoning systems.
+3557	f3557	 A model-theoretic approach to the verification of situated reasoning systems.
+3558	f3558	 Reactive Reasoning and Planning,
+3559	f3559	Reactive Reasoning and Planning.
+3560	f3560	 Modeling rational agents within a BDI-architecture.
+3561	f3561	 An architecture for real-time reasoning andsystem control.
+3562	f3562	 Efficient temporal reasoning through timegraphs.
+3563	f3563	Shape emergence using symbolic reasoning,
+3564	f3564	 Optimizing Flight Crew Schedules ,
+3565	f3565	Xlib - C language X interface, MIT X consortium standard.
+3566	f3566	Default reasoning as partial constraint satisfaction .
+3567	f3567	 Default reasoning as belief change: A rationale.
+3568	f3568	 Default reasoning as partial constraint satisfaction.
+3569	f3569	Abstracting Synchronization in Concurrent Constraint Programming .
+3570	f3570	 Reconstruction of surfaces from proles,
+3571	f3571	Scheduling tasks with AND / OR precedence constraints .
+3572	f3572	Scheduling tasks with AND / OR precedence constraints .
+3573	f3573	Algorithms to schedule tasks with AND / OR precedence constraints .
+3574	f3574	Algorithms to schedule tasks with AND / OR precedence constraints .
+3575	f3575	. Readings in Nonmonotonic Reasoning.
+3576	f3576	 Reasoning about action I: A possible worlds approach.
+3577	f3577	 Reasoning about action II: The qualification problem.
+3578	f3578	Readings in Nonmonotonic Reasoning.
+3579	f3579	 Reasoning about action I: A possible worlds approach.
+3580	f3580	Constraints for the Computation of Optical Flow ,
+3581	f3581	Constraints for the computation of optic flow .
+3582	f3582	 Distributed-Directory Scheme: Scalable Coherent Interface.
+3583	f3583	Case-based and symbolic classification
+3584	f3584	Heuristics for integer programming using surrogate constraints .
+3585	f3585	Heuristics for integer programming using surrogate constraints .
+3586	f3586	Heuristics for integer programming using surrogate constraints .
+3587	f3587	Probability matching, the magnitude of reinforcement, and classifier system bidding.
+3588	f3588	 Improving rule-based systems through Case-Based Reasoning.
+3589	f3589	 Improving rule-based systems through case-based reasoning.
+3590	f3590	Do people understand spatial concepts: The case of firstorder primitives. Theories and Methods of Spatio-Temporal Reasoning in Geographic Space.
+3591	f3591	 Complexity and algorithms for reasoning about time: A graph-theoretic approach.
+3592	f3592	 Stable fitted reinforcement learning.
+3593	f3593	.  Locating Faces and Facial Parts .
+3594	f3594	On the family of generalized dependency constraints ,
+3595	f3595	Sparse Constraint Graphs and Exceptionally Hard Problems .
+3596	f3596	Sparse Constraint Graphs and Exceptionally Hard Problems .
+3597	f3597	Object Recognition by Computer : The role of geometric constraints .
+3598	f3598	Object Recognition by Computer : The role of geometric constraints .
+3599	f3599	FORMAL MECHANISMS FOR MOVEMENT AND SURFACE STRUCTURE IN DUTCH
+3600	f3600	 USING MPI Portable Parallel Programming with the MessagePassing Interface.
+3601	f3601	Shift of bias as nonmonotonic reasoning.
+3602	f3602	 An ontology for engineering mathematics.
+3603	f3603	 Spatial reasoning based on Allen's temporal logic.
+3604	f3604	Spatial reasoning based on Allen's temporal logic.
+3605	f3605	 Spatial reasoning based on Allen's temporal logic.
+3606	f3606	Skillful control under uncertainty via direct reinforcement learning.
+3607	f3607	A stochastic reinforcement learning algorithm for learning real valued functions.
+3608	f3608	Foundations of timed concurrent constraint programming .
+3609	f3609	 A Natural Language Interface Generator, for a Graphic Information System,
+3610	f3610	Induction of rules subject to a quality constraint : Probabilistic inductive learning .
+3611	f3611	Representations for Decision-Theoretic Planning: Utility Functions for Dealine Goals.
+3612	f3612	Learning from texts: A terminological meta-reasoning perspective.
+3613	f3613	 Spheres, molecules, and hidden surface removal.
+3614	f3614	Opportunistic Memory: Storing and Recalling Suspended Goals;
+3615	f3615	 Default reasoning, nonmonotonic logics and the frame problem.
+3616	f3616	Heuristic search as evidential reasoning.
+3617	f3617	Analysis of Nonlinear Constraints in CLP ( R ) .
+3618	f3618	Analysis of nonlinear constraints in CLP ( R ) .
+3619	f3619	Compile-time analysis of nonlinear constraints in clp ( r ) .
+3620	f3620	 The Facet Approach to Optic Flow,
+3621	f3621	 Reinforcement learning: A tutorial.
+3622	f3622	Case-based reasoning III,
+3623	f3623	The effects of precision constraints in a backpropagation learning network .
+3624	f3624	The Effects of Precision Constraints in a Backpropagation Learning Network .
+3625	f3625	Extensions to constraint dependency parsing for spoken language processing .
+3626	f3626	Managing multiple knowledge sources in constraint-based parsing spoken language .
+3627	f3627	Implementation issues in the development of the parsec parser.
+3628	f3628	PAC learning and constraint dependency grammars .
+3629	f3629	Constraint parsing : A powerful framework for textbased and spoken language processing .
+3630	f3630	 Designing the Star user interface, 
+3631	f3631	Evaluating and Improving Steady State Evolutionary Algorithms on Constraint Satisfaction Problems ,
+3632	f3632	 Adl
+3633	f3633	 Adl
+3634	f3634	Consideration of risk in reinforcement learning.
+3635	f3635	Consideration of risk in reinforcement learning.
+3636	f3636	 X-AiD: An adaptive and knowledge-based human-computer interface.
+3637	f3637	PARMACS-6.0 library interface specification.
+3638	f3638	Applying case-based reasoning to autoclave loading.
+3639	f3639	Creating user interfaces by demonstration.
+3640	f3640	Creating user interfaces by demonstration.
+3641	f3641	 The Network Interface Chip.
+3642	f3642	 A TightlyCoupled Processor-Network Interface.
+3643	f3643	Parallel constraint satisfaction in logic programming : Preliminary results of Chip within PEPSys .
+3644	f3644	 Default reasoning and the qualitative representation of spatial knowledge.
+3645	f3645	Default reasoning and the qualitative representation of spatial knowledge.
+3646	f3646	 An investigation into the use of error recovery dialogues in a user interface management system for speech recognition,
+3647	f3647	Specifying and checking unix security constraints .
+3648	f3648	Reinforcement driven information acquisition in nondeterministic environments.
+3649	f3649	 MAFIA An   Active MailFilterAgent For an Intelligent Document Processing   Support.
+3650	f3650	 Scanning Tunnelling Microscopy on Rough Surfaces: Deconvolution of Constant Current Images,
+3651	f3651	The Hardest Constraint Problems : A Double Phase Transition .
+3652	f3652	The Hardest Constraint Problems : A Double Phase Transition .
+3653	f3653	The Hardest Constraint Problems : A Double Phase Transition .
+3654	f3654	Exploiting the Deep Structure of Constraint Problems .
+3655	f3655	Analogical mapping by constraint satisfaction ,
+3656	f3656	.  Face Recognition using Perspective Invariant Features .
+3657	f3657	Reasoning with uncertainty in computer chess.
+3658	f3658	Characterizing Adaptation by Constraint , In : Toward a Practice of Autonomous Systems ,
+3659	f3659	Reasonong abount beliefs and actions under computational resource constraints .
+3660	f3660	Reasoning under varying and uncertain resource constraints.
+3661	f3661	 Scientific Reasoning: The Bayesian Approach.
+3662	f3662	Scientific Reasoning: The Bayesian Approach.
+3663	f3663	Scientific Reasoning: The Bayesian Approach.
+3664	f3664	 Scientific Reasoning: The Bayesian  Approach.
+3665	f3665	Expert networks: a neural network connection to symbolic reasoning systems,
+3666	f3666	  Human Face Detection in a Complex Background .
+3667	f3667	  Modeling and Diagnosing Problem-Solving System Behavior, 
+3668	f3668	The umls knowledge sources: Tools for building better user interfaces.
+3669	f3669	Action selection methods using reinforcement learning.
+3670	f3670	 `Report on a prototypical interface for structured documents and its application to the IEN scenario',
+3671	f3671	A summary of some surface fitting and contouring programs for noisy data,
+3672	f3672	Variable elimination for generalized linear constraints .
+3673	f3673	 Collaborative Interface Agents, 
+3674	f3674	 A synthetic reasoning method for conceptual design.
+3675	f3675	Graphical User Interfaces for Business Decision Support Systems,
+3676	f3676	Reinforcement learning with soft state aggregation.
+3677	f3677	Reinforcement learning algorithm for partially observable Markov decision problems.
+3678	f3678	Reinforcement learning algorithm for partially observable Markov decision problems.
+3679	f3679	Reinforcement learning algorithm for partially observable Markov decision problems.
+3680	f3680	Reinforcement learning with soft state aggregation.
+3681	f3681	Model-free reinforcement learning for non-markovian decision problems.
+3682	f3682	 Model-free reinforcement learning for non-markovian decision problems.
+3683	f3683	 Model-free reinforcement learning for non-Markovian decision problems.
+3684	f3684	 Reinforcement learning algorithm for partially observable Markov decision problems.
+3685	f3685	 Reinforcement learning algorithm for partially observable Markov decision problems.
+3686	f3686	Constraint logic programming : A survey .
+3687	f3687	Constraint logic programming .
+3688	f3688	Constraint logic programming .
+3689	f3689	Constraint logic programming .
+3690	f3690	Handling constraints in genetic algorithms .
+3691	f3691	On the Implementation of Abstract Interpretation Systems for ( Constraint ) Logic Programs .
+3692	f3692	Nonstandard concepts of similarity in case-based reasoning.
+3693	f3693	  Functional structures for parsing dependency constraints .  
+3694	f3694	Learning and applying contextual constraints in sentence comprehension .
+3695	f3695	Parallel constraint satisfaction as a comprehension mechanism .
+3696	f3696	  Learning and applying contextual constraints in sentence comprehension   ,
+3697	f3697	Minimizing conflicts : a heuristic repair method for constraint satisfaction and scheduling problems .
+3698	f3698	Analyzing a Heuristic Strategy for Constraint Satisfaction and Scheduling ,
+3699	f3699	Minimizing conflicts : A heuristic repair method for constraint satisfaction and scheduling problems .
+3700	f3700	Solving large scale constraint satisfaction and scheduling problems using a heuristic repair method .
+3701	f3701	Animated Sensitivity Analysis,
+3702	f3702	Extended symbolic projection used in a knowledge structure for spatial reasoning.
+3703	f3703	 Reinforcement learning: A survey.
+3704	f3704	 Reinforcement learning: A survey.
+3705	f3705	 An Architecture for Intelligent Reactive Systems,
+3706	f3706	 The synthesis of digital machines with provable epistemic properties.
+3707	f3707	Hierarchical reinforcement learning: Preliminary results.
+3708	f3708	 Reinforcement learning: A survey.
+3709	f3709	Reinforcement Learning: A Survey.
+3710	f3710	Prioritized sweeping: Reinforcement learning with less data and less time.
+3711	f3711	Associative reinforcement learning: A generate and test algorithm.
+3712	f3712	An architecture for intelligent reactive systems.
+3713	f3713	 Reinforcement learning: A survey.
+3714	f3714	 An architecture for intelligent reactive systems.
+3715	f3715	 The synthesis of digital machines with provable epistemic properties.
+3716	f3716	 Making maximal use of surface criteria in large-scale parsing: the morp parser.
+3717	f3717	Janus : A Step towards Distributed Constraint Programming .
+3718	f3718	  Computer Recognition of Human Faces .
+3719	f3719	Second order properties of error surfaces: Learning time and generalization.
+3720	f3720	Second order properties of error surfaces: Learning time and generalization.
+3721	f3721	: The Interface between Phrasal and Functional Constraints .
+3722	f3722	The Interface between Phrasal and Functional Constraints .
+3723	f3723	: The Interface between Phrasal and Functional Constraints.
+3724	f3724	The Interface between Phrasal and Functional Constraints.
+3725	f3725	Parsing and constraint grammar .
+3726	f3726	On the parallel complexity of discrete relaxation in constraint networks .
+3727	f3727	Spacetime Constraints ,
+3728	f3728	Condor : Constraint based dataflow .
+3729	f3729	Spacetime constraints .
+3730	f3730	 On the difference between updating a knowledge base and revising it.
+3731	f3731	 Hard problems for simple default logics.
+3732	f3732	 Constraint propagation algorithms for temporal reasoning.
+3733	f3733	Constraint propagation algorithms for temporal reasoning .
+3734	f3734	 Constraint propagation algorithms for temporal reasoning: A revised report.
+3735	f3735	Constraint propagation algorithms for temporal reasoning : A revised report .
+3736	f3736	 User interface: A personal view.
+3737	f3737	Extensions to Franz, Inc.'s Allegro Common Lisp foreign function interface.
+3738	f3738	Extensions to Franz, Inc.'s Allegro Common Lisp foreign function interface.
+3739	f3739	Remembering to forget a competence-preserving case deletion policy for case-based reasoning.
+3740	f3740	 A tutorial survey of reinforcement learning.
+3741	f3741	 Reconstruction of STM and AFM images distorted by finite-sized tips,
+3742	f3742	 Reconstruction of STM and AFM images distorted by finite-sized tips,
+3743	f3743	  Optimizing the Rule/Data Interface in a Knowledge  Management System, 
+3744	f3744	An optimizing compiler for CLP ( R ) .
+3745	f3745	Integrating inductive and deductive reasoning for database mining, in  
+3746	f3746	Integrating inductive and deductive reasoning for database mining,
+3747	f3747	 Case-based evaluation in computer chess.
+3748	f3748	A computational model for causal and diagnostic reasoning in inference engines.
+3749	f3749	 Graphics-oriented user interfaces for KL-ONE.
+3750	f3750	Query Optimization by Semantic Reasoning.
+3751	f3751	Query Optimization by Semantic Reasoning.
+3752	f3752	Query Optimization by Semantic Reasoning.
+3753	f3753	Query Optimization by Semantic Reasoning.
+3754	f3754	Query optimization by semantic reasoning.
+3755	f3755	 Query Optimization by Semantic Reasoning.
+3756	f3756	 Query Optimization by Semantic Reasoning.
+3757	f3757	 A Minimality Maintenance System.
+3758	f3758	 Looking for the Bright Side of User Interface Agents, 
+3759	f3759	The effect of representation and knowedge on goal-directed exploration with reinforcement learnign algorithm.
+3760	f3760	 Complexity Analysis of Reinforcement Learning.
+3761	f3761	 Risk-sensitive planning with probabilistic decision graphs.
+3762	f3762	 Case-Based Reasoning.
+3763	f3763	 Case-Based Reasoning.
+3764	f3764	 Case-Based Reasoning.
+3765	f3765	 Case-Based Reasoning.
+3766	f3766	 Case-based reasoning.
+3767	f3767	 Case-based reasoning
+3768	f3768	Case-based Reasoning,
+3769	f3769	Judging which is the best case for a case-based reasoner.
+3770	f3770	 Case-Based Reasoning.
+3771	f3771	Case-Based Reasoning.
+3772	f3772	Retrieval and Organizational Strategies in Conceptual Memory: A computer model;
+3773	f3773	 Using MemoryMapped Network Interfaces to Improve t he Performance of Distributed Shared Memory.
+3774	f3774	 Using Memory-Mapped Network Interfaces to Improve the Performance of Distributed Shared Memory.
+3775	f3775	 Using MemoryMapped Network Interfaces to Improve t he Performance of Distributed Shared Memory.
+3776	f3776	Learning interface agents.
+3777	f3777	Learning interface agents.
+3778	f3778	Learning Interface Agents,
+3779	f3779	Learning interface agents.
+3780	f3780	 Learning Interface Agents,
+3781	f3781	Interface Agents.
+3782	f3782	 A Learning Interface Agent for Meeting Scheduling,
+3783	f3783	 A Learning Interface Agent for Meeting Scheduling,
+3784	f3784	 Learning Interface Agents.
+3785	f3785	 A learning interface agent for scheduling meetings.
+3786	f3786	 A Learning Interface Agent for Scheduling Meetings.
+3787	f3787	Learning interface agents.
+3788	f3788	Learning interface agents.
+3789	f3789	 Learning interface agents.
+3790	f3790	 A user interface integrating adaptability and adaptivity.
+3791	f3791	 A User Interface Integrating Adaptability and Adaptivity.
+3792	f3792	Reasoning with qualitative models.
+3793	f3793	Algorithms for constraint satisfaction problems : A survey .
+3794	f3794	Algorithms for constraint satisfaction problems : A survey .
+3795	f3795	Algorithms for constraint satisfaction problems .
+3796	f3796	Algorithms for constraint satisfaction problems .
+3797	f3797	Algorithms for constraint satisfaction problems .
+3798	f3798	Isomorphism of Reasoning Systems with Applications to Autonomous Knowledge Acquisition.
+3799	f3799	 MAX: A meta-reasoning architecture for  X .
+3800	f3800	 Afne surface reconstruction by purposive viewpoint control,
+3801	f3801	 Integrating multiple reasoning in intelligent agent systems,
+3802	f3802	 Integrating Multiple Reasoning in Intelligent Agent System,
+3803	f3803	Hierarchical Architectures for Reasoning,
+3804	f3804	On binary constraint problems .
+3805	f3805	A symbolic approach to interval constraint problems .
+3806	f3806	Effective solution of qualitative interval constraint problems .
+3807	f3807	Inductive constraint logic .
+3808	f3808	Inductive constraint logic .
+3809	f3809	Inductive constraint logic .
+3810	f3810	  Retrieval and Reasoning in Distributed Case Based Systems ,
+3811	f3811	Oblivious decision trees and abstract cases,
+3812	f3812	Oblivious decision trees and abstract cases.
+3813	f3813	 Oblivious decision trees and abstract cases.
+3814	f3814	 Oblivious Decision Trees and Abstract Cases,
+3815	f3815	Attractive faces are only average.
+3816	f3816	 Multi-paradigm reasoning.
+3817	f3817	 Multi-paradigm reasoning.
+3818	f3818	 Collaborative Interface Agents,
+3819	f3819	  Collaborative Interface Agents,
+3820	f3820	Collaborative Interface Agents,
+3821	f3821	Collaborative Interface Agents.
+3822	f3822	 Collaborative Interface Agents.
+3823	f3823	 Collaborative interface agents.
+3824	f3824	 Explicit representation of terms defined by counter examples.
+3825	f3825	A canonical form for generalised linear constraints .
+3826	f3826	A canonical form for generalised linear constraints .
+3827	f3827	 Geometric reasoning about mechanical assembly.
+3828	f3828	 Geometric reasoning about mechanical assembly.
+3829	f3829	 Interface agents: Metaphors with character.
+3830	f3830	 Interface Agents: Metaphors with Character, 
+3831	f3831	 Interface Agents: Metaphors with Character,
+3832	f3832	 Interface agents: Metaphors with character.
+3833	f3833	 The many faces of inductive logic programming.
+3834	f3834	User ' s guide for CFSQP version 2. 3 : A C code for solving ( large scale ) constrained nonlinear ( minimax ) optimization problems , generating iterates satisfying all inequality constraints .
+3835	f3835	User ' s guide for CFSQP version 2. 3 : A C code for solving ( large scale ) constrained nonlinear ( minimax ) optimization problems , generating iterates satisfying all inequality constraints .
+3836	f3836	Functional Description of a GraphBased Interface for Network Modeling (GIN),
+3837	f3837	 Assembly planning based on geometric reasoning.
+3838	f3838	 Assembly planning based on geometric reasoning.
+3839	f3839	 Ein anthropomorpher Interface-agent f ur die Interaktion mit einer virtuellen Umgebung.
+3840	f3840	 A User-Adaptive Interface Agency for Interaction with a Virtual Environment.
+3841	f3841	 Multiple perspective reasoning.
+3842	f3842	  Diagnosis Using the Underlying Theory of a Signal Processing System, 
+3843	f3843	 A formal analysis of machine learning systems for knowledge acquisition.
+3844	f3844	 General Game-Playing and Reinforcement Learning.
+3845	f3845	: Designing SpeechActs: Issues in Speech User Interfaces,
+3846	f3846	Irrelevance Reasoning in Knowledge Based Systems.
+3847	f3847	 Constructing Graphical User Interfaces by Example.
+3848	f3848	  Optical Network for Real-time Face Recognition .
+3849	f3849	 Inductive reasoning and kolmogorov complexity.
+3850	f3850	Inductive Reasoning and Kolmogorov Complexity.
+3851	f3851	 Inductive reasoning and Kolmogorov complexity.
+3852	f3852	Programming robots using reinforcement learning and teaching.
+3853	f3853	Programming Robots Using Reinforcement Learning and Teaching.
+3854	f3854	Programming robots using reinforcement learning and teaching.
+3855	f3855	Self-improving reactive agents based on reinforcement learning, planning, and teaching.
+3856	f3856	Self-improving reactive agents based on reinforcement learning, planning and teaching.
+3857	f3857	Self-improving reactive agents based on reinforcement learning, planning and teaching.
+3858	f3858	Self-improving reactive agents based on reinforcement learning, planning and teaching.
+3859	f3859	Reinforcement Learning for Robots Using Neural Networks.
+3860	f3860	Scaling up reinforcement learning for robot control.
+3861	f3861	Hierarchical learning of robot skills by reinforcement.
+3862	f3862	 Memory approaches to reinforcement learning in nonMarkovian domains.
+3863	f3863	 Self-improving reactive agents based on reinforcement learning, planning and teaching,
+3864	f3864	 Self-improving reactive agents based on reinforcement learning, planning and teaching.
+3865	f3865	 Reinforcement Learning for Robots Using Neural Networks.
+3866	f3866	 Reinforcement learning for robots using neural networks,
+3867	f3867	 Reinforcement Learning for Robots Using Neural Networks.
+3868	f3868	 Reinforcement Learning for Robots Using Neural Networks.
+3869	f3869	 Reinforcement Learning for Robots Using Neural Networks.
+3870	f3870	 Programming robots using reinforcement learning and teaching.
+3871	f3871	 Programming robots using reinforcement learning and teaching.
+3872	f3872	 Programming robots using reinforcement learning and teaching.
+3873	f3873	Self-improving reactive agents based on reinforcement learning, planning, and teaching.
+3874	f3874	Self-improving reactive agents based on reinforcement learning, planning, and teaching.
+3875	f3875	Self-Improving Reactive Agents Based on Reinforcement Learning, Planning and Teaching.
+3876	f3876	Self-Improving Reactive Agents Based on Reinforcement Learning, Planning and Teaching.
+3877	f3877	Self-improving reactive agents based on reinforcement learning, planning, and teaching.
+3878	f3878	Reinforcement Learning for Robots Using Neural Networks.
+3879	f3879	Reinforcement Learning for Robots Using Neural Networks.
+3880	f3880	Scaling up reinforcement learning for robot control.
+3881	f3881	Scaling up reinforcement learning for robot control.
+3882	f3882	Scaling up reinforcement learning for robot control.
+3883	f3883	 Reinforcement learning with hidden states.
+3884	f3884	 Reinforcement learning with hidden states.
+3885	f3885	 Memory approaches to reinforcement learning in nonmarkovian domains.
+3886	f3886	 Programming robots using reinforcement learning and teaching.
+3887	f3887	 Self-improvment based on reinforcement learning, planning, and teaching.
+3888	f3888	 Self-improving based on reinforcement learning, planning, and teaching.
+3889	f3889	 Self-improving reactive agents based on reinforcement learning, planning and teaching.
+3890	f3890	 Reinforcement Learning for Robots Using Neural Networks.
+3891	f3891	 Reinforcement Learning for Robots Using Neural Networks.
+3892	f3892	 Reinforcement Learning for Robots Using Neural Networks.
+3893	f3893	Self-Improving Reactive Agents Based on Reinforcement Learning, Planning and Teaching.
+3894	f3894	 Classifying news stories using memory based reasoning.
+3895	f3895	Classifying news stories using memory based reasoning.
+3896	f3896	Classifying News Stories unsing Memory Based Reasoning.
+3897	f3897	 Classifying news stories using memory based reasoning.
+3898	f3898	 Markov games as a framework for multiagent reinforcement learning.
+3899	f3899	 Markov games as a framework for multi-agent reinforcement learning.
+3900	f3900	 An Optimization-Based Categorization of Reinforcement Learning Environments.
+3901	f3901	Markov Games as a Framework for Multi-agent Reinforcement Learning.
+3902	f3902	 An optimization-based categorization of reinforcement learning environments.
+3903	f3903	Markov games as a framework for multi-agent reinforcement learning.
+3904	f3904	Generalized Markov decision processes: Dynamicprogramming and reinforcement-learning algorithms.
+3905	f3905	 A generalized reinforcement-learning model: Convergence and applications.
+3906	f3906	 A generalized reinforcement-learning model: Convergence and applications.
+3907	f3907	 Markov games as a framework for multi-agent reinforcement learning.
+3908	f3908	Reinforcement Learning for Robots using Neural Networks,
+3909	f3909	 Multiresolution Analysis for Surfaces of Arbitrary Topological Type.
+3910	f3910	Exact penalization and stationarity conditions of mathematical programs with equilibrium constraints .
+3911	f3911	Mathematical Programs with Equilibrium Constraints .
+3912	f3912	Mathematical Programs with Equilibrium Constraints ,
+3913	f3913	 Coagulation in finite systems.
+3914	f3914	 Coagulation in finite systems.
+3915	f3915	 Coagulation in finite systems,
+3916	f3916	 Coagulation in finite systems.
+3917	f3917	Constraint Satisfaction ,
+3918	f3918	Constraint satisfaction .
+3919	f3919	Constraint nets : A semantic model for real-time embedded systems .
+3920	f3920	Incorporating advice into agents that learn from reinforcements.
+3921	f3921	Incorporating advice into agents that learn from reinforcements.
+3922	f3922	  Incorporating advice into agents that learn from reinforcements, 
+3923	f3923	  Creating advice-taking reinforcement learners, 
+3924	f3924	 Creating advicetaking reinforcement learners.
+3925	f3925	 Creating advice-taking reinforcement learners.
+3926	f3926	 Divergence Preserving Discrete Surface Integral Methods for Maxwell's Curl Equations Using NonOrthogonal Unstructured Grids.
+3927	f3927	Social Information Filtering: Algorithms for Automating  Word of Mouth .
+3928	f3928	Social interface agents: Acquiring competence by
+3929	f3929	Average reward reinforcement learning: Foundations, algorithms, and empirical results.
+3930	f3930	Enhancing transfer in reinforcement learning by building stochastic models of robot actions.
+3931	f3931	Enhancing transfer in reinforcement learning by building stochastic models of robot actions.
+3932	f3932	Enhancing transfer in reinforcement learning by building stochastic models of robots actions.
+3933	f3933	  Average Reward Reinforcement Learning: Foundations, Algorithms, and Empirical Results ,
+3934	f3934	 Enhancing Transfer in Reinforcement Learning by Building Stochastic Models of Robot Actions.
+3935	f3935	: Multi-surface method of pattern separation.
+3936	f3936	: Multi-surface method of pattern separation.
+3937	f3937	: Multisurface method of pattern separation for medical diagnosis applied to breast cytology.
+3938	f3938	 Multi-surface method of pattern separation.
+3939	f3939	 Multi-surface method of pattern separation.
+3940	f3940	  Multisurface method of pattern separation, 
+3941	f3941	 Multisurface method of pattern separation for medical diagnosis applied to breast cytology.
+3942	f3942	  Multisurface method of pattern separation for medical diagnosis applied to breast cytology, 
+3943	f3943	Multisurface method of pattern separation for medical diagnosis applied to breast cytology,
+3944	f3944	Massively parallel reasoning with very large knowledge bases.
+3945	f3945	 Graphics Design for Electronic Documents and User Interfaces.
+3946	f3946	Constraints on Word Meaning in Early Language
+3947	f3947	Spacetime constraints revisited .
+3948	f3948	Spacetime Constraints Revisited ,
+3949	f3949	The 3 R ' s of optimizing constraint logic programs : Refinement , Removal and Reordering .
+3950	f3950	Analysis of constraint logic programs .
+3951	f3951	Analysis of Constraint Logic Programs .
+3952	f3952	Approximating Interaction between Linear Arithmetic Constraints .
+3953	f3953	The 3 R ' s of Optimizing Constraint Logic Programs : Reonement , Removal , and Reordering .
+3954	f3954	 Towards Friendlier User Interfaces for Expert Systems,
+3955	f3955	 Towards Friendlier User Interfaces for Expert Systems,
+3956	f3956	Structural disambiguation with constraint propagation .
+3957	f3957	Structural disambiguation with constraint propagation .
+3958	f3958	Constraint dependency grammar and its weak generative capacity .
+3959	f3959	Constraint dependency grammar and its weak generative capacity .
+3960	f3960	Constraint dependency grammar .
+3961	f3961	Constraint dependency grammar .
+3962	f3962	Constraint dependency grammar .
+3963	f3963	Simplifying polynomial constraints over integers to make dependence analysis more precise .
+3964	f3964	Observational constraints on the chemical and thermal structure of the Earth ' s deep interior .
+3965	f3965	 A Comparative Analysis of Reinforcement Learning Methods,
+3966	f3966	 K-Pack: A programmer's interface to KNET.
+3967	f3967	   Constraint programming  
+3968	f3968	First results with utile distinction memory for reinforcement learning.
+3969	f3969	 Hidden state and reinforcement learning with instance-based state identification.
+3970	f3970	Instance-based utile distinctions for reinforcement learning with hidden state.
+3971	f3971	 Using transitional proximity for faster reinforcement learning.
+3972	f3972	 First results with utile distinction memory for reinforcement learning.
+3973	f3973	 First results with utile distinction memory for reinforcement learning.
+3974	f3974	 Instance-based utile distinctions for reinforcement learning with hidden state.
+3975	f3975	 Instance-based utile distinctions for reinforcement learning with hidden state.
+3976	f3976	Force Sensing from Human Demonstration using a Hybrid Dynamic Model and Qualitative Reasoning,
+3977	f3977	 Circumscription - a form of non-monotonic reasoning.
+3978	f3978	Prosodic morphology i : Constraint interaction and satisfaction .
+3979	f3979	Learning and applying contextual constraints in sentence comprehension .
+3980	f3980	 Using active connection graphs for reasoning with recursive rules.
+3981	f3981	  A constraint satisfaction network for matching 3 D object ,  
+3982	f3982	On resource allocation constraint networks , 1996 .
+3983	f3983	Constraint satisfaction problems : An overview .
+3984	f3984	Design of a Generic Learning Interface Agent.
+3985	f3985	Design of a Generic Learning Interface Agent.
+3986	f3986	Efficient reinforcement learning through symbiotic evolution.
+3987	f3987	 Efficient reinforcement learning through symbiotic evolution.
+3988	f3988	Evolutionary neural networks for value ordering in constraint satisfaction problems .
+3989	f3989	Evolutionary neural networks for value ordering in constraint satisfaction problems .
+3990	f3990	Efficient reinforcement learning through symbiotic evolution.
+3991	f3991	Efficient reinforcement learning through symbiotic evolution.
+3992	f3992	 Building Reactive Path-Finders through Reinforcement Connectionist Learning: Three Issues and An Architecture.
+3993	f3993	 Building Reactive Path-Finders through Reinforcement Connectionist Learning: Three Issues and An Architecture.
+3994	f3994	 A reinforcement connectionist approach to robot path finding in non-maze-like environments, 
+3995	f3995	A reinforcement connectionist approach to robot path finding in non maze-like environments.
+3996	f3996	 Associative reinforcement learning for optimal control.
+3997	f3997	Associative reinforcement learning for optimal control.
+3998	f3998	 Theory of neural-analog reinforcement systems and its application to the brain-model problem.
+3999	f3999	Constraint-Based Generalization - Learning Game-Playing Plans from Single Examples .
+4000	f4000	Integrating heuristics for constraint satisfaction problems : A case study .
+4001	f4001	Integrating heuristics for constraint satisfaction problems : A case study .
+4002	f4002	Minimizing conflicts : A heuristic repair method for constraint satisfaction and scheduling problems .
+4003	f4003	Integrating heuristics for constraint satisfaction problems : A case study .
+4004	f4004	Integrating heuristics for constraint satisfaction problems : A case study .
+4005	f4005	  Application of neural constraint satisfaction network to vision ,  
+4006	f4006	An optimal weighting criterion of case indexing for both numeric and symbolic attributes.
+4007	f4007	 An optimal weighting criterion of case indexing for both numeric and symbolic attributes.
+4008	f4008	Networks of constraints : fundamental properties and applications to picture processing .
+4009	f4009	Networks of constraints : Fundamental properties and applications to picture processing .
+4010	f4010	   Graph rewriting for a partial ordering semantics of concurrent constraint programming   ,
+4011	f4011	   Concurrent semantics for concurrent constraint programs   in
+4012	f4012	 The parti-game algorithm for variable resolution reinforcement learning in multidimensional state spaces.
+4013	f4013	The partigame algorithm for variable resolution reinforcement learning in multidimensional state-spaces.
+4014	f4014	The parti-game algorithm for variable resolution reinforcement learning in multidimensional state spaces.
+4015	f4015	The partigame algorithm for variable resolution reinforcement learning in multidimensional statespaces..
+4016	f4016	 Automated user modeling for intelligent interface.
+4017	f4017	Gibbs and Markov Random Systems with Constraints .
+4018	f4018	 A dual back-propagation scheme for scalar reinforcement learning.
+4019	f4019	 A dual back-propagation scheme for scalar reinforcement learning.
+4020	f4020	Transputers and neural networks : an analysis of implementation constraints and performance .
+4021	f4021	Demonstrational interfaces: A step beyond direct manipulation.
+4022	f4022	Creating user interfaces by demonstration.
+4023	f4023	Creating user interfaces by demonstration.
+4024	f4024	 Interactive Reocvery from Speech Recognition Errors in Speech User Interfaces,
+4025	f4025	Constraint satisfaction algorithms .
+4026	f4026	Constraints for the Estimation of Displacement Vector Fields from Image Sequences ,
+4027	f4027	Control of mechanical systems with second order nonholonomic constraints : Underactuated manipulators .
+4028	f4028	 Towards a neural understanding of visual surface representation.
+4029	f4029	Polar cloud and surface classification using AVHRR imagery: an intercomparison of methods.
+4030	f4030	 Probabilistic Reasoning in Expert Systems.
+4031	f4031	 Computational properties of qualitative spatial reasoning: First results.
+4032	f4032	Solving hard qualitative temporal reasoning problems : Evaluating the efficiency of using the ORD-Horn class .
+4033	f4033	 Solving hard qualitative temporal reasoning problems: Evaluating the efficiency of using the ORD-Horn class.
+4034	f4034	 On the complexity of qualitative spatial reasoning: A maximal tractable fragment of the Region Connection Calculus.
+4035	f4035	 Reasoning and Revision in Hybrid Representation Systems.
+4036	f4036	Constraint-based semantics .
+4037	f4037	Constraints on learning and their role in language acquisition : Studies of the acquisition of American Sign Language .
+4038	f4038	Maturational constraints on language learning .
+4039	f4039	Hospital Corners
+4040	f4040	Expertise, justification and the psychology of inductive reasoning.
+4041	f4041	Expertise, justification and the psychology of inductive reasoning.
+4042	f4042	Expertise, justification and the psychology of inductive reasoning.
+4043	f4043	Cognitive constraints in ordering operations : The case of geometric analogies .
+4044	f4044	EDINET - A Network  Editor for Transshipment Problems with Facility Location,
+4045	f4045	  The Intelligent Database Interface Language ,
+4046	f4046	 Induced strategy shifts in spatial reasoning.
+4047	f4047	Auto-exploratory average reward reinforcement learning.
+4048	f4048	Bumptrees for Efficient Function , Constraint , and Classification Learning .
+4049	f4049	Bumptrees for Efficient Function , Constraint , and Classification Learning .
+4050	f4050	Interfaces of the Word: Studies in the Evolution of Consciousness and Culture.
+4051	f4051	 Time course of neural responses discriminating different views of the face and head.
+4052	f4052	 Guides: Characterizing the Interface, 
+4053	f4053	 A3D tracking experiment on latency and its compensation methods in virtual environments.
+4054	f4054	 A simple output-sensitive algorithm for hidden surface removal.
+4055	f4055	Facet identification for the symmetric traveling salesman problem.
+4056	f4056	Semantic foundations of concurrent constraint programming .
+4057	f4057	 Conversation, Cognition and Learning.
+4058	f4058	 Rough Sets: Theoretical aspects of Reasoning about Data.
+4059	f4059	Rough sets: Theoretical Aspects of Reasoning About Data.
+4060	f4060	 Probabilistic semantics for nonmonotonic reasoning: A survey.
+4061	f4061	 Probabilistic Reasoning in Intelligent Systems.
+4062	f4062	 Probabilistic Reasoning in Intelligent Systems.
+4063	f4063	 Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference,
+4064	f4064	 Probabilistic Reasoning in Intelligent Systems : Networks of Plausible Inference.
+4065	f4065	 Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference.
+4066	f4066	 Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference.
+4067	f4067	 Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference.
+4068	f4068	Probabilistic Reasoning in Intelligent Systems.
+4069	f4069	Probabilistic Reasoning in Intelligent Systems,
+4070	f4070	Probabilistic reasoning in intelligent systems.
+4071	f4071	Probabilistic Reasoning in Intelligent Systems.
+4072	f4072	Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference.
+4073	f4073	Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference,
+4074	f4074	Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference.
+4075	f4075	Probabilistic Reasoning in Intelligent Systems : Networks of Plausible Inference.
+4076	f4076	Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference.
+4077	f4077	 Probabilistic Reasoning in Intelligent Systems.
+4078	f4078	 Probabilistic Reasoning in Intelligent Systems : Networks of Plausible Inference.
+4079	f4079	 Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference.
+4080	f4080	 Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference.
+4081	f4081	 Readings in Uncertain Reasoning.
+4082	f4082	Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference.
+4083	f4083	Some experiments in applying inductive inference principles to surface reconstruction.
+4084	f4084	Some experiments in applying inductive inference principles to surface reconstruction.
+4085	f4085	 Some experiments in applying inductive inference principles to surface reconstruction.
+4086	f4086	 Some experiments in applying inductive inference principles to surface reconstruction.
+4087	f4087	 ADL: Exploring the middle ground between STRIPS and the situation calculus.
+4088	f4088	Some experiments in applying inductive inference principles to surface reconstruction.
+4089	f4089	Some experiments in applying inductive inference principles to surface reconstruction.
+4090	f4090	ADL: Exploring the middle ground between STRIPS and the situation calculus.
+4091	f4091	UCPOP: A sound, complete, partial order planner for ADL.
+4092	f4092	 UCPOP: A sound, complete, partial order planner for ADL.
+4093	f4093	 UCPOP: A sound, complete, partial order planner for ADL.
+4094	f4094	 UCPOP: A sound, complete, partial order planner for ADL.
+4095	f4095	 UCPOP: A sound, complete, partial order planner for ADL.
+4096	f4096	 On reinforcement learning of control actions in noisy and non-Markovian domains.
+4097	f4097	On reinforcement learning of control actions in noisy and non-markovian domans.
+4098	f4098	  Eigenfaces for Recognition .
+4099	f4099	  Eigenfaces for recognition. 
+4100	f4100	  Eigenfaces for Recognition .
+4101	f4101	 Eigenfaces for recognition.
+4102	f4102	  Eigenfaces for Recognition, 
+4103	f4103	 Eigenfaces for recognition.
+4104	f4104	 Generalised prooftheory for multiagent autoepistemic reasoning.
+4105	f4105	Of mice and menus: designing the user-friendly interface.
+4106	f4106	 Of Mice and Menus: Designing the User-Friendly Interface,
+4107	f4107	 InterFIS: a Natural Language Interface to the Fault Isolation Shell,
+4108	f4108	InterFIS: a natural language interface to an expert system shell.
+4109	f4109	Athena widget set - C language X interface.
+4110	f4110	  bayesian faces via hierarchical template matching .
+4111	f4111	 The Paragon implementation of the NX message passing interface.
+4112	f4112	 The Paragon implementation of the NX message passing interface.
+4113	f4113	Reflection for analogy: Inference-level-reflection in an architetcure for analogical reasoning.
+4114	f4114	  A Method of Tuning Fuzzy Sets by Reinforcement Learning ,
+4115	f4115	 A logical framework for default reasoning.
+4116	f4116	 A logical framework for default reasoning.
+4117	f4117	 Similarity assessment; Computation vs. representation.
+4118	f4118	Reinforcement learning methods for multi-linked manipulator obstacle avoidance and control Technischer Bericht,
+4119	f4119	Experiments on the transfer of knowledge between neural networks .
+4120	f4120	Experiments on the Transfer of Knowledge between Neural Networks .
+4121	f4121	Experiments on the transfer of knowledge between neural networks .
+4122	f4122	Experiments in the transfer of knowledge between neural networks .
+4123	f4123	Experiments in the transfer of knowledge between neural networks .
+4124	f4124	 Implementing Faceted Classification For Software Reuse.
+4125	f4125	Optimality Theory : Constraint Interaction in Generative Grammar .
+4126	f4126	Optimality theory : Constraint interaction in generative grammar .
+4127	f4127	Optimality Theory : Constraint Interaction in Generative Grammar .
+4128	f4128	Hybrid Algorithms for the Constraint Satisfaction Problem .
+4129	f4129	Hybrid algorithms for the constraint satisfaction problem .
+4130	f4130	Binary constraint satisfaction problems : some are harder than others .
+4131	f4131	Binary constraint satisfaction problems : some are harder than others .
+4132	f4132	An empirical study of phase transitions in binary constraint satisfaction problems .
+4133	f4133	Comparing connectionist and symbolic learning methods .
+4134	f4134	Comparing connectionist and symbolic learning methods .
+4135	f4135	Comparing connectionist and symbolic learning methods ,
+4136	f4136	 Order of magnitude reasoning.
+4137	f4137	A model for integrated qualitative spatial and dynamic reasoning about physical systems.
+4138	f4138	Apparent motion of subjective surfaces,
+4139	f4139	A Symbolic Constraint Solving Framework for Analysis of Logic Programs .
+4140	f4140	 A multistrategy case-based and reinforcement learning approach to self-improving reactive control systems for autonomous robotic navigation.
+4141	f4141	 A multistrategy case-based and reinforcement learning approach to self-improving reactive control systems for autonomous robotic navigation.
+4142	f4142	Connectionist models of recognition memory : constraints imposed by learning and forgetting functions .
+4143	f4143	 On the applicability of nonmonotonic logic to formal reasoning in continuous time.
+4144	f4144	  Learning from Others' Experience: Creating Cases from Examples, 
+4145	f4145	 Inside the Case-Based Reasoning,
+4146	f4146	 Inside the Case-Based Reasoning,
+4147	f4147	: Inside the Case-Based Reasoning, Lawrence Elbaum Associates
+4148	f4148	.: Inside the Case-Based Reasoning, Lawrence Elbaum Associates
+4149	f4149	Inside Case-Based Reasoning.
+4150	f4150	 A logic for default reasoning.
+4151	f4151	 A logic for default reasoning.
+4152	f4152	 Nonmonotonic reasoning.
+4153	f4153	A theory of Pavlovian conditioning: variations in the effectiveness of reinforcement and non-reinforcement.
+4154	f4154	On reasoning with ambiguities.
+4155	f4155	Constraint reasoning with learning automata .
+4156	f4156	 Constraint reasoning with learning automata.
+4157	f4157	Mental Imagery in Thinking and Problem Solving, in  Thinking and Reasoning: Psychological Approaches.
+4158	f4158	 Combining Statistical Techniques and Search Heuristic to Perform Effective Feature Selection.
+4159	f4159	Combining Statistical Techniques and Search Heuristic to Perform Effective Feature Selection.
+4160	f4160	 Similarity, uncertainty and case-based reasoning in PATDEX.
+4161	f4161	 Inside Case-Based Reasoning.
+4162	f4162	 Inside Case-based reasoning.
+4163	f4163	 Inside case based reasoning.
+4164	f4164	 Inside Case-based Reasoning.
+4165	f4165	 Two methods for hierarchy learning in reinforcement enviroments.
+4166	f4166	 Continual Learning in Reinforcement Environments.
+4167	f4167	Continual Learning in Reinforcement Environments.
+4168	f4168	Continual Learning in Reinforcement Environments.
+4169	f4169	Continual Learning in Reinforcement Environments.
+4170	f4170	 A New Model for Inductive Inference,
+4171	f4171	 Hall: Computatinal approaches to analogical reasoning; A comparative analysis.
+4172	f4172	CYCORD: a theory of qualitative spatial reasoning.
+4173	f4173	 Synthesizing information-tracking automata from environment descriptions.
+4174	f4174	Some psychological results on case-based reasoning.
+4175	f4175	Redundant Hidden Variables in Finite Domain Constraint Problems .
+4176	f4176	 On the hardness of approximate reasoning.
+4177	f4177	Design for autonomous chemical growth under different environmental constraints .
+4178	f4178	Modelling ( sub ) string-length based constraints through a Gramatical Inference method .
+4179	f4179	 The effective dimension of the space of hidden units.
+4180	f4180	  Constraint Networks : Modeling and Inferring Object Locations by Constraints ,  
+4181	f4181	Principles of Metareasoning.
+4182	f4182	 Principles of Metareasoning .
+4183	f4183	 Principles of Metareasoning.
+4184	f4184	 Principles of Metareasoning,
+4185	f4185	Search through systematic set enumeration.
+4186	f4186	Search through systematic set enumeration.
+4187	f4187	Search through systematic set enumeration.
+4188	f4188	Hierarchical reasoning about inequalities.
+4189	f4189	Derivation of Tpe and Alias Information for a Concurrent Constraint Language .
+4190	f4190	 Explanation; a first pass.
+4191	f4191	Natural Language Interface Systems.
+4192	f4192	Connecting visual and verbal space: Preliminary considerations concerning the concept `mental image'.
+4193	f4193	 An on-line algorithm for dynamic reinforcement learning and planning in reactive environments.
+4194	f4194	 Reinforcement learning in markovian and non-markovian environments.
+4195	f4195	 Reinforcement learning with interacting continually running fully recurrent networks.
+4196	f4196	 Reinforcement learning in Markovian and non-Markovian environments.
+4197	f4197	 Incremental self-improvement for life-time multi-agent reinforcement learning.
+4198	f4198	 HQ-Learning: Discovering Markovian subgoals for non-Markovian reinforcement learning.
+4199	f4199	Reinforcement learning in Markovian and non-Markovian environments.
+4200	f4200	Reinforcement learning in Markovian and non-Markovian environments.
+4201	f4201	Reinforcement learning in Markovian and non-Markovian environments.
+4202	f4202	Reinforcement learning with selfmodifying policies.
+4203	f4203	Reinforcement learning with selfmodifying policies.
+4204	f4204	Incremental self-improvement for life-time multi-agent reinforcement learning.
+4205	f4205	Incremental self-improvement for life-time multi-agent reinforcement learning.
+4206	f4206	HQ-Learning: Discovering Markovian subgoals for non-Markovian reinforcement learning.
+4207	f4207	 Incremental selfimprovement for lifelong multi agent reinforcement learning.
+4208	f4208	 Incremental self-improvement for life-time multiagent reinforcement learning.
+4209	f4209	 A general method for multiagent reinforcement learning in unrestricted envi ronments.
+4210	f4210	Case-based reasoning in an integrated design and construction system,
+4211	f4211	 A characterization of ten hiddensurface algorithms.
+4212	f4212	Image Flow Segmentation and Estimation by Constraint Line Clustering ,
+4213	f4213	Image Flow Segmentation and Estimation by Constraint Line Clustering ,
+4214	f4214	 Issues in using approximation for reinforcement learning.
+4215	f4215	 Issues in using function approximation for reinforcement learning.
+4216	f4216	 Issues in using function approximation for reinforcement learning.
+4217	f4217	 Issues in using function approximation for reinforcement learning.
+4218	f4218	A reinforcement learning method for maximizing undiscounted rewards.
+4219	f4219	A reinforcement learning method for maximizing undiscounted rewards,
+4220	f4220	A reinforcement learning method for maximizing undiscounted rewards.
+4221	f4221	Issues in using function approximation for reinforcement learning.
+4222	f4222	Outline of a naive semantics for reasoning with qualitative linguistic information.
+4223	f4223	 The User Interface In A Hypertext Multiwindow Browser.
+4224	f4224	 Constructing higher-dimensional convex hulls at logarithmic cost per face.
+4225	f4225	  Fuzzy command grammars for intelligent interface design, 
+4226	f4226	Knowledge-based constraint-driven software synthesis .
+4227	f4227	 Towards a calculus for temporal and qualitative reasoning.
+4228	f4228	A computational model of tractable reasoning: Taking inspiration from
+4229	f4229	Integrating explanatory and neural approaches to machine learning .
+4230	f4230	 Case-based reasoning with noisy case boundaries: An application in molecular biology.
+4231	f4231	Constraint-Based Grammar Formalisms : Parsing and Type Inference for Natural and Computer Languages .
+4232	f4232	Reasoning about Change: Time and Causation from the Standpoint of Artificial Intelligence.
+4233	f4233	 Combining Associational and Causal Reasoning to Solve Interpretation and Planning Problems,
+4234	f4234	 Commonsense arithmetic reasoning.
+4235	f4235	 Commonsense  arithmetic reasoning.
+4236	f4236	Commonsense arithmetic reasoning.
+4237	f4237	 Scaling reinforcement learning algorithms by learning variable temporal resolution models.
+4238	f4238	 Reinforcement learning with a hierarchy of abstract models.
+4239	f4239	 Reinforcement learning with replacing eligibility traces.
+4240	f4240	 Scaling reinforcement learning algorithms by learning variable temporal resolution models.
+4241	f4241	 Scaling reinforcement learning algorithms by learning variable temporal resolution models.
+4242	f4242	 Scaling reinforcement learning algorithms by learning variable temporal resolution models.
+4243	f4243	Using a genetic algorithm to learn prototypes for case retrieval and classi fication.
+4244	f4244	Case-based reasoning: A research paradigm.
+4245	f4245	 Interactions between philosophy and AI
+4246	f4246	Interactions between philosophy and AI
+4247	f4247	Phase Transition and the Mushy Region in Constraint Satisfaction Problems .
+4248	f4248	Varieties of self-reference.
+4249	f4249	In Search of Exceptionally Difficult Constraint Satisfaction Problems .
+4250	f4250	Phase Transition and the Mushy Region in Constraint Satisfaction Problems .
+4251	f4251	In Search of Exceptionally Difficult Constraint Satisfaction Problems .
+4252	f4252	Partial evaluation of pattern matching in constraint logic programming languages .
+4253	f4253	A foundation for concurrent constraint programming .
+4254	f4254	Feature-constraint logics for unification grammars .
+4255	f4255	A procedural interface for program directing.
+4256	f4256	 A metalogical programming approach to reasoning about time in knowledge bases.
+4257	f4257	Forward reasoning and dependency-directed backtracking in a system for computer-aided circuit analysis.
+4258	f4258	 Toward memory-based reasoning.
+4259	f4259	 Toward memory-based reasoning.
+4260	f4260	 Towards memory-based reasoning.
+4261	f4261	 Toward memory-based reasoning.
+4262	f4262	The memory-based reasoning paradigm.
+4263	f4263	Toward memory-based reasoning.
+4264	f4264	 Toward Memory-based Reasoning. 
+4265	f4265	Toward memorybased reasoning.
+4266	f4266	Toward memory-based reasoning.
+4267	f4267	Toward MemoryBased Reasoning.
+4268	f4268	Toward memorybased reasoning.
+4269	f4269	Toward memory-based reasoning.
+4270	f4270	 Toward Memory-based Reasoning.
+4271	f4271	 Toward Memory-Based Reasoning.
+4272	f4272	 Toward Memory-Based Reasoning.
+4273	f4273	 Toward Memory-Based Reasoning.
+4274	f4274	 Toward Memory-Based Reasoning.
+4275	f4275	Memory-based reasoning applied to English pronunciation.
+4276	f4276	 Toward memory-based reasoning.
+4277	f4277	 Toward memory-based reasoning.
+4278	f4278	. Memory-based reasoning applied to English pronunciation.
+4279	f4279	 Towards memorybased reasoning.
+4280	f4280	 Using peephole optimization on intermediate code.
+4281	f4281	Planning with constraints ( MOLGEN : Part 1 ) .
+4282	f4282	Planning with constraints (MOLGEN : Part1)
+4283	f4283	 Advanced human-system interfaces for telerobotics using virtual reality and telepresence technologies.
+4284	f4284	Problems of interval-based qualitative reasoning.
+4285	f4285	 A two-level hybrid architecture for structuring knowledge for commonsense reasoning.
+4286	f4286	Integrating Rules and Connectionism for Robust Commonsense Reasoning,
+4287	f4287	Temporal credit assignment in reinforcement learning,
+4288	f4288	 Temporal Credit Assignment in Reinforcement Learning.
+4289	f4289	 Temporal Credit Assignment in Reinforcement Learning.
+4290	f4290	 Temporal Credit Assignment in Reinforcement Learning.
+4291	f4291	 Generalization in Reinforcement Learning: Successful Examples Using Sparse Coarse Coding.
+4292	f4292	 Generalization in reinforcement learning: Successful examples using sparse coarse coding.
+4293	f4293	 Generalization in reinforcement learning: Successful examples using sparse coarse coding.
+4294	f4294	 Generalization in Reinforcement Learning: Successful Examples Using Sparse Coarse Coding.
+4295	f4295	Temporal credit assignment in reinforcement learning.
+4296	f4296	Temporal credit assignment in  reinforcement learning.
+4297	f4297	Temporal credit assignment in reinforcement learning.
+4298	f4298	 Temporal credit assignment in reinforcement learning
+4299	f4299	Temporal Credit Assignment in Reinforcement Learning.
+4300	f4300	Temporal credit assignment in reinforcement learning.
+4301	f4301	Temporal credit assignment in reinforcement learning.
+4302	f4302	 Reinforcement Learning Architectures for Animats,
+4303	f4303	Reinforcement Learning Architectures for Animats,
+4304	f4304	Reinforcement learning architectures for animats.
+4305	f4305	Reinforcement learning architectures for animats.
+4306	f4306	Reinforcement learning architectures for animats.
+4307	f4307	General framework for reinforcement learning.
+4308	f4308	Constraints on language acquisition .
+4309	f4309	 Qualitative reasoning of a temporally hierarchical system based on infinitesimal analysis.
+4310	f4310	 Multiagent reinforcement learning: Independent vs. cooperative agents.
+4311	f4311	 Cost sensitive reinforcement learning for adaptive classification and control.
+4312	f4312	Multi-agent reinforcement learning: independent vs. cooperative agents.
+4313	f4313	Cost-sensitive reinforcement learning for adaptive classification and control.
+4314	f4314	Reinforcement learning of multiple tasks using a hierarchical CMAC architecture.
+4315	f4315	  A key to fuzzy-logic inference, 
+4316	f4316	 Efficient exploration in reinforcement learning,
+4317	f4317	 Efficient exploration in reinforcement learning.
+4318	f4318	 Efficient exploration in reinforcement learning.
+4319	f4319	 Efficient exploration in reinforcement learning.
+4320	f4320	Efficient exploration in reinforcement learning,
+4321	f4321	Efficient exploration in reinforcement learning.
+4322	f4322	The Interface between Phrasal and Functional Constraints.
+4323	f4323	Foundations of Constraint Satisfaction .
+4324	f4324	An approximate analogical reasoning approach based on similarity measures.
+4325	f4325	 Adaptive reasoning for real-world problems,
+4326	f4326	 Surface structure and three-dimensional motion from image flow kinematics.
+4327	f4327	 Computing Knowledge Base Updates.
+4328	f4328	Reasoning, behaviour, and learning: A knowledge level perspective.
+4329	f4329	Reasoning, Behavior and learning: A knowledge-level perspective .
+4330	f4330	Learning by Analogical Reasoning in General Problem Solving.
+4331	f4331	Learning by Analogical Reasoning in General Problem Solving.
+4332	f4332	 Syntax-directed concept analysis in the reasoning foundations of human hair comparisons.
+4333	f4333	Constraint satisfaction with multi-dimensional domain .
+4334	f4334	Constraint satisfaction with multi-dimensional domain .
+4335	f4335	Interpolating surfaces: High order convergence rates and their associated designs, with applications to x-ray image reconstruction,
+4336	f4336	 Using a Human Face in an Interface, 
+4337	f4337	Directed Arc Consistency Preprocessing .
+4338	f4338	Constraint-based efficient matching in prodigy .
+4339	f4339	Computations , Abstractions and Constraints in Logic Programs .
+4340	f4340	Computations , Abstractions and Constraints in Logic Programs .
+4341	f4341	 Eucalyptus: Integrating Natural Language Input with a Graphical User Interface,
+4342	f4342	 Eucalyptus: An Integrated Spoken Language/Graphical Interface for Human-Computer Dialogue,
+4343	f4343	 Eucalyptus: An Integrated Spoken Language/Graphical Interface for Human-Computer Dialogue,
+4344	f4344	Eucalyptus: Integrating Natural Language Input with a Graphical User Interface.
+4345	f4345	 Distributed reinforcement learning.
+4346	f4346	 Multi-agent reinforcement learning,
+4347	f4347	 Reasoning about model accuracy.
+4348	f4348	Consistency of HDP Applied to a Simple Reinforcement Learning Problem.
+4349	f4349	Consistency of HDP applied to a simple reinforcement learning problem.
+4350	f4350	Converting context-free grammars to constraint dependency grammars .
+4351	f4351	 A study of cooperative mechanisms for faster reinforcement learning,
+4352	f4352	  A complexity analysis of cooperative mechanisms in reinforcement learning .
+4353	f4353	 A complexity analysis of cooperative mechanisms in reinforcement learning,
+4354	f4354	A study of cooperative mechanisms for faster reinforcement learning.
+4355	f4355	A study of cooperative mechanisms for faster reinforcement learning.
+4356	f4356	A complexity analysis of cooperative mechanisms in reinforcement learning.
+4357	f4357	 A complexity analysis of cooperative mechanisms in reinforcement learning .
+4358	f4358	A complexity analysis of cooperative mechansims in reinforcement learning.
+4359	f4359	A complexity analysis of cooperative mechanisms in reinforcement learning.
+4360	f4360	Reinforcement learning for the adaptive control of perception and action Tech.
+4361	f4361	A study of cooperative mechanisms for faster reinforcement learning.
+4362	f4362	 Reinforcement Learning for the Adaptive Control of Perception and Action.
+4363	f4363	 Reinforcement Learning for the Adaptive Control of Perception and Action.
+4364	f4364	A complexity analysis of cooperative mechanisms in reinforcement learning.
+4365	f4365	A complexity analysis of cooperative mechanisms in reinforcement learning,
+4366	f4366	A complexity analysis of cooperative mechanisms in reinforcement learning.
+4367	f4367	Reinforcement Learning for the Adaptive Control of Perception and Action.
+4368	f4368	 Some problems and proposals for knowledge representation.
+4369	f4369	 Hamlyn - An Interface for Sender-Based Communications.
+4370	f4370	 On the use of backpropagation in associative reinforcement learning.
+4371	f4371	 Toward a theory of reinforcement-learning connectionist systems.
+4372	f4372	 Toward a theory of reinforcement-learning connectionist systems.
+4373	f4373	On the use of backpropagation in associative reinforcement learning.
+4374	f4374	Simple statistical gradient-following algorithms for connectionist reinforcement learning.
+4375	f4375	Simple statistical gradient-following algorithms for connectionist reinforcement learning.
+4376	f4376	Simple statistical gradientfollowing algorithms for connectionist reinforcement learning.
+4377	f4377	 Pi: A parallel architecture interface for multi-model execution.
+4378	f4378	 Programming in OBJ and Maude.
+4379	f4379	 Reasoning about action using a possible models approach.
+4380	f4380	Learning and reasoning by analogy,
+4381	f4381	Learning and reasoning by analogy.
+4382	f4382	An interactive computer terminal interface which predicts user entries,
+4383	f4383	 An interactive computer terminal interface which predicts user entries, 
+4384	f4384	  Scaling Reinforcement Learning Techniques via Modularity, 
+4385	f4385	 Scaling reinforcement learning techniques via modularity.
+4386	f4386	Scaling reinforcement learning techniques via modularity.
+4387	f4387	Algorithms for nonlinear generalized cross-validation,
+4388	f4388	  Deformable Templates for Face Recognition .
+4389	f4389	  Deformable Templates for Face Recognition .
+4390	f4390	  Can backpropagation error surface not have local minima, 
+4391	f4391	Some Applications of Graph Bandwidth to Constraint Satisfaction Problems .
+4392	f4392	 Reasoning with background knowledge - a three-level theory.
+4393	f4393	 Reinforcement Learning for Job-Shop Scheduling.
+4394	f4394	 Reinforcement Learning for Job-Shop Scheduling.
+4395	f4395	  Meta-Level Control of Approximate Reasoning: A Decision Theoretic Approach. 

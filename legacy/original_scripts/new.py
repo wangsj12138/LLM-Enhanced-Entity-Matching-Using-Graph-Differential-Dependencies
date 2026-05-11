@@ -26,7 +26,7 @@ def connect_to_neo4j(uri, user, password):
         raise RuntimeError(
             "py2neo is not installed. Install optional Neo4j dependencies with "
             "`python3 -m pip install -r requirements-neo4j.txt`, or run the "
-            "local CSV demo with `python3 main1.py --mode local`."
+            "local CSV demo with `python3 legacy/original_scripts/main1.py --mode local`."
         )
     return Graph(uri, auth=(user, password))
 

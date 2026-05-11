@@ -1,0 +1,20 @@
+# Amazon-Google (AG) product rules loaded by the runner.
+# Format: rule_id<TAB>description<TAB>expression
+@stage2_accept_any	amazon_google	address_sim_ge_050,cuisine_sim_ge_050,same_city
+phone_exact	product prices are identical	exact_phone
+phone_area	product-price numeric prefixes match	same_area
+name_sim_ge_045	product-title token Jaccard similarity >= 0.45	name_sim >= 0.45
+name_sim_ge_060	product-title token Jaccard similarity >= 0.60	name_sim >= 0.60
+name_sim_ge_075	product-title token Jaccard similarity >= 0.75	name_sim >= 0.75
+address_sim_ge_030	manufacturer token Jaccard similarity >= 0.30	address_sim >= 0.30
+address_sim_ge_050	manufacturer token Jaccard similarity >= 0.50	address_sim >= 0.50
+cuisine_sim_ge_050	manufacturer token Jaccard similarity >= 0.50	cuisine_sim >= 0.50
+same_city	manufacturer strings are identical after normalization	same_city
+name045_address030	product-title similarity >= 0.45 AND manufacturer similarity >= 0.30	name_sim >= 0.45 and address_sim >= 0.30
+name045_phone_area	product-title similarity >= 0.45 AND price prefix matches	name_sim >= 0.45 and same_area
+phone_exact_or_name040_phone_area	price exact OR (price prefix matches AND product-title similarity >= 0.40)	exact_phone or (same_area and name_sim >= 0.40)
+phone_exact_or_name035_phone_area	price exact OR (price prefix matches AND product-title similarity >= 0.35)	exact_phone or (same_area and name_sim >= 0.35)
+address050_phone_area	manufacturer similarity >= 0.50 AND price prefix matches	address_sim >= 0.50 and same_area
+name_or_cuisine_or_char060	product-title token overlap exists OR manufacturer similarity >= 0.50 OR character-level title similarity >= 0.60	name_sim > 0 or cuisine_sim >= 0.50 or name_chars >= 0.60
+address030_or_exact_name_or_name075	manufacturer similarity >= 0.30 OR normalized product titles are identical OR product-title similarity >= 0.75	address_sim >= 0.30 or exact_name or name_sim >= 0.75
+phone_name_candidate_consistent	price/title consistency AND title/manufacturer/character-title consistency AND manufacturer/title consistency	(exact_phone or (same_area and name_sim >= 0.40)) and (name_sim > 0 or cuisine_sim >= 0.50 or name_chars >= 0.60) and (address_sim >= 0.30 or exact_name or name_sim >= 0.75)

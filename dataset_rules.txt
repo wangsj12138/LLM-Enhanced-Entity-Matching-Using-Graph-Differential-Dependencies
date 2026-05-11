@@ -1,0 +1,443 @@
+# Dataset Rule Notes
+
+This file is documentation only. It is not loaded by the code.
+
+The rule names are shared across datasets, but their meanings follow each dataset's
+field mapping. The lists below spell out the full rules used for each dataset.
+
+## Fodors-Zagats (FZ)
+
+Graph pattern:
+
+```text
+Restaurant -> Address -> City
+```
+
+Field mapping:
+
+```text
+name    = restaurant name
+address = address node value
+city    = city node value
+phone   = restaurant phone
+cuisine = restaurant cuisine
+```
+
+Full rule set:
+
+```text
+phone_exact
+  Normalized restaurant phone numbers are identical.
+
+phone_area
+  Restaurant phone area codes are identical.
+
+name_sim_ge_045
+  Restaurant-name token Jaccard similarity >= 0.45.
+
+name_sim_ge_060
+  Restaurant-name token Jaccard similarity >= 0.60.
+
+name_sim_ge_075
+  Restaurant-name token Jaccard similarity >= 0.75.
+
+address_sim_ge_030
+  Address token Jaccard similarity >= 0.30.
+
+address_sim_ge_050
+  Address token Jaccard similarity >= 0.50.
+
+cuisine_sim_ge_050
+  Cuisine token Jaccard similarity >= 0.50.
+
+same_city
+  City strings are identical after normalization.
+
+name045_address030
+  Restaurant-name similarity >= 0.45 and address similarity >= 0.30.
+
+name045_phone_area
+  Restaurant-name similarity >= 0.45 and phone area codes match.
+
+phone_exact_or_name040_phone_area
+  Phone exact, or phone area matches and restaurant-name similarity >= 0.40.
+
+phone_exact_or_name035_phone_area
+  Phone exact, or phone area matches and restaurant-name similarity >= 0.35.
+
+address050_phone_area
+  Address similarity >= 0.50 and phone area codes match.
+
+name_or_cuisine_or_char060
+  Restaurant names have token overlap, or cuisine similarity >= 0.50,
+  or character-level restaurant-name similarity >= 0.60.
+
+address030_or_exact_name_or_name075
+  Address similarity >= 0.30, or normalized restaurant names are identical,
+  or restaurant-name similarity >= 0.75.
+
+phone_name_candidate_consistent
+  Phone/name consistency and name/cuisine/character consistency and
+  address/name consistency all hold.
+```
+
+## DBLP-ACM (DA)
+
+Graph pattern:
+
+```text
+Paper -> Author
+Paper -> Venue
+```
+
+Field mapping:
+
+```text
+name    = paper title
+address = author list
+city    = venue
+phone   = publication year
+cuisine = venue
+```
+
+Full rule set:
+
+```text
+phone_exact
+  Publication years are identical.
+
+phone_area
+  Publication-year prefixes match under the generic numeric rule.
+
+name_sim_ge_045
+  Paper-title token Jaccard similarity >= 0.45.
+
+name_sim_ge_060
+  Paper-title token Jaccard similarity >= 0.60.
+
+name_sim_ge_075
+  Paper-title token Jaccard similarity >= 0.75.
+
+address_sim_ge_030
+  Author-list token Jaccard similarity >= 0.30.
+
+address_sim_ge_050
+  Author-list token Jaccard similarity >= 0.50.
+
+cuisine_sim_ge_050
+  Venue token Jaccard similarity >= 0.50.
+
+same_city
+  Venue strings are identical after normalization.
+
+name045_address030
+  Paper-title similarity >= 0.45 and author-list similarity >= 0.30.
+
+name045_phone_area
+  Paper-title similarity >= 0.45 and publication-year prefix matches.
+
+phone_exact_or_name040_phone_area
+  Publication year exact, or year prefix matches and title similarity >= 0.40.
+
+phone_exact_or_name035_phone_area
+  Publication year exact, or year prefix matches and title similarity >= 0.35.
+
+address050_phone_area
+  Author-list similarity >= 0.50 and publication-year prefix matches.
+
+name_or_cuisine_or_char060
+  Paper titles have token overlap, or venue similarity >= 0.50,
+  or character-level title similarity >= 0.60.
+
+address030_or_exact_name_or_name075
+  Author-list similarity >= 0.30, or normalized paper titles are identical,
+  or title similarity >= 0.75.
+
+phone_name_candidate_consistent
+  Year/title consistency and title/venue/character consistency and
+  author/title consistency all hold.
+```
+
+Rules selected in the DA run:
+
+```text
+Stage1 selected rules:
+  name_or_cuisine_or_char060
+  phone_area
+  phone_exact_or_name035_phone_area
+
+Stage2 acceptance:
+  confidence >= 0.95
+```
+
+## Amazon-Google (AG)
+
+Graph pattern:
+
+```text
+Software -> Manufacturer
+```
+
+Field mapping:
+
+```text
+name    = product title
+address = manufacturer
+city    = manufacturer
+phone   = price
+cuisine = manufacturer
+```
+
+Full rule set:
+
+```text
+phone_exact
+  Product prices are identical.
+
+phone_area
+  Product-price numeric prefixes match under the generic numeric rule.
+
+name_sim_ge_045
+  Product-title token Jaccard similarity >= 0.45.
+
+name_sim_ge_060
+  Product-title token Jaccard similarity >= 0.60.
+
+name_sim_ge_075
+  Product-title token Jaccard similarity >= 0.75.
+
+address_sim_ge_030
+  Manufacturer token Jaccard similarity >= 0.30.
+
+address_sim_ge_050
+  Manufacturer token Jaccard similarity >= 0.50.
+
+cuisine_sim_ge_050
+  Manufacturer token Jaccard similarity >= 0.50.
+
+same_city
+  Manufacturer strings are identical after normalization.
+
+name045_address030
+  Product-title similarity >= 0.45 and manufacturer similarity >= 0.30.
+
+name045_phone_area
+  Product-title similarity >= 0.45 and price numeric prefix matches.
+
+phone_exact_or_name040_phone_area
+  Price exact, or price prefix matches and product-title similarity >= 0.40.
+
+phone_exact_or_name035_phone_area
+  Price exact, or price prefix matches and product-title similarity >= 0.35.
+
+address050_phone_area
+  Manufacturer similarity >= 0.50 and price numeric prefix matches.
+
+name_or_cuisine_or_char060
+  Product titles have token overlap, or manufacturer similarity >= 0.50,
+  or character-level title similarity >= 0.60.
+
+address030_or_exact_name_or_name075
+  Manufacturer similarity >= 0.30, or normalized product titles are identical,
+  or product-title similarity >= 0.75.
+
+phone_name_candidate_consistent
+  Price/title consistency and title/manufacturer/character consistency and
+  manufacturer/title consistency all hold.
+```
+
+Rules used in the AG run:
+
+```text
+Stage1 selected rules:
+  name_or_cuisine_or_char060
+  address030_or_exact_name_or_name075
+  address_sim_ge_030
+
+Stage2 acceptance:
+  confidence >= 0.80
+  and at least one of:
+    address_sim_ge_050
+    cuisine_sim_ge_050
+    same_city
+```
+
+## CiteSeer
+
+Graph pattern:
+
+```text
+Author -> Paper
+```
+
+Field mapping:
+
+```text
+name    = author name
+address = paper title
+city    = paper title
+phone   = empty
+cuisine = paper title
+```
+
+Full rule set:
+
+```text
+phone_exact
+  Not active for CiteSeer because phone is empty.
+
+phone_area
+  Not active for CiteSeer because phone is empty.
+
+name_sim_ge_045
+  Author-name token Jaccard similarity >= 0.45.
+
+name_sim_ge_060
+  Author-name token Jaccard similarity >= 0.60.
+
+name_sim_ge_075
+  Author-name token Jaccard similarity >= 0.75.
+
+address_sim_ge_030
+  Paper-title token Jaccard similarity >= 0.30.
+
+address_sim_ge_050
+  Paper-title token Jaccard similarity >= 0.50.
+
+cuisine_sim_ge_050
+  Paper-title token Jaccard similarity >= 0.50.
+
+same_city
+  Paper-title strings are identical after normalization.
+
+name045_address030
+  Author-name similarity >= 0.45 and paper-title similarity >= 0.30.
+
+name045_phone_area
+  Not active in practice because phone is empty.
+
+phone_exact_or_name040_phone_area
+  Not active in practice because phone is empty.
+
+phone_exact_or_name035_phone_area
+  Not active in practice because phone is empty.
+
+address050_phone_area
+  Not active in practice because phone is empty.
+
+name_or_cuisine_or_char060
+  Author names have token overlap, or paper-title similarity >= 0.50,
+  or character-level author-name similarity >= 0.60.
+
+address030_or_exact_name_or_name075
+  Paper-title similarity >= 0.30, or normalized author names are identical,
+  or author-name similarity >= 0.75.
+
+phone_name_candidate_consistent
+  Not active in practice because phone is empty.
+```
+
+Rules used in the CiteSeer run:
+
+```text
+Candidate generation:
+  same surname blocking
+  plus same-paper author blocking
+
+Stage1 selected rules:
+  name_or_cuisine_or_char060
+
+Stage2 acceptance:
+  confidence >= 0.90
+```
+
+## ArXiv
+
+Graph pattern:
+
+```text
+Author -> Paper
+```
+
+Field mapping:
+
+```text
+name    = author name
+address = paper id
+city    = paper id
+phone   = empty
+cuisine = paper id
+```
+
+Full rule set:
+
+```text
+phone_exact
+  Not active for ArXiv because phone is empty.
+
+phone_area
+  Not active for ArXiv because phone is empty.
+
+name_sim_ge_045
+  Author-name token Jaccard similarity >= 0.45.
+
+name_sim_ge_060
+  Author-name token Jaccard similarity >= 0.60.
+
+name_sim_ge_075
+  Author-name token Jaccard similarity >= 0.75.
+
+address_sim_ge_030
+  Paper-id token Jaccard similarity >= 0.30.
+
+address_sim_ge_050
+  Paper-id token Jaccard similarity >= 0.50.
+
+cuisine_sim_ge_050
+  Paper-id token Jaccard similarity >= 0.50.
+
+same_city
+  Paper-id strings are identical after normalization.
+
+name045_address030
+  Author-name similarity >= 0.45 and paper-id similarity >= 0.30.
+
+name045_phone_area
+  Not active in practice because phone is empty.
+
+phone_exact_or_name040_phone_area
+  Not active in practice because phone is empty.
+
+phone_exact_or_name035_phone_area
+  Not active in practice because phone is empty.
+
+address050_phone_area
+  Not active in practice because phone is empty.
+
+name_or_cuisine_or_char060
+  Author names have token overlap, or paper-id similarity >= 0.50,
+  or character-level author-name similarity >= 0.60.
+
+address030_or_exact_name_or_name075
+  Paper-id similarity >= 0.30, or normalized author names are identical,
+  or author-name similarity >= 0.75.
+
+phone_name_candidate_consistent
+  Not active in practice because phone is empty.
+```
+
+Rules used in the ArXiv run:
+
+```text
+Candidate generation:
+  same surname blocking
+  plus same-paper author blocking
+
+Stage1 selected rules:
+  name_or_cuisine_or_char060
+
+Stage2 acceptance:
+  confidence >= 0.80
+  and:
+    name_sim_ge_045
+```

@@ -1,2 +1,0 @@
-1673	v1673	` new york '
-1678	v1678	` new york city '

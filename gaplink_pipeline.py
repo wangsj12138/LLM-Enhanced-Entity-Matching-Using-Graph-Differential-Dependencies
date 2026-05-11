@@ -8,9 +8,49 @@ import time
 from dataclasses import asdict, dataclass
 from pathlib import Path
 
-from gaplink_local import clean_text, evaluate, jaccard, load_truth, phone_digits, tokens
+from er_utils import clean_text, evaluate, jaccard, load_truth, phone_digits, tokens
 from llm_matcher import LLMMatcher
 from neo4j_setup import get_driver
+
+
+@dataclass(frozen=True)
+class DatasetConfig:
+    key: str
+    display_name: str
+    task_name: str
+    entity_noun: str
+    graph_kind: str
+    network_dir: Path
+    entity_label: str
+    address_label: str
+    city_label: str
+    located_rel: str
+    city_rel: str
+    left_id_max_exclusive: int
+    right_id_min_inclusive: int
+    truth_path: Path
+    table_b_offset: int | None
+
+
+DATASET_CONFIGS = {
+    "fz": DatasetConfig(
+        key="fz",
+        display_name="FZ",
+        task_name="Fodors-Zagats restaurant ER",
+        entity_noun="restaurant",
+        graph_kind="fodors_zagats",
+        network_dir=Path("dataset/fodors_zagats/network"),
+        entity_label="Restaurant",
+        address_label="Address",
+        city_label="City",
+        located_rel="LOCATED_AT",
+        city_rel="IN_CITY",
+        left_id_max_exclusive=533,
+        right_id_min_inclusive=533,
+        truth_path=Path("dataset/fodors_zagats/relational-dataset/fodors-zagats/matches.csv"),
+        table_b_offset=533,
+    )
+}
 
 
 @dataclass
@@ -34,35 +74,39 @@ class GraphCandidate:
         return tuple(sorted((self.left_id, self.right_id)))
 
 
-GDD_QUERIES = {
-    "name_token": """
-        MATCH (r1:Restaurant)-[:LOCATED_AT]->(a1:Address)-[:IN_CITY]->(c1:City)
-        MATCH (r2:Restaurant)-[:LOCATED_AT]->(a2:Address)-[:IN_CITY]->(c2:City)
-        WHERE toInteger(r1.id) < 533 AND toInteger(r2.id) >= 533
+GDD_RULES = ("name_token", "same_city_cuisine", "phone_area", "address_token")
+
+
+def gdd_queries(config: DatasetConfig) -> dict[str, str]:
+    return {
+        "name_token": f"""
+        MATCH (r1:{config.entity_label})-[:{config.located_rel}]->(a1:{config.address_label})-[:{config.city_rel}]->(c1:{config.city_label})
+        MATCH (r2:{config.entity_label})-[:{config.located_rel}]->(a2:{config.address_label})-[:{config.city_rel}]->(c2:{config.city_label})
+        WHERE toInteger(r1.id) < {config.left_id_max_exclusive} AND toInteger(r2.id) >= {config.right_id_min_inclusive}
           AND any(w IN split(toLower(r1.name), ' ') WHERE size(w) > 2 AND w IN split(toLower(r2.name), ' '))
         RETURN r1, r2, a1, a2, c1, c2
     """,
-    "same_city_cuisine": """
-        MATCH (r1:Restaurant)-[:LOCATED_AT]->(a1:Address)-[:IN_CITY]->(c1:City)
-        MATCH (r2:Restaurant)-[:LOCATED_AT]->(a2:Address)-[:IN_CITY]->(c1)
-        WHERE toInteger(r1.id) < 533 AND toInteger(r2.id) >= 533
+        "same_city_cuisine": f"""
+        MATCH (r1:{config.entity_label})-[:{config.located_rel}]->(a1:{config.address_label})-[:{config.city_rel}]->(c1:{config.city_label})
+        MATCH (r2:{config.entity_label})-[:{config.located_rel}]->(a2:{config.address_label})-[:{config.city_rel}]->(c1)
+        WHERE toInteger(r1.id) < {config.left_id_max_exclusive} AND toInteger(r2.id) >= {config.right_id_min_inclusive}
           AND r1.cuisine <> '' AND toLower(r1.cuisine) = toLower(r2.cuisine)
         RETURN r1, r2, a1, a2, c1, c1 AS c2
     """,
-    "phone_area": """
-        MATCH (r1:Restaurant)-[:LOCATED_AT]->(a1:Address)-[:IN_CITY]->(c1:City)
-        MATCH (r2:Restaurant)-[:LOCATED_AT]->(a2:Address)-[:IN_CITY]->(c2:City)
-        WHERE toInteger(r1.id) < 533 AND toInteger(r2.id) >= 533
+        "phone_area": f"""
+        MATCH (r1:{config.entity_label})-[:{config.located_rel}]->(a1:{config.address_label})-[:{config.city_rel}]->(c1:{config.city_label})
+        MATCH (r2:{config.entity_label})-[:{config.located_rel}]->(a2:{config.address_label})-[:{config.city_rel}]->(c2:{config.city_label})
+        WHERE toInteger(r1.id) < {config.left_id_max_exclusive} AND toInteger(r2.id) >= {config.right_id_min_inclusive}
         RETURN r1, r2, a1, a2, c1, c2
     """,
-    "address_token": """
-        MATCH (r1:Restaurant)-[:LOCATED_AT]->(a1:Address)-[:IN_CITY]->(c1:City)
-        MATCH (r2:Restaurant)-[:LOCATED_AT]->(a2:Address)-[:IN_CITY]->(c2:City)
-        WHERE toInteger(r1.id) < 533 AND toInteger(r2.id) >= 533
+        "address_token": f"""
+        MATCH (r1:{config.entity_label})-[:{config.located_rel}]->(a1:{config.address_label})-[:{config.city_rel}]->(c1:{config.city_label})
+        MATCH (r2:{config.entity_label})-[:{config.located_rel}]->(a2:{config.address_label})-[:{config.city_rel}]->(c2:{config.city_label})
+        WHERE toInteger(r1.id) < {config.left_id_max_exclusive} AND toInteger(r2.id) >= {config.right_id_min_inclusive}
           AND any(w IN split(toLower(a1.value), ' ') WHERE size(w) > 2 AND w IN split(toLower(a2.value), ' '))
         RETURN r1, r2, a1, a2, c1, c2
     """,
-}
+    }
 
 
 def node_dict(node) -> dict:
@@ -92,11 +136,11 @@ def passes_rule(rule: str, r1: dict, r2: dict, a1: dict, a2: dict) -> bool:
     return True
 
 
-def fetch_candidates(limit_per_rule: int | None = None) -> list[GraphCandidate]:
+def fetch_candidates(config: DatasetConfig, limit_per_rule: int | None = None) -> list[GraphCandidate]:
     by_pair: dict[tuple[int, int], GraphCandidate] = {}
     driver = get_driver()
     with driver.session() as session:
-        for rule, query in GDD_QUERIES.items():
+        for rule, query in gdd_queries(config).items():
             query_text = query
             if limit_per_rule:
                 query_text += f"\nLIMIT {int(limit_per_rule)}"
@@ -164,11 +208,11 @@ def candidate_probability(candidate: GraphCandidate, probabilities: dict[str, fl
     return min(1.0, sum(probabilities[rule] for rule in candidate.rules))
 
 
-def prompt_for(candidate: GraphCandidate) -> str:
+def prompt_for(candidate: GraphCandidate, config: DatasetConfig) -> str:
     payload = {
         "graph_pattern": [
-            "(restaurant_1)-[:LOCATED_AT]->(address_1)-[:IN_CITY]->(city)",
-            "(restaurant_2)-[:LOCATED_AT]->(address_2)-[:IN_CITY]->(city)",
+            f"(entity_1)-[:{config.located_rel}]->(address_1)-[:{config.city_rel}]->(city)",
+            f"(entity_2)-[:{config.located_rel}]->(address_2)-[:{config.city_rel}]->(city)",
         ],
         "gdd_rules_triggered": candidate.rules,
         "restaurant_1": {
@@ -189,7 +233,7 @@ def prompt_for(candidate: GraphCandidate) -> str:
         },
     }
     return (
-        "Decide whether restaurant_1 and restaurant_2 refer to the same real-world restaurant. "
+        f"{config.task_name}. Decide whether restaurant_1 and restaurant_2 refer to the same real-world restaurant. "
         "Use both attributes and the graph pattern/GDD rules. Return JSON only.\n\n"
         f"{json.dumps(payload, ensure_ascii=False, indent=2)}"
     )
@@ -201,11 +245,13 @@ def run_pipeline(
     theta: float = 0.5,
     limit_per_rule: int | None = None,
     structural_threshold: float = 0.48,
+    dataset_key: str = "fz",
 ) -> dict:
     start = time.time()
+    config = DATASET_CONFIGS[dataset_key]
     output_dir.mkdir(parents=True, exist_ok=True)
-    candidates = fetch_candidates(limit_per_rule=limit_per_rule)
-    probabilities = {rule: 1 / len(GDD_QUERIES) for rule in GDD_QUERIES}
+    candidates = fetch_candidates(config, limit_per_rule=limit_per_rule)
+    probabilities = {rule: 1 / len(GDD_RULES) for rule in GDD_RULES}
     matcher = LLMMatcher()
     asked: set[tuple[int, int]] = set()
 
@@ -220,7 +266,7 @@ def run_pipeline(
                 item.structural_score,
             ),
         )
-        decision = matcher.decide(prompt_for(selected))
+        decision = matcher.decide(prompt_for(selected, config))
         selected.llm_decision = decision.match
         selected.llm_confidence = decision.confidence
         selected.llm_reason = decision.reason
@@ -238,10 +284,12 @@ def run_pipeline(
             if candidate.structural_score >= structural_threshold and candidate.rule_probability >= 0.15:
                 predictions.add(candidate.pair)
 
-    truth = load_truth(Path("dataset/relational-dataset/fodors-zagats/matches.csv"), table_b_offset=533)
+    truth = load_truth(config.truth_path, table_b_offset=config.table_b_offset)
     metrics = evaluate(predictions, truth)
     result = {
         **metrics,
+        "dataset": config.display_name,
+        "dataset_key": config.key,
         "candidate_pairs": len(candidates),
         "predicted_matches": len(predictions),
         "llm_calls": len(asked),
@@ -285,13 +333,21 @@ def write_outputs(output_dir: Path, candidates: list[GraphCandidate], prediction
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Run the paper-style GAPLink pipeline with Neo4j and LLM feedback.")
+    parser.add_argument("--dataset", choices=sorted(DATASET_CONFIGS), default="fz")
     parser.add_argument("--output-dir", type=Path, default=Path("output_file"))
     parser.add_argument("--max-llm-calls", type=int, default=20)
     parser.add_argument("--theta", type=float, default=0.5)
     parser.add_argument("--limit-per-rule", type=int)
     parser.add_argument("--structural-threshold", type=float, default=0.48)
     args = parser.parse_args()
-    metrics = run_pipeline(args.output_dir, args.max_llm_calls, args.theta, args.limit_per_rule, args.structural_threshold)
+    metrics = run_pipeline(
+        args.output_dir,
+        args.max_llm_calls,
+        args.theta,
+        args.limit_per_rule,
+        args.structural_threshold,
+        args.dataset,
+    )
     print(json.dumps(metrics, ensure_ascii=False, indent=2))
 
 

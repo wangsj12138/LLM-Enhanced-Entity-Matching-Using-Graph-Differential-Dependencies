@@ -1,13 +1,38 @@
 cd "/Users/shujing/Documents/New project 3"
 
 三种 prompt：
-.venv/bin/python fz_gaplink_threshold_rules.py --mode zero-shot --workers 8 --sample-size 1000 --sample-seed 42 --no-cache
+# FZ
+.venv/bin/python neo4j_setup.py --dataset fz
+.venv/bin/python run.py --dataset fz --mode zero-shot --workers 8 --no-cache
+.venv/bin/python run.py --dataset fz --mode few-shot --workers 8 --no-cache
+.venv/bin/python run.py --dataset fz --mode self-consistency --workers 8 --no-cache
 
-.venv/bin/python fz_gaplink_threshold_rules.py --mode few-shot --workers 8 --sample-size 1000 --sample-seed 42 --no-cache
+# DA
+.venv/bin/python neo4j_setup.py --dataset dblp_acm
+.venv/bin/python run.py --dataset dblp_acm --mode zero-shot --workers 8 --top-rules 3 --max-rule-support 100000000 --max-llm-calls 20 --min-llm-calls 5 --early-stop-rounds 3 --sample-size 1000 --sample-seed 42 --no-cache
+.venv/bin/python run.py --dataset dblp_acm --mode few-shot --workers 8 --top-rules 3 --max-rule-support 100000000 --max-llm-calls 20 --min-llm-calls 5 --early-stop-rounds 3 --sample-size 1000 --sample-seed 42 --no-cache
+.venv/bin/python run.py --dataset dblp_acm --mode self-consistency --workers 8 --top-rules 3 --max-rule-support 100000000 --max-llm-calls 20 --min-llm-calls 5 --early-stop-rounds 3 --sample-size 1000 --sample-seed 42 --no-cache
 
-.venv/bin/python fz_gaplink_threshold_rules.py --mode self-consistency --workers 8 --sample-size 1000 --sample-seed 42 --no-cache
+# DS
+.venv/bin/python neo4j_setup.py --dataset dblp_scholar
+.venv/bin/python run.py --dataset dblp_scholar --mode zero-shot --workers 8 --top-rules 3 --max-rule-support 100000000 --max-llm-calls 20 --min-llm-calls 5 --early-stop-rounds 3 --sample-size 1000 --sample-seed 42 --no-cache
+.venv/bin/python run.py --dataset dblp_scholar --mode few-shot --workers 8 --top-rules 3 --max-rule-support 100000000 --max-llm-calls 20 --min-llm-calls 5 --early-stop-rounds 3 --sample-size 1000 --sample-seed 42 --no-cache
+.venv/bin/python run.py --dataset dblp_scholar --mode self-consistency --workers 8 --top-rules 3 --max-rule-support 100000000 --max-llm-calls 20 --min-llm-calls 5 --early-stop-rounds 3 --sample-size 1000 --sample-seed 42 --no-cache
 
-用缓存跑：
-.venv/bin/python fz_gaplink_threshold_rules.py --mode zero-shot --workers 8 --sample-size 1000 --sample-seed 42
-.venv/bin/python fz_gaplink_threshold_rules.py --mode few-shot --workers 8 --sample-size 1000 --sample-seed 42
-.venv/bin/python fz_gaplink_threshold_rules.py --mode self-consistency --workers 8 --sample-size 1000 --sample-seed 42
+# AG
+.venv/bin/python neo4j_setup.py --dataset amazon_google
+.venv/bin/python run.py --dataset amazon_google --mode zero-shot --workers 8 --top-rules 3 --max-rule-support 100000000 --max-llm-calls 20 --min-llm-calls 5 --early-stop-rounds 3 --sample-size 1000 --sample-seed 42 --no-cache
+.venv/bin/python run.py --dataset amazon_google --mode few-shot --workers 8 --top-rules 3 --max-rule-support 100000000 --max-llm-calls 20 --min-llm-calls 5 --early-stop-rounds 3 --sample-size 1000 --sample-seed 42 --no-cache
+.venv/bin/python run.py --dataset amazon_google --mode self-consistency --workers 8 --top-rules 3 --max-rule-support 100000000 --max-llm-calls 20 --min-llm-calls 5 --early-stop-rounds 3 --sample-size 1000 --sample-seed 42 --no-cache
+
+# CiteSeer
+.venv/bin/python neo4j_setup.py --dataset citeseer
+.venv/bin/python run.py --dataset citeseer --mode zero-shot --workers 8 --top-rules 1 --max-rule-support 100000000 --max-llm-calls 20 --min-llm-calls 5 --early-stop-rounds 3 --sample-size 1000 --sample-seed 42 --no-cache
+.venv/bin/python run.py --dataset citeseer --mode few-shot --workers 8 --top-rules 1 --max-rule-support 100000000 --max-llm-calls 20 --min-llm-calls 5 --early-stop-rounds 3 --sample-size 1000 --sample-seed 42 --no-cache
+.venv/bin/python run.py --dataset citeseer --mode self-consistency --workers 8 --top-rules 1 --max-rule-support 100000000 --max-llm-calls 20 --min-llm-calls 5 --early-stop-rounds 3 --sample-size 1000 --sample-seed 42 --no-cache
+
+# ArXiv
+.venv/bin/python neo4j_setup.py --dataset arxiv
+.venv/bin/python run.py --dataset arxiv --mode zero-shot --workers 8 --top-rules 1 --max-rule-support 100000000 --max-llm-calls 20 --min-llm-calls 5 --early-stop-rounds 3 --sample-size 1000 --sample-seed 42 --no-cache
+.venv/bin/python run.py --dataset arxiv --mode few-shot --workers 8 --top-rules 1 --max-rule-support 100000000 --max-llm-calls 20 --min-llm-calls 5 --early-stop-rounds 3 --sample-size 1000 --sample-seed 42 --no-cache
+.venv/bin/python run.py --dataset arxiv --mode self-consistency --workers 8 --top-rules 1 --max-rule-support 100000000 --max-llm-calls 20 --min-llm-calls 5 --early-stop-rounds 3 --sample-size 1000 --sample-seed 42 --no-cache

@@ -1,0 +1,391 @@
+4589	lotus development corp
+4590	zero-g
+4591	individual software
+4592	borland international
+4593	watchguard technologies inc
+4594	kutoka
+4595	nero inc.
+4596	enfocus software
+4597	feral interactive
+4598	punch software
+4599	primavera systems
+4600	got game
+4601	finale
+4602	navarre distribution services
+4603	sonic-systems-inc .
+4604	ibm
+4605	extensis corporation
+4606	dorling-kindersley-multimedia - ( dk )
+4607	sony-media-software
+4608	channel sources distribution co
+4609	hewlett packard
+4610	adaptec
+4611	microspot ltd
+4612	lego media
+4613	iplaymusic
+4614	e-mu
+4615	jungle software
+4616	m-and-r-technologies
+4617	sony creative software
+4618	intuit
+4619	simply-put-software-llc
+4620	computer associates
+4621	isi researchsoft
+4622	alfred publishing
+4623	mcafee
+4624	aladdin systems
+4625	ncsoft
+4626	sibelius-software-ltd .
+4627	ubi soft
+4628	adobe systems
+4629	red mile
+4630	mindjet
+4631	kutoka interactive
+4632	ingram micro
+4633	sony
+4634	solidworks corporation
+4635	novastor corporation
+4636	adobe software
+4637	digital praise
+4638	dreamcatcher interactive
+4639	imsi design
+4640	summit software
+4641	global-software-publishing-north-america-inc
+4642	systran boxed
+4643	netopia
+4644	ce software
+4645	smith-micro-software
+4646	cakewalk
+4647	true-north-technology-inc .
+4648	destineer inc
+4649	laughing bird
+4650	pantone inc.
+4651	nortel
+4652	allume systems
+4653	namco video games
+4654	imsi
+4655	activision
+4656	mumbo jumbo
+4657	oxford-university-press
+4658	ipswitch inc
+4659	navarre ( software )
+4660	hummingbird communications
+4661	curious labs inc.
+4662	grisoft
+4663	avanquest
+4664	the-learning-company
+4665	iris
+4666	core learning
+4667	eagle games
+4668	zone labs
+4669	honest technology
+4670	filemaker
+4671	omni group
+4672	sony-creative-software
+4673	handmark inc. .
+4674	tri synergy
+4675	global-software-publ-na
+4676	topics entertainment
+4677	kensington technology group
+4678	quark inc
+4679	prosoft engineering
+4680	selectsoft publishing
+4681	avanquest usa
+4682	digidesign
+4683	valuesoft
+4684	atari
+4685	on-hand-software
+4686	ibm - ( aap-misc-parts )
+4687	ientertainment
+4688	magix entertainment
+4689	century software
+4690	apple software
+4691	freeverse software
+4692	red-orb-entertainment
+4693	digital-leisure-inc .
+4694	cosmi
+4695	epson
+4696	extensis
+4697	acclaim
+4698	smith-micro-software-inc .
+4699	eidos interactive
+4700	vivendi
+4701	miraizon
+4702	sega-of-america-inc .
+4703	persoft
+4704	now software
+4705	nolo press
+4706	whiptail
+4707	nuance communications inc.
+4708	marware
+4709	sony media
+4710	abacus
+4711	edmark
+4712	kaspersky lab
+4713	sony-pictures-digital-entertainment
+4714	synet-electronics-inc .
+4715	checkmark software
+4716	intervideo
+4717	nuance communications inc. .
+4718	final draft
+4719	knowledge adventure
+4720	efrontier
+4721	namo
+4722	roxio
+4723	avanquest publishing usa inc.
+4724	eovia
+4725	corel corp
+4726	school zone
+4727	arc-media-inc .
+4728	masque
+4729	interplay
+4730	simply-put-software
+4731	detto-technologies-inc
+4732	e-b-c-marketing
+4733	valusoft
+4734	dataviz
+4735	dantz
+4736	humongous sports
+4737	webroot software
+4738	mysoftware company
+4739	brighter minds
+4740	curious-labs-inc .
+4741	navarre
+4742	sierra online
+4743	encore inc
+4744	global marketing
+4745	allume
+4746	tyndale house
+4747	esker
+4748	fellowes
+4749	cisco systems enterprise
+4750	stomp inc
+4751	myob us
+4752	autodesk
+4753	global software publishing
+4754	topics education
+4755	veritas
+4756	cisco systems ( ciscopro )
+4757	eurotalk
+4758	sos aggregation
+4759	power production
+4760	egames
+4761	sierra on-line
+4762	masque publishing
+4763	pg-music-inc .
+4764	git corp
+4765	bling software
+4766	re : launch
+4767	groove media
+4768	global-marketing-partners
+4769	symantec media
+4770	riverdeep-learning-company
+4771	pinnacle systems
+4772	quark
+4773	x-oom
+4774	enfocus
+4775	encore
+4776	i.r.i.s.
+4777	motu
+4778	steinberg
+4779	axis-communication-inc .
+4780	adobe-education-box
+4781	nova development
+4782	encore software
+4783	apple
+4784	chronos
+4785	eurotalk interactive
+4786	disney interactive
+4787	apple-computer - ( direct )
+4788	strategy first
+4789	vivendi games
+4790	datawatch
+4791	emc
+4792	sony-computer-entertainment
+4793	laplink
+4794	lotus development
+4795	autodesk psg
+4796	fluke networks
+4797	susteen
+4798	palo-alto-software
+4799	canopus/grass valley
+4800	ca retail
+4801	dk
+4802	abacus software
+4803	mariner software
+4804	global-software-publishing
+4805	corel corporation
+4806	3m
+4807	total training
+4808	watchguard license
+4809	jian inc.
+4810	sierra home
+4811	hasbro interactive
+4812	yamaha
+4813	ibm software lotus shrinkwrap
+4814	nuance
+4815	steinberg ( yamaha )
+4816	findex.com inc
+4817	nuance-communications-inc .
+4818	emedia
+4819	adobe
+4820	united developers
+4821	disney
+4822	canopus
+4823	viva media
+4824	chronos l.c.
+4825	mediafour corporation
+4826	m-audio
+4827	infogrames
+4828	nan
+4829	aspyr media
+4830	eovia corporation
+4831	nc soft
+4832	macsoft
+4833	fujitsu imaging
+4834	boomerang
+4835	stamps.com
+4836	red hat software
+4837	me-too-software
+4838	victory multimedia
+4839	equilibrium
+4840	the learning company
+4841	brighter-minds-media-inc .
+4842	imagination international
+4843	aquaminds
+4844	microspot ltd.
+4845	onone software inc.
+4846	macspeech inc.
+4847	bias
+4848	webroot-software-inc
+4849	microsoft corp
+4850	h & r block
+4851	destineer
+4852	write brothers
+4853	sonic systems inc. .
+4854	csdc
+4855	aladdin
+4856	findex
+4857	megasystems
+4858	imagination-international-corp
+4859	microsoft software
+4860	cabletron systems
+4861	nuance academic
+4862	macware
+4863	aec software
+4864	power-on-software
+4865	2k games
+4866	trend micro
+4867	nuance communications
+4868	blizzard entertainment
+4869	belight software
+4870	ca oem
+4871	punch ! software
+4872	d-link systems inc. .
+4873	autodesk-m - & - e-box
+4874	avanquest software
+4875	imaginova
+4876	software cinema
+4877	intriguing development
+4878	gen-x
+4879	cosmi corporation
+4880	marvel
+4881	serious magic
+4882	sony-online-entertainment
+4883	topics-entertainment-software - ( consignment )
+4884	iolo technologies
+4885	bling
+4886	eastwest
+4887	onone software
+4888	watchguard-technologies-inc
+4889	selectmedia entertainment
+4890	crystalgraphics
+4891	emedia music
+4892	mobi-technologies-inc .
+4893	panda software
+4894	destineer publishing
+4895	makemusic !
+4896	palmspring software
+4897	humongous entertainment
+4898	vivendi universal
+4899	midisoft corporation
+4900	brighter minds media inc.
+4901	language-engineering-co-llc
+4902	sonicwall
+4903	diskeeper corporation
+4904	global marketing partners
+4905	stompsoft inc.
+4906	intego inc
+4907	fogware publishing
+4908	warner-new-media
+4909	netgear
+4910	lenovo
+4911	broderbund
+4912	pinnacle
+4913	magellan
+4914	hewlett-packard - ( consumables )
+4915	avanquest-publishing-usa-inc .
+4916	dvo enterprises
+4917	global software
+4918	phase one
+4919	iomega
+4920	carry-a-tune technologies
+4921	microsoft corporation
+4922	phantom efx
+4923	computer-associates-international
+4924	steinberg-media-technologies
+4925	business objects
+4926	symantec
+4927	hummingbird ltd
+4928	ipswitch
+4929	netmanage
+4930	corel
+4931	sos-aggregation-company
+4932	sony-pictures-home-entertainment
+4933	cisco-systems-enterprise
+4934	mobi
+4935	thq
+4936	sage software
+4937	electronic arts
+4938	delorme
+4939	arcmedia
+4940	scholastic
+4941	majesco entertainment
+4942	apple computer
+4943	kensington
+4944	citrix sys
+4945	adobe systems inc
+4946	individual
+4947	encore-software-inc
+4948	riverdeep
+4949	school-zone-interactive
+4950	checkpoint zonelabs
+4951	informatics
+4952	learning company
+4953	symantec corporation .
+4954	intuit inc.
+4955	wasp technologies
+4956	iris inc.
+4957	enteractive inc. .
+4958	panicware
+4959	zend-technologies-inc .
+4960	pc tools
+4961	entertainment partners
+4962	hp
+4963	microsoft licenses
+4964	casual arcade
+4965	dk multimedia
+4966	absolute software
+4967	microsoft
+4968	arc media inc.
+4969	hip interactive
+4970	intego
+4971	alsoft
+4972	sierrahome
+4973	avid technology
+4974	topware interactive
+4975	compaq computer
+4976	micromat
+4977	graphics-simulations-corporation
+4978	neso usa
+4979	ulead systems
