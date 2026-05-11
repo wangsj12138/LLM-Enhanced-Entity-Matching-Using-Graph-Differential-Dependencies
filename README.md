@@ -28,9 +28,9 @@ For a deeper understanding of rule definitions and mining processes, users are e
 
 
 
-## GAPLink run
+## GAPLink FZ run
 
-For the full graph + LLM workflow, configure `.env` first:
+Configure `.env` first:
 
 ```bash
 cp .env.example .env
@@ -47,41 +47,33 @@ python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
 ```
 
-Import the bundled property graph into Neo4j:
+Import the bundled Fodors-Zagats graph into Neo4j:
 
 ```bash
-.venv/bin/python neo4j_setup.py
+.venv/bin/python neo4j_setup.py --dataset fz
 ```
-
-Run GAPLink with GDD candidate filtering, entropy-driven rule refinement, and
-LLM rule-prompt matching:
-
-```bash
-.venv/bin/python gaplink_pipeline.py --max-llm-calls 20
-```
-
-The same full workflow can also be launched through `main1.py`:
-
-```bash
-.venv/bin/python main1.py --mode paper --max-llm-calls 20
-```
-
-Outputs are written to:
-
-- `output_file/gaplink_llm_candidates.csv`
-- `output_file/gaplink_llm_results.txt`
-- `output_file/gaplink_llm_metrics.json`
-- `output_file/gaplink_llm_reviewed.jsonl`
-
-## Reproduce FZ prompt table
 
 Run the three FZ prompt settings:
 
 ```bash
-.venv/bin/python fz_gaplink_threshold_rules.py --mode zero-shot --sample-size 1000 --sample-seed 42
-.venv/bin/python fz_gaplink_threshold_rules.py --mode few-shot --sample-size 1000 --sample-seed 42
-.venv/bin/python fz_gaplink_threshold_rules.py --mode self-consistency --sample-size 1000 --sample-seed 42
+.venv/bin/python run.py --dataset fz --mode zero-shot --workers 8
+.venv/bin/python run.py --dataset fz --mode few-shot --workers 8
+.venv/bin/python run.py --dataset fz --mode self-consistency --workers 8
 ```
+
+To ignore cached LLM outputs and call the API again, add `--no-cache`:
+
+```bash
+.venv/bin/python run.py --dataset fz --mode zero-shot --workers 8 --no-cache
+.venv/bin/python run.py --dataset fz --mode few-shot --workers 8 --no-cache
+.venv/bin/python run.py --dataset fz --mode self-consistency --workers 8 --no-cache
+```
+
+Outputs are written to:
+
+- `output_file/fz_threshold_zero-shot_metrics.json`
+- `output_file/fz_threshold_few-shot_metrics.json`
+- `output_file/fz_threshold_self-consistency_metrics.json`
 
 Each run follows the pipeline:
 
@@ -93,13 +85,6 @@ Each run follows the pipeline:
 6. Ask the LLM to verify the remaining candidates.
 7. Compare predictions against the ground truth.
 
-The per-mode metrics are saved to:
-
-```text
-output_file/fz_threshold_zero-shot_metrics.json
-output_file/fz_threshold_few-shot_metrics.json
-output_file/fz_threshold_self-consistency_metrics.json
-```
 ## Reporting Notes
 
 - For some model-prompt settings with very high performance, such as near or at 100% F1, the reported values may be averaged over additional independent runs beyond the three primary runs. This helps reduce the effect of run-to-run variance caused by LLM sampling and rule optimization in near-perfect performance regimes.
@@ -121,7 +106,6 @@ This sampling protocol only reduces the number of LLM API calls on large
 datasets. It does not change GDD filtering, graph construction, rule selection,
 the graph-aware prompt template, or the evaluation metric. Disable it with
 `--disable-sampling` for full-candidate evaluation when the API budget allows.
-
 
 
 
