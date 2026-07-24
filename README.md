@@ -23,19 +23,4 @@ For a deeper understanding of rule definitions and mining processes, users are e
 
 ## Cost-aware Sampling on Large Datasets
 
-Due to the high cost of GPT-4 API calls, the LLM-based evaluation on large
-datasets was conducted with a cost-aware sampling protocol. This implementation
-detail is documented here to make the repository results reproducible.
-
-For datasets with more than 950 candidate pairs after GDD-based filtering, the
-runner samples up to ～950 candidates before LLM verification. Sampling is
-stratified by the ground-truth label among the filtered candidates, so the sampled
-set preserves the positive/negative ratio used for precision, recall, and F1
-calculation. The default seed is fixed at `42`.
-
-This sampling protocol only reduces the number of LLM API calls on large
-datasets. It does not change GDD filtering, graph construction, rule selection,
-the graph-aware prompt template, or the evaluation metric. Disable it with
-`--disable-sampling` for full-candidate evaluation when the API budget allows.
-
-
+Due to the high cost of GPT-4 API calls, to ensure efficient evaluation, candidate blocks with excessive candidate pairs are down-sampled to control comparison costs. Conversely, candidate blocks with fewer candidate pairs are up-sampled for subsequent matching.
